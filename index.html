@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Achievement Board</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-size: 1.2rem;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Achievement Board - <span id="current-year"></span></h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Callsign / Name</th>
+                    <th>QTH</th>
+                    <th>2025 Activations</th>
+                    <th>2025 Parks</th>
+                    <th>2025 QSOs</th>
+                    <th>2025 Score</th>
+                    <th>All-Time Activations</th>
+                    <th>All-Time Parks</th>
+                    <th>All-Time QSOs</th>
+                    <th>All-Time Score</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard">
+                <!-- Data will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const url = 'https://storage.googleapis.com/pota-activations0/leaderboard-history.json?timestamp=' + new Date().getTime();
+            const currentYear = new Date().getFullYear();
+
+            // Display the current year in the heading
+            document.getElementById('current-year').textContent = currentYear;
+
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    console.log('Fetched JSON Data:', data); // Log the full JSON for debugging
+
+                    const leaderboard = data.filter(entry => entry.year === currentYear);
+                    const tableBody = document.getElementById('leaderboard');
+
+                    tableBody.innerHTML = ''; // Clear existing rows
+
+                    const rankedData = leaderboard[0]?.leaderboard.map(entry => {
+                        const deltas = entry.deltas?.activator || { activations: 0, parks: 0, qsos: 0 };
+                        const activator = entry.activator || { activations: 0, parks: 0, qsos: 0 };
+
+                        // Log specific delta values for debugging
+                        console.log(`Processing Callsign: ${entry.callsign}, Deltas:`, deltas);
+
+                        const score2025 = (deltas.activations * 5) + (deltas.parks * 5) + (deltas.qsos * 0.1);
+                        const scoreAllTime = (activator.activations * 5) + (activator.parks * 5) + (activator.qsos * 0.1);
+
+                        return { ...entry, deltas, activator, score2025, scoreAllTime };
+                    }).sort((a, b) => b.score2025 - a.score2025);
+
+                    rankedData.forEach((entry, index) => {
+                        const row = document.createElement('tr');
+                        row.innerHTML = `
+                            <td>${index + 1}</td>
+                            <td>${entry.callsign} / ${entry.name}</td>
+                            <td>${entry.qth}</td>
+                            <td>${entry.deltas.activations}</td>
+                            <td>${entry.deltas.parks}</td>
+                            <td>${entry.deltas.qsos}</td>
+                            <td>${entry.score2025.toFixed(1)}</td>
+                            <td>${entry.activator.activations}</td>
+                            <td>${entry.activator.parks}</td>
+                            <td>${entry.activator.qsos}</td>
+                            <td>${entry.scoreAllTime.toFixed(1)}</td>
+                        `;
+                        tableBody.appendChild(row);
+                    });
+                })
+                .catch(error => console.error('Error fetching leaderboard data:', error));
+        });
+    </script>
+</body>
+</html>

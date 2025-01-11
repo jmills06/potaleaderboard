@@ -103,7 +103,9 @@
                 <tr>
                     <th rowspan="2">Rank</th>
                     <th rowspan="2">Callsign / Name / QTH</th>
-                    <th colspan="4" class="grouping">Current Year</th>
+                    <th colspan="4" class="grouping">
+                        <span id="current-year-header">Current Year</span>
+                    </th>
                     <th colspan="4" class="grouping">All-Time</th>
                 </tr>
                 <tr>
@@ -130,6 +132,9 @@
         document.addEventListener('DOMContentLoaded', function () {
             const url = 'https://storage.googleapis.com/pota-activations0/leaderboard-history.json?timestamp=' + new Date().getTime();
             const currentYear = new Date().getFullYear();
+
+            // Dynamically update the Current Year column header
+            document.getElementById('current-year-header').textContent = currentYear;
 
             fetch(url)
                 .then(response => response.json())

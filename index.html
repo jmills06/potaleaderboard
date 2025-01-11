@@ -48,13 +48,13 @@
                     <th>Rank</th>
                     <th>Callsign / Name</th>
                     <th>QTH</th>
-                    <th>2025 Activations</th>
-                    <th>2025 Parks</th>
-                    <th>2025 QSOs</th>
+                    <th>Raw Delta Activations</th>
+                    <th>Raw Delta Parks</th>
+                    <th>Raw Delta QSOs</th>
                     <th>2025 Score</th>
-                    <th>All-Time Activations</th>
-                    <th>All-Time Parks</th>
-                    <th>All-Time QSOs</th>
+                    <th>Raw Activator Activations</th>
+                    <th>Raw Activator Parks</th>
+                    <th>Raw Activator QSOs</th>
                     <th>All-Time Score</th>
                 </tr>
             </thead>
@@ -80,7 +80,7 @@
                     return response.json();
                 })
                 .then(data => {
-                    console.log('Fetched JSON Data:', data); // Debugging: Full fetched JSON
+                    console.log('Fetched JSON Data:', data);
 
                     // Filter data for the current year
                     const yearData = data.filter(entry => entry.year === currentYear);
@@ -102,17 +102,20 @@
                         const deltas = entry.deltas?.activator || { activations: 0, parks: 0, qsos: 0 };
                         const activator = entry.activator || { activations: 0, parks: 0, qsos: 0 };
 
-                        // Debugging: Log delta values for each callsign
-                        console.log(`Processing Callsign: ${entry.callsign}, Deltas:`, deltas);
+                        // Debugging: Log all raw values for each callsign
+                        console.log(`Callsign: ${entry.callsign}, Deltas:`, deltas, 'Activator:', activator);
 
                         // Calculate scores
                         const score2025 = (deltas.activations * 5) + (deltas.parks * 5) + (deltas.qsos * 0.1);
                         const scoreAllTime = (activator.activations * 5) + (activator.parks * 5) + (activator.qsos * 0.1);
 
+                        // Log calculated scores
+                        console.log(`Callsign: ${entry.callsign}, 2025 Score: ${score2025}, All-Time Score: ${scoreAllTime}`);
+
                         return { ...entry, deltas, activator, score2025, scoreAllTime };
                     }).sort((a, b) => b.score2025 - a.score2025); // Sort by 2025 score
 
-                    // Populate the table
+                    // Populate the table with raw values for debugging
                     rankedData.forEach((entry, index) => {
                         const row = document.createElement('tr');
                         row.innerHTML = `

@@ -2,66 +2,128 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Achievement Board</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POTA Achievement Board</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
         }
+
+        .container {
+            text-align: center;
+            max-width: 90%;
+            margin: auto;
+        }
+
+        h1 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 20px auto;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
+
         th, td {
             border: 1px solid #ddd;
-            padding: 12px;
+            padding: 10px;
             text-align: left;
         }
+
         th {
             background-color: #4CAF50;
             color: white;
         }
+
+        th.grouping {
+            text-align: center;
+            font-size: 1.2rem;
+            background-color: #3b8b40;
+        }
+
+        td {
+            vertical-align: middle;
+        }
+
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
+
         tr:hover {
             background-color: #ddd;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
+
+        .callsign {
+            font-weight: bold;
+            font-size: 1.2rem;
         }
-        h1 {
+
+        .qth {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .gravatar {
+            margin-right: 10px;
+            vertical-align: middle;
+            border-radius: 50%;
+        }
+
+        .medal {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        .footer {
             text-align: center;
-            color: #333;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .highlight-current {
+            background-color: #e8f5e9;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Achievement Board - <span id="current-year"></span></h1>
+        <h1>POTA Achievement Board</h1>
         <table>
             <thead>
                 <tr>
-                    <th>Rank</th>
-                    <th>Callsign / Name</th>
-                    <th>QTH</th>
-                    <th>Raw Delta Activations</th>
-                    <th>Raw Delta Parks</th>
-                    <th>Raw Delta QSOs</th>
-                    <th>2025 Score</th>
-                    <th>Raw Activator Activations</th>
-                    <th>Raw Activator Parks</th>
-                    <th>Raw Activator QSOs</th>
-                    <th>All-Time Score</th>
+                    <th rowspan="2">Rank</th>
+                    <th rowspan="2">Callsign / Name / QTH</th>
+                    <th colspan="4" class="grouping">Current Year</th>
+                    <th colspan="4" class="grouping">All-Time</th>
+                </tr>
+                <tr>
+                    <th>Activations</th>
+                    <th>Parks</th>
+                    <th>QSOs</th>
+                    <th>Score</th>
+                    <th>Activations</th>
+                    <th>Parks</th>
+                    <th>QSOs</th>
+                    <th>Score</th>
                 </tr>
             </thead>
             <tbody id="leaderboard">
-                <!-- Data will be inserted here -->
+                <!-- Data will be dynamically inserted -->
             </tbody>
         </table>
+        <div class="footer" id="last-update">
+            <!-- Last update time will be dynamically inserted -->
+        </div>
     </div>
 
     <script>
@@ -69,63 +131,41 @@
             const url = 'https://storage.googleapis.com/pota-activations0/leaderboard-history.json?timestamp=' + new Date().getTime();
             const currentYear = new Date().getFullYear();
 
-            // Display the current year in the heading
-            document.getElementById('current-year').textContent = currentYear;
-
             fetch(url)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    return response.json();
-                })
+                .then(response => response.json())
                 .then(data => {
-                    console.log('Fetched JSON Data:', data);
-
-                    // Filter data for the current year
-                    const yearData = data.filter(entry => entry.year === currentYear);
-
-                    if (yearData.length === 0) {
-                        console.error('No data available for the current year.');
-                        return;
-                    }
-
-                    // Sort entries by timestamp (descending) and pick the most recent
-                    const latestEntry = yearData.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))[0];
-                    console.log('Processing Latest Entry:', latestEntry);
-
+                    const latestEntry = data[data.length - 1];
+                    const leaderboard = latestEntry.leaderboard;
                     const tableBody = document.getElementById('leaderboard');
+
                     tableBody.innerHTML = ''; // Clear existing rows
 
-                    // Process and rank leaderboard data
-                    const rankedData = latestEntry.leaderboard.map(entry => {
+                    const rankedData = leaderboard.map((entry, index) => {
                         const deltas = entry.deltas?.activator || { activations: 0, parks: 0, qsos: 0 };
                         const activator = entry.activator || { activations: 0, parks: 0, qsos: 0 };
-
-                        // Debugging: Log all raw values for each callsign
-                        console.log(`Callsign: ${entry.callsign}, Deltas:`, deltas, 'Activator:', activator);
-
-                        // Calculate scores
-                        const score2025 = (deltas.activations * 5) + (deltas.parks * 5) + (deltas.qsos * 0.1);
+                        const scoreCurrent = (deltas.activations * 5) + (deltas.parks * 5) + (deltas.qsos * 0.1);
                         const scoreAllTime = (activator.activations * 5) + (activator.parks * 5) + (activator.qsos * 0.1);
 
-                        // Log calculated scores
-                        console.log(`Callsign: ${entry.callsign}, 2025 Score: ${score2025}, All-Time Score: ${scoreAllTime}`);
+                        return { ...entry, deltas, activator, scoreCurrent, scoreAllTime };
+                    }).sort((a, b) => b.scoreCurrent - a.scoreCurrent);
 
-                        return { ...entry, deltas, activator, score2025, scoreAllTime };
-                    }).sort((a, b) => b.score2025 - a.score2025); // Sort by 2025 score
-
-                    // Populate the table with raw values for debugging
-                    rankedData.forEach((entry, index) => {
+                    rankedData.forEach((entry, rank) => {
                         const row = document.createElement('tr');
+                        const medal = rank === 0 ? '🥇' : rank === 1 ? '🥈' : rank === 2 ? '🥉' : '';
+
+                        row.className = rank % 2 === 0 ? 'highlight-current' : '';
+
                         row.innerHTML = `
-                            <td>${index + 1}</td>
-                            <td>${entry.callsign} / ${entry.name}</td>
-                            <td>${entry.qth}</td>
+                            <td>${medal || rank + 1}</td>
+                            <td>
+                                <img class="gravatar" src="https://www.gravatar.com/avatar/${entry.gravatar}?s=40" alt="${entry.callsign}">
+                                <span class="callsign">${entry.callsign}</span><br>
+                                <span class="qth">${entry.name}, ${entry.qth}</span>
+                            </td>
                             <td>${entry.deltas.activations}</td>
                             <td>${entry.deltas.parks}</td>
                             <td>${entry.deltas.qsos}</td>
-                            <td>${entry.score2025.toFixed(1)}</td>
+                            <td>${entry.scoreCurrent.toFixed(1)}</td>
                             <td>${entry.activator.activations}</td>
                             <td>${entry.activator.parks}</td>
                             <td>${entry.activator.qsos}</td>
@@ -133,6 +173,8 @@
                         `;
                         tableBody.appendChild(row);
                     });
+
+                    document.getElementById('last-update').textContent = `Last Updated: ${new Date(latestEntry.timestamp).toLocaleString()}`;
                 })
                 .catch(error => console.error('Error fetching leaderboard data:', error));
         });

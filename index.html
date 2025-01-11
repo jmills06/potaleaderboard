@@ -77,12 +77,23 @@
                 .then(data => {
                     console.log('Fetched JSON Data:', data); // Log the full JSON for debugging
 
-                    const leaderboard = data.filter(entry => entry.year === currentYear);
-                    const tableBody = document.getElementById('leaderboard');
+                    // Filter data for the current year
+                    const yearData = data.filter(entry => entry.year === currentYear);
 
+                    // Sort by timestamp in descending order to get the most recent entry
+                    const latestEntry = yearData.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp))[0];
+
+                    if (!latestEntry) {
+                        console.error('No data available for the current year.');
+                        return;
+                    }
+
+                    console.log('Processing Latest Entry:', latestEntry);
+
+                    const tableBody = document.getElementById('leaderboard');
                     tableBody.innerHTML = ''; // Clear existing rows
 
-                    const rankedData = leaderboard[0]?.leaderboard.map(entry => {
+                    const rankedData = latestEntry.leaderboard.map(entry => {
                         const deltas = entry.deltas?.activator || { activations: 0, parks: 0, qsos: 0 };
                         const activator = entry.activator || { activations: 0, parks: 0, qsos: 0 };
 
@@ -95,6 +106,7 @@
                         return { ...entry, deltas, activator, score2025, scoreAllTime };
                     }).sort((a, b) => b.score2025 - a.score2025);
 
+                    // Generate table rows
                     rankedData.forEach((entry, index) => {
                         const row = document.createElement('tr');
                         row.innerHTML = `

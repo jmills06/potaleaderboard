@@ -2,34 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POTA Achievement Board</title>
     <style>
-        /* Add your existing styling here */
         body {
             font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
             margin: 0;
             padding: 0;
         }
 
-        .banner {
+        .container {
+            text-align: center;
+            max-width: 90%;
+            margin: auto;
+        }
+
+        h1 {
             background-color: #4CAF50;
             color: white;
-            padding: 15px;
-            text-align: center;
-            font-size: 1.5rem;
-            font-weight: bold;
+            padding: 20px;
+            margin: 0;
         }
 
         table {
-            width: 90%;
-            margin: 20px auto;
+            width: 100%;
             border-collapse: collapse;
-            text-align: center;
+            margin: 20px auto;
+            font-size: 1.1rem;
         }
 
         th, td {
             border: 1px solid #ddd;
-            padding: 8px;
+            padding: 10px;
+            text-align: left;
         }
 
         th {
@@ -37,10 +43,14 @@
             color: white;
         }
 
-        .year-section th {
-            background-color: #0066cc;
-            color: white;
+        th.grouping {
             text-align: center;
+            font-size: 1.2rem;
+            background-color: #3b8b40;
+        }
+
+        td {
+            vertical-align: middle;
         }
 
         tr:nth-child(even) {
@@ -51,60 +61,80 @@
             background-color: #ddd;
         }
 
-        .medal {
+        .callsign {
+            font-weight: bold;
             font-size: 1.2rem;
         }
 
-        .last-update {
-            text-align: center;
+        .qth {
             font-size: 0.9rem;
-            margin: 20px;
+            color: #555;
+        }
+
+        .gravatar {
+            margin-right: 10px;
+            vertical-align: middle;
+            border-radius: 50%;
+        }
+
+        .medal {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .highlight-current {
+            background-color: #e8f5e9;
         }
     </style>
 </head>
 <body>
-    <div class="banner">POTA Achievement Board</div>
-    <table>
-        <thead>
-            <tr>
-                <th rowspan="2">Rank</th>
-                <th rowspan="2">Callsign / Name / QTH</th>
-                <th colspan="4" id="current-year-header">Current Year</th>
-                <th colspan="4">All-Time</th>
-            </tr>
-            <tr class="year-section">
-                <th>Activations</th>
-                <th>Parks</th>
-                <th>QSOs</th>
-                <th>Score</th>
-                <th>Activations</th>
-                <th>Parks</th>
-                <th>QSOs</th>
-                <th>Score</th>
-            </tr>
-        </thead>
-        <tbody id="leaderboard">
-            <!-- Dynamic rows go here -->
-        </tbody>
-    </table>
-    <div class="last-update" id="last-update">Last Updated: </div>
+    <div class="container">
+        <h1>POTA Achievement Board</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">Rank</th>
+                    <th rowspan="2">Callsign / Name / QTH</th>
+                    <th colspan="4" class="grouping">Current Year</th>
+                    <th colspan="4" class="grouping">All-Time</th>
+                </tr>
+                <tr>
+                    <th>Activations</th>
+                    <th>Parks</th>
+                    <th>QSOs</th>
+                    <th>Score</th>
+                    <th>Activations</th>
+                    <th>Parks</th>
+                    <th>QSOs</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard">
+                <!-- Data will be dynamically inserted -->
+            </tbody>
+        </table>
+        <div class="footer" id="last-update">
+            <!-- Last update time will be dynamically inserted -->
+        </div>
+    </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const url = 'https://storage.googleapis.com/pota-activations0/leaderboard-history.json';
+            const url = 'https://storage.googleapis.com/pota-activations0/leaderboard-history.json?timestamp=' + new Date().getTime();
             const currentYear = new Date().getFullYear();
-
-            // Update the year dynamically in the table header
-            document.getElementById('current-year-header').textContent = currentYear;
 
             fetch(url)
                 .then(response => response.json())
                 .then(data => {
                     const latestEntry = data[data.length - 1];
-                    const lastUpdateDate = new Date(latestEntry.timestamp).toLocaleDateString();
-
-                    document.getElementById('last-update').textContent = `Last Updated: ${lastUpdateDate}`;
-
                     const leaderboard = latestEntry.leaderboard;
                     const tableBody = document.getElementById('leaderboard');
 
@@ -113,30 +143,29 @@
                     const rankedData = leaderboard.map((entry, index) => {
                         const deltas = entry.deltas?.activator || { activations: 0, parks: 0, qsos: 0 };
                         const activator = entry.activator || { activations: 0, parks: 0, qsos: 0 };
-
-                        const scoreCurrentYear = (deltas.activations * 5) + (deltas.parks * 5) + (deltas.qsos * 0.1);
+                        const scoreCurrent = (deltas.activations * 5) + (deltas.parks * 5) + (deltas.qsos * 0.1);
                         const scoreAllTime = (activator.activations * 5) + (activator.parks * 5) + (activator.qsos * 0.1);
 
-                        return { ...entry, deltas, activator, scoreCurrentYear, scoreAllTime };
-                    }).sort((a, b) => b.scoreCurrentYear - a.scoreCurrentYear);
+                        return { ...entry, deltas, activator, scoreCurrent, scoreAllTime };
+                    }).sort((a, b) => b.scoreCurrent - a.scoreCurrent);
 
-                    rankedData.forEach((entry, index) => {
+                    rankedData.forEach((entry, rank) => {
                         const row = document.createElement('tr');
-                        const medal =
-                            index === 0 ? '🥇' :
-                            index === 1 ? '🥈' :
-                            index === 2 ? '🥉' : '';
+                        const medal = rank === 0 ? '🥇' : rank === 1 ? '🥈' : rank === 2 ? '🥉' : '';
+
+                        row.className = rank % 2 === 0 ? 'highlight-current' : '';
 
                         row.innerHTML = `
-                            <td>${index + 1} ${medal}</td>
+                            <td>${medal || rank + 1}</td>
                             <td>
-                                <b>${entry.callsign}</b><br>
-                                <span style="font-size: 0.9rem;">${entry.qth || 'N/A'}</span>
+                                <img class="gravatar" src="https://www.gravatar.com/avatar/${entry.gravatar}?s=40" alt="${entry.callsign}">
+                                <span class="callsign">${entry.callsign}</span><br>
+                                <span class="qth">${entry.name}, ${entry.qth}</span>
                             </td>
                             <td>${entry.deltas.activations}</td>
                             <td>${entry.deltas.parks}</td>
                             <td>${entry.deltas.qsos}</td>
-                            <td>${entry.scoreCurrentYear.toFixed(1)}</td>
+                            <td>${entry.scoreCurrent.toFixed(1)}</td>
                             <td>${entry.activator.activations}</td>
                             <td>${entry.activator.parks}</td>
                             <td>${entry.activator.qsos}</td>
@@ -144,6 +173,8 @@
                         `;
                         tableBody.appendChild(row);
                     });
+
+                    document.getElementById('last-update').textContent = `Last Updated: ${new Date(latestEntry.timestamp).toLocaleString()}`;
                 })
                 .catch(error => console.error('Error fetching leaderboard data:', error));
         });

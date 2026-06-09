@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POTA Achievement Board</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a3a1a 0%, #0d1f0d 100%);
+            min-height: 100vh;
+            color: #1a3a1a;
+            overflow: hidden;
+        }
+
+        .container {
+            width: 1080px;
+            height: 1920px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 18px;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            color: #FF9800;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            margin-bottom: 10px;
+        }
+
+        .days-remaining {
+            background: rgba(255, 152, 0, 0.2);
+            border: 2px solid #FF9800;
+            border-radius: 10px;
+            padding: 8px 22px;
+            display: inline-block;
+        }
+
+        .days-remaining span {
+            color: #FF9800;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .days-remaining .label {
+            color: #e8f5e9;
+            font-size: 16px;
+            font-weight: normal;
+        }
+
+        /* Podium Section */
+        .podium-section {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 25px;
+            margin-bottom: 22px;
+        }
+
+        .podium-card {
+            background: white;
+            border-radius: 15px;
+            padding: 16px 18px 14px;
+            text-align: center;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            border: 3px solid #FF9800;
+            position: relative;
+            width: 240px;
+        }
+
+        .podium-card.first {
+            width: 280px;
+            transform: translateY(-22px);
+        }
+
+        .podium-rank {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 38px;
+        }
+
+        .podium-movement {
+            position: absolute;
+            top: 10px;
+            right: 12px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .podium-avatar {
+            width: 88px;
+            height: 88px;
+            border-radius: 50%;
+            margin: 16px auto 8px;
+            position: relative;
+        }
+
+        .podium-card.first .podium-avatar {
+            width: 110px;
+            height: 110px;
+        }
+
+        .podium-avatar img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: #e0e0e0;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Activity Ring */
+        .activity-ring {
+            position: absolute;
+            top: -4px;
+            left: -4px;
+            right: -4px;
+            bottom: -4px;
+            border-radius: 50%;
+            border: 4px solid transparent;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .ring-fire {
+            border: 4px solid #f7931e;
+            animation: fireRotate 1s linear infinite;
+        }
+
+        @keyframes fireRotate {
+            0% { border-color: #ff6b35; }
+            33% { border-color: #f7931e; }
+            66% { border-color: #ffcc00; }
+            100% { border-color: #ff6b35; }
+        }
+
+        .ring-green { border-color: #43A047; }
+        .ring-yellow { border-color: #FDD835; }
+        .ring-orange { border-color: #FF9800; }
+        .ring-red { border-color: #E53935; }
+        .ring-grey { border-color: #757575; }
+
+        .podium-callsign {
+            font-size: 26px;
+            font-weight: bold;
+            color: #FF9800;
+        }
+
+        .podium-card.first .podium-callsign {
+            font-size: 30px;
+        }
+
+        .podium-name {
+            font-size: 15px;
+            color: #1a3a1a;
+        }
+
+        .podium-medals {
+            font-size: 14px;
+            color: #666;
+            margin-top: 2px;
+        }
+
+        .podium-divider {
+            border-bottom: 2px solid #e8f5e9;
+            margin: 10px 0 8px;
+        }
+
+        .podium-score {
+            font-size: 34px;
+            font-weight: bold;
+            color: #1a3a1a;
+            line-height: 1.1;
+        }
+
+        .podium-card.first .podium-score {
+            font-size: 40px;
+        }
+
+        .podium-score-label {
+            font-size: 11px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        .podium-stats-row {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .podium-stat-value {
+            font-weight: bold;
+            font-size: 19px;
+            color: #1a3a1a;
+        }
+
+        .podium-card.first .podium-stat-value {
+            font-size: 21px;
+        }
+
+        .podium-stat-label {
+            font-size: 11px;
+            color: #888;
+        }
+
+        /* Leaderboard Table */
+        .leaderboard-card {
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            border: 3px solid #FF9800;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+
+        .leaderboard-header {
+            display: grid;
+            grid-template-columns: 70px 64px 1fr 85px 85px 105px 110px;
+            gap: 8px;
+            padding: 12px;
+            background: linear-gradient(135deg, #1a3a1a 0%, #0d1f0d 100%);
+            border-radius: 10px;
+            color: #FF9800;
+            font-weight: bold;
+            font-size: 15px;
+            margin-bottom: 6px;
+        }
+
+        .leaderboard-body {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-height: 0;
+        }
+
+        .leaderboard-row {
+            display: grid;
+            grid-template-columns: 70px 64px 1fr 85px 85px 105px 110px;
+            gap: 8px;
+            padding: 4px 12px;
+            align-items: center;
+            border-bottom: 1px solid #e0e0e0;
+            flex: 1;
+            min-height: 0;
+        }
+
+        .leaderboard-row:last-child {
+            border-bottom: none;
+        }
+
+        .leaderboard-row:nth-child(odd) {
+            background: #f5f5f5;
+        }
+
+        .rank-cell {
+            text-align: center;
+        }
+
+        .rank {
+            font-size: 22px;
+            font-weight: bold;
+            color: #1a3a1a;
+            line-height: 1.1;
+        }
+
+        .movement {
+            font-size: 14px;
+            font-weight: bold;
+            line-height: 1.1;
+        }
+
+        .movement.up { color: #43A047; }
+        .movement.down { color: #E53935; }
+        .movement.same { color: #bbb; }
+        .movement.new { color: #FF9800; font-size: 12px; letter-spacing: 0.5px; }
+
+        .row-avatar {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .row-avatar img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            background-color: #e0e0e0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .row-avatar .activity-ring {
+            border-width: 3px;
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
+        }
+
+        .operator-info .callsign {
+            font-size: 19px;
+            font-weight: bold;
+            color: #FF9800;
+            line-height: 1.2;
+        }
+
+        .operator-info .name {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.2;
+        }
+
+        .operator-info .medals {
+            font-size: 13px;
+            color: #888;
+            line-height: 1.2;
+        }
+
+        .stat-cell {
+            text-align: center;
+        }
+
+        .stat-cell .value {
+            font-size: 21px;
+            font-weight: bold;
+            color: #1a3a1a;
+        }
+
+        .score-cell {
+            background: #e8f5e9;
+            border-left: 3px solid #43A047;
+            padding: 6px 8px;
+            border-radius: 0 6px 6px 0;
+            text-align: center;
+        }
+
+        .score-cell .value {
+            font-size: 21px;
+            font-weight: bold;
+            color: #1a3a1a;
+        }
+
+        /* Legend */
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 22px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 15px;
+            color: #555;
+        }
+
+        .legend-ring {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            border: 4px solid;
+        }
+
+        .legend-ring.fire {
+            background: linear-gradient(45deg, #ff6b35, #f7931e, #ffcc00);
+            border: none;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 10px 10px 4px;
+            color: #e8f5e9;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>POTA Achievement Board</h1>
+            <div class="days-remaining">
+                <span id="daysCount">--</span>
+                <span class="label"> days remaining in <span id="currentYear">2026</span></span>
+            </div>
+        </div>
+
+        <div class="podium-section" id="podiumSection">
+            <!-- Podium cards inserted here -->
+        </div>
+
+        <div class="leaderboard-card">
+            <div class="leaderboard-header">
+                <div style="text-align: center;">#</div>
+                <div style="text-align: center;">Avatar</div>
+                <div>Operator</div>
+                <div style="text-align: center;">Acts</div>
+                <div style="text-align: center;">Parks</div>
+                <div style="text-align: center;">QSOs</div>
+                <div style="text-align: center;">Score</div>
+            </div>
+            <div class="leaderboard-body" id="leaderboardBody">
+                <!-- Rows inserted here -->
+            </div>
+            <div class="legend">
+                <div class="legend-item"><div class="legend-ring fire"></div> 🔥 2+ acts this week</div>
+                <div class="legend-item"><div class="legend-ring" style="border-color: #43A047;"></div> Active this week</div>
+                <div class="legend-item"><div class="legend-ring" style="border-color: #FDD835;"></div> 2 weeks</div>
+                <div class="legend-item"><div class="legend-ring" style="border-color: #FF9800;"></div> 30 days</div>
+                <div class="legend-item"><div class="legend-ring" style="border-color: #E53935;"></div> 60 days</div>
+                <div class="legend-item"><div class="legend-ring" style="border-color: #757575;"></div> Inactive</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            ▲▼ rank change over 30 days • Updates daily • Last updated: <span id="lastUpdate">--</span>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const JSON_URL = 'https://storage.googleapis.com/pota-activations0/leaderboard-history.json';
+
+        // Operators to display (excluding KE8WPS)
+        const DISPLAY_OPERATORS = [
+            'K8JKU', 'KN4AL', 'W8MSC', 'N8LEK', 'K8ERS', 'W8KNX',
+            'K8MST', 'K8ZRY', 'N8JRD', 'NU8M', 'W8MCV', 'WB8IZM',
+            'W8JLN', 'W8TMB', 'W8EDE', 'KF8BWN', 'N1RWJ', 'KB4LS',
+            'K8GNG', 'KB8JIU', 'KC8RC'
+        ];
+
+        // Operators with delayed start dates (won't display until this date)
+        const OPERATOR_START_DATES = {
+            'W8MCV': '2026-01-01',
+            'WB8IZM': '2026-01-01',
+            'W8JLN': '2026-01-01',
+            'W8TMB': '2026-01-01',
+            'W8EDE': '2026-01-01',
+            'KF8BWN': '2026-01-01',
+            'N1RWJ': '2026-01-01',
+            'KB4LS': '2026-01-01',
+            'K8GNG': '2026-01-01',
+            'KB8JIU': '2026-01-01',
+            'KC8RC': '2026-01-01'
+        };
+
+        // Past year winners (populated from Jan 1 snapshots)
+        // No 2024 medals - insufficient data (history starts Dec 29, 2024)
+        const PAST_WINNERS = {};
+
+        // First year we have complete data for
+        const FIRST_COMPLETE_YEAR = 2025;
+
+        function calculateScore(deltas) {
+            if (!deltas || !deltas.activator) return 0;
+            const acts = deltas.activator.activations || 0;
+            const parks = deltas.activator.parks || 0;
+            const qsos = deltas.activator.qsos || 0;
+            return Math.round((acts * 5) + (parks * 5) + (qsos * 0.1));
+        }
+
+        function getActivityRingClass(history, callsign) {
+            const now = new Date();
+            const sevenDaysAgo = new Date(now - 7 * 24 * 60 * 60 * 1000);
+            const fourteenDaysAgo = new Date(now - 14 * 24 * 60 * 60 * 1000);
+            const thirtyDaysAgo = new Date(now - 30 * 24 * 60 * 60 * 1000);
+            const sixtyDaysAgo = new Date(now - 60 * 24 * 60 * 60 * 1000);
+
+            const sortedHistory = [...history].sort((a, b) =>
+                new Date(a.timestamp) - new Date(b.timestamp)
+            );
+
+            let activationsLast7Days = 0;
+            let activationsLast14Days = 0;
+            let activationsLast30Days = 0;
+            let activationsLast60Days = 0;
+
+            for (let i = 1; i < sortedHistory.length; i++) {
+                const prevSnapshot = sortedHistory[i - 1];
+                const currSnapshot = sortedHistory[i];
+                const snapshotDate = new Date(currSnapshot.timestamp);
+
+                const prevOp = prevSnapshot.leaderboard.find(op => op.callsign === callsign);
+                const currOp = currSnapshot.leaderboard.find(op => op.callsign === callsign);
+
+                if (prevOp && currOp) {
+                    const delta = (currOp.activator?.activations || 0) - (prevOp.activator?.activations || 0);
+                    if (delta > 0) {
+                        if (snapshotDate >= sevenDaysAgo) activationsLast7Days += delta;
+                        if (snapshotDate >= fourteenDaysAgo) activationsLast14Days += delta;
+                        if (snapshotDate >= thirtyDaysAgo) activationsLast30Days += delta;
+                        if (snapshotDate >= sixtyDaysAgo) activationsLast60Days += delta;
+                    }
+                }
+            }
+
+            if (activationsLast7Days >= 2) return 'ring-fire';
+            if (activationsLast7Days >= 1) return 'ring-green';
+            if (activationsLast14Days >= 1) return 'ring-yellow';
+            if (activationsLast30Days >= 1) return 'ring-orange';
+            if (activationsLast60Days >= 1) return 'ring-red';
+            return 'ring-grey';
+        }
+
+        function getGravatarUrl(hash) {
+            if (!hash || hash === '') {
+                return 'https://www.gravatar.com/avatar/00000000000000000000000000000000?d=mp&f=y&s=200';
+            }
+            return `https://www.gravatar.com/avatar/${hash}?s=200&d=mp`;
+        }
+
+        function getMedalString(callsign) {
+            let medals = '';
+            for (const [year, winners] of Object.entries(PAST_WINNERS)) {
+                if (winners.first === callsign) medals += `🥇${year} `;
+                else if (winners.second === callsign) medals += `🥈${year} `;
+                else if (winners.third === callsign) medals += `🥉${year} `;
+            }
+            return medals.trim();
+        }
+
+        function updateDaysRemaining() {
+            const now = new Date();
+            const year = now.getFullYear();
+            const endOfYear = new Date(year, 11, 31, 23, 59, 59);
+            const daysLeft = Math.ceil((endOfYear - now) / (1000 * 60 * 60 * 24));
+
+            document.getElementById('daysCount').textContent = daysLeft;
+            document.getElementById('currentYear').textContent = year;
+        }
+
+        /**
+         * Build the movement indicator HTML for an operator.
+         * movement: positive = moved up, negative = moved down,
+         * 0 = no change, null = no 30-day baseline (new to rankings).
+         */
+        function movementHtml(movement) {
+            if (movement === null) return '<div class="movement new">NEW</div>';
+            if (movement > 0) return `<div class="movement up">▲${movement}</div>`;
+            if (movement < 0) return `<div class="movement down">▼${Math.abs(movement)}</div>`;
+            return '<div class="movement same">–</div>';
+        }
+
+        function renderPodium(topThree, history) {
+            const podiumSection = document.getElementById('podiumSection');
+            if (topThree.length < 3) return;
+
+            // Reorder for podium display: 2nd, 1st, 3rd
+            const podiumOrder = [topThree[1], topThree[0], topThree[2]];
+            const positions = ['second', 'first', 'third'];
+            const rankEmojis = ['🥈', '🥇', '🥉'];
+
+            podiumSection.innerHTML = podiumOrder.map((op, index) => {
+                const ringClass = getActivityRingClass(history, op.callsign);
+                const medals = getMedalString(op.callsign);
+                const score = calculateScore(op.deltas);
+                const acts = op.deltas?.activator?.activations || 0;
+                const parks = op.deltas?.activator?.parks || 0;
+                const qsos = op.deltas?.activator?.qsos || 0;
+
+                return `
+                    <div class="podium-card ${positions[index]}">
+                        <div class="podium-rank">${rankEmojis[index]}</div>
+                        <div class="podium-movement">${movementHtml(op.movement)}</div>
+                        <div class="podium-avatar">
+                            <div class="activity-ring ${ringClass}"></div>
+                            <img src="${getGravatarUrl(op.gravatar)}" alt="${op.callsign}">
+                        </div>
+                        <div class="podium-callsign">${op.callsign}</div>
+                        <div class="podium-name">${op.name || 'Unknown'}</div>
+                        ${medals ? `<div class="podium-medals">${medals}</div>` : ''}
+                        <div class="podium-divider"></div>
+                        <div class="podium-score">${score.toLocaleString()}</div>
+                        <div class="podium-score-label">Score</div>
+                        <div class="podium-stats-row">
+                            <div class="stat">
+                                <div class="podium-stat-value">${acts}</div>
+                                <div class="podium-stat-label">Acts</div>
+                            </div>
+                            <div class="stat">
+                                <div class="podium-stat-value">${parks}</div>
+                                <div class="podium-stat-label">Parks</div>
+                            </div>
+                            <div class="stat">
+                                <div class="podium-stat-value">${qsos.toLocaleString()}</div>
+                                <div class="podium-stat-label">QSOs</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function renderLeaderboard(ranked, history) {
+            const leaderboardBody = document.getElementById('leaderboardBody');
+
+            // Skip top 3 (they're on the podium), show 4th place onwards
+            const remaining = ranked.slice(3);
+
+            leaderboardBody.innerHTML = remaining.map((op, index) => {
+                const rank = index + 4;
+                const ringClass = getActivityRingClass(history, op.callsign);
+                const medals = getMedalString(op.callsign);
+                const score = calculateScore(op.deltas);
+
+                return `
+                    <div class="leaderboard-row">
+                        <div class="rank-cell">
+                            <div class="rank">${rank}</div>
+                            ${movementHtml(op.movement)}
+                        </div>
+                        <div class="row-avatar">
+                            <div class="activity-ring ${ringClass}"></div>
+                            <img src="${getGravatarUrl(op.gravatar)}" alt="${op.callsign}">
+                        </div>
+                        <div class="operator-info">
+                            <div class="callsign">${op.callsign}</div>
+                            <div class="name">${op.name || 'Unknown'}</div>
+                            ${medals ? `<div class="medals">${medals}</div>` : ''}
+                        </div>
+                        <div class="stat-cell">
+                            <div class="value">${op.deltas?.activator?.activations || 0}</div>
+                        </div>
+                        <div class="stat-cell">
+                            <div class="value">${op.deltas?.activator?.parks || 0}</div>
+                        </div>
+                        <div class="stat-cell">
+                            <div class="value">${(op.deltas?.activator?.qsos || 0).toLocaleString()}</div>
+                        </div>
+                        <div class="score-cell">
+                            <div class="value">${score.toLocaleString()}</div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        /**
+         * Find the latest snapshot at or before the target date.
+         * (Never reaches forward in time, so a missed cron day can't
+         * silently shorten the comparison window.)
+         */
+        function getSnapshotAtOrBefore(history, targetDate) {
+            const sorted = [...history].sort((a, b) =>
+                new Date(a.timestamp) - new Date(b.timestamp)
+            );
+
+            let result = null;
+            for (const snapshot of sorted) {
+                if (new Date(snapshot.timestamp) <= targetDate) {
+                    result = snapshot;
+                } else {
+                    break;
+                }
+            }
+            // Fall back to oldest snapshot if history doesn't reach back that far
+            return result || sorted[0];
+        }
+
+        /**
+         * Find past year winners using Jan 1 snapshots.
+         */
+        function findPastWinners(history) {
+            const jan1Snapshots = history.filter(s => {
+                const d = new Date(s.timestamp);
+                return d.getUTCMonth() === 0 && d.getUTCDate() === 1;
+            }).sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
+
+            for (let i = 1; i < jan1Snapshots.length; i++) {
+                const currentJan1 = jan1Snapshots[i];
+                const previousJan1 = jan1Snapshots[i - 1];
+
+                const currentYear = new Date(currentJan1.timestamp).getUTCFullYear();
+                const previousYear = currentYear - 1;
+
+                if (previousYear < FIRST_COMPLETE_YEAR) continue;
+
+                const prevSnapshotYear = new Date(previousJan1.timestamp).getUTCFullYear();
+                if (prevSnapshotYear !== previousYear) continue;
+
+                const ranked = currentJan1.leaderboard
+                    .filter(op => {
+                        if (!DISPLAY_OPERATORS.includes(op.callsign)) return false;
+                        const prevYearOp = previousJan1.leaderboard.find(p => p.callsign === op.callsign);
+                        return !!prevYearOp;
+                    })
+                    .map(op => {
+                        const prevYearOp = previousJan1.leaderboard.find(p => p.callsign === op.callsign);
+                        const baselineActivations = prevYearOp.activator?.activations || 0;
+                        const baselineParks = prevYearOp.activator?.parks || 0;
+                        const baselineQsos = prevYearOp.activator?.qsos || 0;
+
+                        const yearActivations = (op.activator?.activations || 0) - baselineActivations;
+                        const yearParks = (op.activator?.parks || 0) - baselineParks;
+                        const yearQsos = (op.activator?.qsos || 0) - baselineQsos;
+
+                        const yearScore = Math.round((yearActivations * 5) + (yearParks * 5) + (yearQsos * 0.1));
+
+                        return { callsign: op.callsign, yearScore };
+                    })
+                    .sort((a, b) => b.yearScore - a.yearScore);
+
+                if (ranked.length >= 3) {
+                    PAST_WINNERS[previousYear] = {
+                        first: ranked[0].callsign,
+                        second: ranked[1].callsign,
+                        third: ranked[2].callsign
+                    };
+                    console.log(`${previousYear} Winners:`, PAST_WINNERS[previousYear]);
+                }
+            }
+        }
+
+        /**
+         * Get the Jan 1 baseline snapshot for a given year.
+         */
+        function getYearBaseline(history, year) {
+            const jan1Snapshot = history.find(s => {
+                const d = new Date(s.timestamp);
+                return d.getUTCFullYear() === year && d.getUTCMonth() === 0 && d.getUTCDate() === 1;
+            });
+            return jan1Snapshot;
+        }
+
+        /**
+         * Calculate current-year deltas using a Jan 1 baseline.
+         */
+        function calculateCurrentYearDeltas(snapshot, baselineSnapshot) {
+            return snapshot.leaderboard.map(op => {
+                const baseline = baselineSnapshot?.leaderboard.find(b => b.callsign === op.callsign);
+
+                const baselineActs = baseline?.activator?.activations || 0;
+                const baselineParks = baseline?.activator?.parks || 0;
+                const baselineQsos = baseline?.activator?.qsos || 0;
+
+                return {
+                    ...op,
+                    deltas: {
+                        activator: {
+                            activations: (op.activator?.activations || 0) - baselineActs,
+                            parks: (op.activator?.parks || 0) - baselineParks,
+                            qsos: (op.activator?.qsos || 0) - baselineQsos
+                        },
+                        hunter: {
+                            parks: (op.hunter?.parks || 0) - (baseline?.hunter?.parks || 0),
+                            qsos: (op.hunter?.qsos || 0) - (baseline?.hunter?.qsos || 0)
+                        }
+                    }
+                };
+            });
+        }
+
+        function shouldShowOperator(callsign, asOfDate) {
+            if (!DISPLAY_OPERATORS.includes(callsign)) return false;
+
+            const startDate = OPERATOR_START_DATES[callsign];
+            if (startDate) {
+                const compareDate = (asOfDate || new Date()).toISOString().split('T')[0];
+                if (compareDate < startDate) return false;
+            }
+
+            return true;
+        }
+
+        /**
+         * Compute the YTD-score ranking as it stood at a given snapshot.
+         * Returns a map of callsign -> rank (1-based).
+         */
+        function computeRanksAtSnapshot(snapshot, history) {
+            const snapDate = new Date(snapshot.timestamp);
+            const year = snapDate.getUTCFullYear();
+            const baseline = getYearBaseline(history, year);
+
+            const withDeltas = baseline
+                ? calculateCurrentYearDeltas(snapshot, baseline)
+                : snapshot.leaderboard;
+
+            const ranked = withDeltas
+                .filter(op => shouldShowOperator(op.callsign, snapDate))
+                .map(op => ({
+                    callsign: op.callsign,
+                    score: calculateScore(op.deltas)
+                }))
+                .sort((a, b) => b.score - a.score);
+
+            const ranks = {};
+            ranked.forEach((op, i) => {
+                ranks[op.callsign] = i + 1;
+            });
+            return ranks;
+        }
+
+        async function loadData() {
+            try {
+                const response = await fetch(JSON_URL);
+                const history = await response.json();
+
+                // Find past year winners first (populates PAST_WINNERS)
+                findPastWinners(history);
+
+                const latest = history[history.length - 1];
+                const latestDate = new Date(latest.timestamp);
+                const currentYear = latestDate.getUTCFullYear();
+
+                // Jan 1 baseline for current year (YTD scores)
+                const baseline = getYearBaseline(history, currentYear);
+
+                let leaderboardWithCorrectDeltas;
+                if (baseline) {
+                    leaderboardWithCorrectDeltas = calculateCurrentYearDeltas(latest, baseline);
+                } else {
+                    leaderboardWithCorrectDeltas = latest.leaderboard;
+                }
+
+                // Current ranking
+                const filtered = leaderboardWithCorrectDeltas.filter(op => shouldShowOperator(op.callsign));
+                const ranked = filtered.map(op => ({
+                    ...op,
+                    score: calculateScore(op.deltas)
+                })).sort((a, b) => b.score - a.score);
+
+                // Ranking as it stood ~30 days ago, for movement arrows.
+                // If the 30-day-ago snapshot falls in a previous year, the
+                // ranking reset on Jan 1 makes cross-year movement meaningless,
+                // so movement shows a dash for everyone until 30 days into the year.
+                const thirtyDaysAgo = new Date(latestDate - 30 * 24 * 60 * 60 * 1000);
+                const oldSnapshot = getSnapshotAtOrBefore(history, thirtyDaysAgo);
+                const oldSnapshotYear = new Date(oldSnapshot.timestamp).getUTCFullYear();
+
+                let oldRanks = null;
+                if (oldSnapshotYear === currentYear) {
+                    oldRanks = computeRanksAtSnapshot(oldSnapshot, history);
+                }
+
+                ranked.forEach((op, i) => {
+                    const currentRank = i + 1;
+                    if (!oldRanks) {
+                        op.movement = 0; // early-year window: show dash
+                    } else if (oldRanks[op.callsign] === undefined) {
+                        op.movement = null; // not ranked 30 days ago
+                    } else {
+                        op.movement = oldRanks[op.callsign] - currentRank;
+                    }
+                });
+
+                renderPodium(ranked.slice(0, 3), history);
+                renderLeaderboard(ranked, history);
+
+                const updateTime = new Date(latest.timestamp);
+                document.getElementById('lastUpdate').textContent =
+                    updateTime.toLocaleDateString('en-US', {
+                        month: 'short',
+                        day: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+
+        updateDaysRemaining();
+        loadData();
+
+        setInterval(loadData, 30 * 60 * 1000);
+    </script>
+</body>
+</html>

@@ -1,124 +1,7 @@
 {
   "season": 2026,
-  "created": "2025-12-31T00:00:03.653Z",
+  "created": "2026-01-01",
   "operators": {
-    "K8JKU": {
-      "activator": {
-        "activations": 192,
-        "parks": 67,
-        "qsos": 5764
-      },
-      "hunter": {
-        "parks": 999,
-        "qsos": 1853
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "N8LEK": {
-      "activator": {
-        "activations": 453,
-        "parks": 236,
-        "qsos": 11636
-      },
-      "hunter": {
-        "parks": 1542,
-        "qsos": 3208
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "W8MSC": {
-      "activator": {
-        "activations": 681,
-        "parks": 206,
-        "qsos": 29252
-      },
-      "hunter": {
-        "parks": 2909,
-        "qsos": 7690
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "NU8M": {
-      "activator": {
-        "activations": 80,
-        "parks": 17,
-        "qsos": 2697
-      },
-      "hunter": {
-        "parks": 460,
-        "qsos": 705
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "KN4AL": {
-      "activator": {
-        "activations": 823,
-        "parks": 507,
-        "qsos": 32477
-      },
-      "hunter": {
-        "parks": 3974,
-        "qsos": 11618
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "N8JRD": {
-      "activator": {
-        "activations": 64,
-        "parks": 22,
-        "qsos": 3410
-      },
-      "hunter": {
-        "parks": 789,
-        "qsos": 1286
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "W8KNX": {
-      "activator": {
-        "activations": 121,
-        "parks": 52,
-        "qsos": 3345
-      },
-      "hunter": {
-        "parks": 1026,
-        "qsos": 1842
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "K8MST": {
-      "activator": {
-        "activations": 181,
-        "parks": 72,
-        "qsos": 6144
-      },
-      "hunter": {
-        "parks": 1819,
-        "qsos": 3724
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "K8ZRY": {
-      "activator": {
-        "activations": 114,
-        "parks": 43,
-        "qsos": 5898
-      },
-      "hunter": {
-        "parks": 1353,
-        "qsos": 2191
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
     "K8ERS": {
       "activator": {
         "activations": 194,
@@ -129,112 +12,8 @@
         "parks": 796,
         "qsos": 1524
       },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "W8MCV": {
-      "activator": {
-        "activations": 17,
-        "parks": 15,
-        "qsos": 212
-      },
-      "hunter": {
-        "parks": 276,
-        "qsos": 380
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "WB8IZM": {
-      "activator": {
-        "activations": 121,
-        "parks": 32,
-        "qsos": 11072
-      },
-      "hunter": {
-        "parks": 3295,
-        "qsos": 6607
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "W8JLN": {
-      "activator": {
-        "activations": 40,
-        "parks": 24,
-        "qsos": 799
-      },
-      "hunter": {
-        "parks": 258,
-        "qsos": 331
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "W8TMB": {
-      "activator": {
-        "activations": 257,
-        "parks": 138,
-        "qsos": 10460
-      },
-      "hunter": {
-        "parks": 1796,
-        "qsos": 3237
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "W8EDE": {
-      "activator": {
-        "activations": 2,
-        "parks": 2,
-        "qsos": 25
-      },
-      "hunter": {
-        "parks": 31,
-        "qsos": 33
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "KF8BWN": {
-      "activator": {
-        "activations": 3,
-        "parks": 3,
-        "qsos": 31
-      },
-      "hunter": {
-        "parks": 5,
-        "qsos": 17
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "N1RWJ": {
-      "activator": {
-        "activations": 7,
-        "parks": 6,
-        "qsos": 157
-      },
-      "hunter": {
-        "parks": 119,
-        "qsos": 167
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
-    },
-    "KB4LS": {
-      "activator": {
-        "activations": 44,
-        "parks": 17,
-        "qsos": 1356
-      },
-      "hunter": {
-        "parks": 1255,
-        "qsos": 2142
-      },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
     },
     "K8GNG": {
       "activator": {
@@ -246,8 +25,60 @@
         "parks": 156,
         "qsos": 188
       },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "K8JKU": {
+      "activator": {
+        "activations": 217,
+        "parks": 92,
+        "qsos": 6064
+      },
+      "hunter": {
+        "parks": 999,
+        "qsos": 1853
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "K8MST": {
+      "activator": {
+        "activations": 181,
+        "parks": 72,
+        "qsos": 6144
+      },
+      "hunter": {
+        "parks": 1821,
+        "qsos": 3729
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "K8ZRY": {
+      "activator": {
+        "activations": 114,
+        "parks": 43,
+        "qsos": 5898
+      },
+      "hunter": {
+        "parks": 1353,
+        "qsos": 2191
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "KB4LS": {
+      "activator": {
+        "activations": 44,
+        "parks": 17,
+        "qsos": 1356
+      },
+      "hunter": {
+        "parks": 1255,
+        "qsos": 2142
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
     },
     "KB8JIU": {
       "activator": {
@@ -259,8 +90,8 @@
         "parks": 112,
         "qsos": 126
       },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
     },
     "KC8RC": {
       "activator": {
@@ -272,8 +103,8 @@
         "parks": 690,
         "qsos": 1079
       },
-      "captured": "2025-12-31T00:00:03.653Z",
-      "source": "gcs-migration"
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
     },
     "KE8WPS": {
       "activator": {
@@ -282,11 +113,180 @@
         "qsos": 15
       },
       "hunter": {
-        "parks": 10,
-        "qsos": 12
+        "parks": 8,
+        "qsos": 10
       },
-      "captured": "2026-07-15T11:23:59.547238-04:00",
-      "source": "first-observation"
+      "captured": "2025-12-19",
+      "source": "gcs-migration-boundary"
+    },
+    "KF8BWN": {
+      "activator": {
+        "activations": 3,
+        "parks": 3,
+        "qsos": 31
+      },
+      "hunter": {
+        "parks": 5,
+        "qsos": 17
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "KN4AL": {
+      "activator": {
+        "activations": 823,
+        "parks": 507,
+        "qsos": 32477
+      },
+      "hunter": {
+        "parks": 3974,
+        "qsos": 11619
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "N1RWJ": {
+      "activator": {
+        "activations": 7,
+        "parks": 6,
+        "qsos": 157
+      },
+      "hunter": {
+        "parks": 119,
+        "qsos": 167
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "N8JRD": {
+      "activator": {
+        "activations": 64,
+        "parks": 22,
+        "qsos": 3410
+      },
+      "hunter": {
+        "parks": 789,
+        "qsos": 1286
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "N8LEK": {
+      "activator": {
+        "activations": 478,
+        "parks": 259,
+        "qsos": 11936
+      },
+      "hunter": {
+        "parks": 1542,
+        "qsos": 3209
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "NU8M": {
+      "activator": {
+        "activations": 80,
+        "parks": 17,
+        "qsos": 2697
+      },
+      "hunter": {
+        "parks": 460,
+        "qsos": 705
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "W8EDE": {
+      "activator": {
+        "activations": 2,
+        "parks": 2,
+        "qsos": 25
+      },
+      "hunter": {
+        "parks": 32,
+        "qsos": 34
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "W8JLN": {
+      "activator": {
+        "activations": 40,
+        "parks": 24,
+        "qsos": 799
+      },
+      "hunter": {
+        "parks": 258,
+        "qsos": 331
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "W8KNX": {
+      "activator": {
+        "activations": 121,
+        "parks": 52,
+        "qsos": 3345
+      },
+      "hunter": {
+        "parks": 1026,
+        "qsos": 1843
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "W8MCV": {
+      "activator": {
+        "activations": 17,
+        "parks": 15,
+        "qsos": 212
+      },
+      "hunter": {
+        "parks": 276,
+        "qsos": 380
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "W8MSC": {
+      "activator": {
+        "activations": 706,
+        "parks": 227,
+        "qsos": 29552
+      },
+      "hunter": {
+        "parks": 2909,
+        "qsos": 7696
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "W8TMB": {
+      "activator": {
+        "activations": 257,
+        "parks": 138,
+        "qsos": 10460
+      },
+      "hunter": {
+        "parks": 1796,
+        "qsos": 3238
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
+    },
+    "WB8IZM": {
+      "activator": {
+        "activations": 121,
+        "parks": 32,
+        "qsos": 11072
+      },
+      "hunter": {
+        "parks": 3295,
+        "qsos": 6611
+      },
+      "captured": "2026-01-01",
+      "source": "gcs-migration-boundary"
     }
   }
 }

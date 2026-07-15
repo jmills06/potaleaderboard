@@ -131,27 +131,44 @@ def fetch_operator(call):
         return None
 
 
-def rollover(year, history_prev, config):
-    """First run of a new season: finalize last year, capture this baseline."""
+def rollover(year, history, history_prev, config):
+    """First run of a new season: finalize last year, capture this baseline.
+
+    Boundary rule: an operator's baseline for this season is their FIRST
+    record dated in this year. On the first run of Jan 1 that is today's
+    fetch, which includes everything uploaded through the end of Dec 31.
+    The same boundary is the previous season's final totals, so nothing is
+    dropped or double counted at the year line.
+    """
     baseline_path = BASELINE_DIR / f"{year}.json"
     if baseline_path.exists():
         return load_json(baseline_path)
 
     print(f"Season rollover: building baseline for {year}")
     prev_year = year - 1
-    prev_baseline = load_json(BASELINE_DIR / f"{prev_year}.json")
+    prev_baseline = load_json(BASELINE_DIR / f"{prev_year}.json") or {}
 
-    # Final totals of last season = each operator's last record of prev year
-    per_call = {}
+    cur_by_call, prev_by_call = {}, {}
+    for (d, c), rec in sorted(history.items()):
+        cur_by_call.setdefault(c, []).append(rec)
     for (d, c), rec in sorted(history_prev.items()):
-        per_call[c] = rec  # sorted, so the last assignment is the latest date
+        prev_by_call.setdefault(c, []).append(rec)
 
-    operators = {}
+    def boundary(call):
+        if call in cur_by_call:
+            return cur_by_call[call][0]
+        if call in prev_by_call:
+            return prev_by_call[call][-1]
+        return None
+
     now_iso = datetime.now(TZ).isoformat()
-    for call, rec in per_call.items():
-        operators[call] = {**totals_of(rec),
-                           "captured": now_iso,
-                           "source": f"final-{prev_year}-snapshot"}
+    operators = {}
+    for call in sorted(set(cur_by_call) | set(prev_by_call)):
+        rec = boundary(call)
+        if rec:
+            operators[call] = {**totals_of(rec),
+                               "captured": rec["date"],
+                               "source": "season-boundary"}
 
     baseline = {"season": year, "created": now_iso, "operators": operators}
     BASELINE_DIR.mkdir(parents=True, exist_ok=True)
@@ -160,17 +177,18 @@ def rollover(year, history_prev, config):
 
     # Finalize previous season's awards with the current configured formula
     awards_path = AWARDS_DIR / f"{prev_year}.json"
-    if not awards_path.exists() and prev_baseline and per_call:
+    if not awards_path.exists() and prev_by_call:
         weights = config["weights"]
         standings = []
-        for call, rec in per_call.items():
+        for call, series in prev_by_call.items():
+            final = boundary(call) or series[-1]
             base = (prev_baseline.get("operators", {}).get(call)
-                    or {**EMPTY})
-            d = deltas(totals_of(rec), totals_of(base))
+                    or series[0])
+            d = deltas(totals_of(final), totals_of(base))
             standings.append({
                 "callsign": call,
-                "name": rec.get("name", "N/A"),
-                "gravatar": rec.get("gravatar", ""),
+                "name": final.get("name", "N/A"),
+                "gravatar": final.get("gravatar", ""),
                 "score": score(d, weights),
                 "activations": d["activations"],
                 "parks": d["parks"],
@@ -252,16 +270,13 @@ def main():
     history_prev = read_history(year - 1)
     history = read_history(year)
 
-    baseline = rollover(year, history_prev, config)
-    baseline_ops = baseline.setdefault("operators", {})
-    baseline_dirty = False
-
     # ---------------- fetch + upsert ----------------
     collect_calls = [o["callsign"] for o in roster["operators"] if o.get("collect")]
     display_calls = {o["callsign"] for o in roster["operators"]
                      if o.get("collect") and o.get("display")}
 
     fetched = 0
+    new_records = []
     for call in collect_calls:
         data = fetch_operator(call)
         if data is None:
@@ -279,7 +294,21 @@ def main():
         }
         history[(today_str, call)] = rec
         fetched += 1
+        new_records.append(rec)
 
+    if fetched == 0:
+        sys.exit("All fetches failed; aborting without writing anything")
+
+    write_history(year, history)
+    print(f"Upserted {fetched}/{len(collect_calls)} operators into {year}.jsonl")
+
+    # ---------------- baseline / rollover (after upsert, so Jan 1's
+    # fetch, including Dec 31 uploads, becomes the season boundary) --------
+    baseline = rollover(year, history, history_prev, config)
+    baseline_ops = baseline.setdefault("operators", {})
+    baseline_dirty = False
+    for rec in new_records:
+        call = rec["callsign"]
         # New operator mid-season: baseline = first observed totals
         if call not in baseline_ops:
             baseline_ops[call] = {**totals_of(rec),
@@ -287,14 +316,8 @@ def main():
                                   "source": "first-observation"}
             baseline_dirty = True
             print(f"New operator {call}: baseline set to first observation")
-
-    if fetched == 0:
-        sys.exit("All fetches failed; aborting without writing anything")
-
-    write_history(year, history)
     if baseline_dirty:
         (BASELINE_DIR / f"{year}.json").write_text(json.dumps(baseline, indent=2))
-    print(f"Upserted {fetched}/{len(collect_calls)} operators into {year}.jsonl")
 
     # ---------------- per-operator series ----------------
     by_call = {}

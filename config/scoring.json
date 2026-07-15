@@ -1,0 +1,10 @@
+{
+  "comment": "Edit weights here. Next collector run recomputes every score, rank, and sparkline from raw history. No code changes needed.",
+  "weights": {
+    "activations": 10,
+    "unique_parks": 3,
+    "activator_qsos": 0.05,
+    "hunter_qsos": 0.02
+  },
+  "rate_machine_min_activations": 3
+}

@@ -1,0 +1,27 @@
+{
+  "comment": "collect=true keeps pulling their stats into history. display=true shows them on the board. To 'remove' someone, set display false and their data keeps accumulating in case they return.",
+  "operators": [
+    { "callsign": "K8JKU",  "collect": true, "display": true },
+    { "callsign": "N8LEK",  "collect": true, "display": true },
+    { "callsign": "W8MSC",  "collect": true, "display": true },
+    { "callsign": "NU8M",   "collect": true, "display": true },
+    { "callsign": "KN4AL",  "collect": true, "display": true },
+    { "callsign": "N8JRD",  "collect": true, "display": true },
+    { "callsign": "W8KNX",  "collect": true, "display": true },
+    { "callsign": "K8MST",  "collect": true, "display": true },
+    { "callsign": "K8ZRY",  "collect": true, "display": true },
+    { "callsign": "K8ERS",  "collect": true, "display": true },
+    { "callsign": "W8MCV",  "collect": true, "display": true },
+    { "callsign": "WB8IZM", "collect": true, "display": true },
+    { "callsign": "W8JLN",  "collect": true, "display": true },
+    { "callsign": "W8TMB",  "collect": true, "display": true },
+    { "callsign": "W8EDE",  "collect": true, "display": true },
+    { "callsign": "KF8BWN", "collect": true, "display": true },
+    { "callsign": "N1RWJ",  "collect": true, "display": true },
+    { "callsign": "KB4LS",  "collect": true, "display": true },
+    { "callsign": "K8GNG",  "collect": true, "display": true },
+    { "callsign": "KB8JIU", "collect": true, "display": true },
+    { "callsign": "KC8RC",  "collect": true, "display": true },
+    { "callsign": "KE8WPS", "collect": true, "display": false }
+  ]
+}

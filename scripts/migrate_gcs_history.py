@@ -99,68 +99,83 @@ def main():
                 f.write(json.dumps(by_year[year][k], separators=(",", ":")) + "\n")
         print(f"Wrote {path.name}: {len(keys)} lines")
 
-    # ---- Baseline for the current season: final snapshot of prior year ----
-    prior = BASELINE_YEAR - 1
-    if prior in last_of_year:
-        ts, snap = last_of_year[prior]
-        operators = {}
-        for op in snap.get("leaderboard", []):
-            if op.get("callsign"):
-                operators[op["callsign"]] = {
-                    **totals_of(op),
-                    "captured": ts,
-                    "source": "gcs-migration",
-                }
+    # ---- Season boundaries ----
+    # Rule: an operator's boundary for season N is their FIRST record dated in
+    # year N (these 00:00 UTC snapshots represent standings at the end of
+    # Dec 31), falling back to their LAST record of year N-1. The same
+    # boundary is used as season N's baseline and season N-1's final totals,
+    # so nothing is dropped or double counted.
+    def per_call_sorted(year):
+        out = {}
+        for (d, c) in sorted(by_year.get(year, {})):
+            out.setdefault(c, []).append(by_year[year][(d, c)])
+        return out
+
+    cur = per_call_sorted(BASELINE_YEAR)
+    prev = per_call_sorted(BASELINE_YEAR - 1)
+    prev2 = per_call_sorted(BASELINE_YEAR - 2)
+
+    def boundary(call):
+        if call in cur:
+            return cur[call][0]
+        if call in prev:
+            return prev[call][-1]
+        return None
+
+    all_calls = sorted(set(cur) | set(prev))
+    operators = {}
+    for call in all_calls:
+        rec = boundary(call)
+        if rec:
+            operators[call] = {**totals_of(rec),
+                               "captured": rec["date"],
+                               "source": "gcs-migration-boundary"}
+    if operators:
         BASELINE_DIR.mkdir(parents=True, exist_ok=True)
         bpath = BASELINE_DIR / f"{BASELINE_YEAR}.json"
         bpath.write_text(json.dumps(
-            {"season": BASELINE_YEAR, "created": ts, "operators": operators},
-            indent=2))
-        print(f"Wrote {bpath.name} from snapshot {ts} ({len(operators)} operators)")
+            {"season": BASELINE_YEAR,
+             "created": f"{BASELINE_YEAR}-01-01",
+             "operators": operators}, indent=2))
+        print(f"Wrote {bpath.name} ({len(operators)} operators)")
     else:
-        print(f"WARNING: no {prior} snapshot found; baseline not written")
+        print("WARNING: no data found; baseline not written")
 
-    # ---- Finalize the prior season's awards with the legacy formula ----
-    base_prior = FINALIZE_YEAR - 1
-    if FINALIZE_YEAR in last_of_year and base_prior in last_of_year:
-        _, final_snap = last_of_year[FINALIZE_YEAR]
-        _, base_snap = last_of_year[base_prior]
-        base_map = {o["callsign"]: totals_of(o)
-                    for o in base_snap.get("leaderboard", []) if o.get("callsign")}
-        standings = []
-        for op in final_snap.get("leaderboard", []):
-            call = op.get("callsign")
-            if not call:
-                continue
-            cur = totals_of(op)
-            base = base_map.get(call, {
-                "activator": {"activations": 0, "parks": 0, "qsos": 0},
-                "hunter": {"parks": 0, "qsos": 0},
-            })
-            standings.append({
-                "callsign": call,
-                "name": op.get("name") or "N/A",
-                "gravatar": op.get("gravatar") or "",
-                "score": legacy_score(cur, base),
-                "activations": cur["activator"]["activations"] - base["activator"]["activations"],
-                "parks": cur["activator"]["parks"] - base["activator"]["parks"],
-                "qsos": cur["activator"]["qsos"] - base["activator"]["qsos"],
-            })
+    # ---- Finalize the prior season with the legacy formula ----
+    # Baseline for season N-1 = first record of N-1 (fallback last of N-2).
+    # Operators first observed during N-1 therefore get a near-zero season:
+    # we cannot reconstruct activity from before we started tracking them,
+    # and crediting whole careers (the old behavior) is worse.
+    standings = []
+    for call in sorted(prev):
+        first = (prev2[call][-1] if call in prev2 and prev2[call]
+                 else prev[call][0])
+        final = boundary(call) or prev[call][-1]
+        base_t, final_t = totals_of(first), totals_of(final)
+        standings.append({
+            "callsign": call,
+            "name": final.get("name", "N/A"),
+            "gravatar": final.get("gravatar", ""),
+            "score": legacy_score(final_t, base_t),
+            "activations": final_t["activator"]["activations"] - base_t["activator"]["activations"],
+            "parks": final_t["activator"]["parks"] - base_t["activator"]["parks"],
+            "qsos": final_t["activator"]["qsos"] - base_t["activator"]["qsos"],
+            "tracked_since": first["date"],
+        })
+    if standings:
         standings.sort(key=lambda s: s["score"], reverse=True)
         AWARDS_DIR.mkdir(parents=True, exist_ok=True)
         apath = AWARDS_DIR / f"{FINALIZE_YEAR}.json"
         apath.write_text(json.dumps({
             "season": FINALIZE_YEAR,
             "formula": "legacy: acts*5 + parks*5 + qsos*0.1",
+            "note": "operators first tracked mid-season only get credit from tracked_since onward",
             "finalized_by": "gcs-migration",
             "podium": standings[:3],
             "full_standings": standings,
         }, indent=2))
         print(f"Wrote {apath.name}: podium = "
               + ", ".join(s["callsign"] for s in standings[:3]))
-    else:
-        print(f"NOTE: cannot finalize {FINALIZE_YEAR} awards "
-              f"(need both a {FINALIZE_YEAR} and a {base_prior} snapshot)")
 
     print("Migration complete.")
 

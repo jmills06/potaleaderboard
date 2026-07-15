@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-15T11:35:31.279877-04:00",
+ "generated": "2026-07-15T11:44:21.513989-04:00",
  "season": 2026,
  "days_remaining": 169,
  "weights": {
@@ -955,8 +955,8 @@
    ],
    "rank": 18,
    "gap_to_next": 6,
-   "prev_rank_30d": 20,
-   "movement": 2
+   "prev_rank_30d": 21,
+   "movement": 3
   },
   {
    "callsign": "NU8M",
@@ -1108,8 +1108,8 @@
    ],
    "rank": 21,
    "gap_to_next": 4,
-   "prev_rank_30d": 21,
-   "movement": 0
+   "prev_rank_30d": 20,
+   "movement": -1
   }
  ],
  "categories": {

@@ -1,0 +1,225 @@
+{
+  "season": 2025,
+  "formula": "legacy: acts*5 + parks*5 + qsos*0.1",
+  "finalized_by": "gcs-migration",
+  "podium": [
+    {
+      "callsign": "KN4AL",
+      "name": "Jason Maguran",
+      "gravatar": "380e26746c24b011aeeeee45b2fe9788",
+      "score": 3316,
+      "activations": 263,
+      "parks": 143,
+      "qsos": 12860
+    },
+    {
+      "callsign": "W8TMB",
+      "name": "Terry Bone",
+      "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
+      "score": 3021,
+      "activations": 257,
+      "parks": 138,
+      "qsos": 10460
+    },
+    {
+      "callsign": "WB8IZM",
+      "name": "Greg Bodker",
+      "gravatar": "d8bc406f844a64e222b477a58ae02da4",
+      "score": 1872,
+      "activations": 121,
+      "parks": 32,
+      "qsos": 11072
+    }
+  ],
+  "full_standings": [
+    {
+      "callsign": "KN4AL",
+      "name": "Jason Maguran",
+      "gravatar": "380e26746c24b011aeeeee45b2fe9788",
+      "score": 3316,
+      "activations": 263,
+      "parks": 143,
+      "qsos": 12860
+    },
+    {
+      "callsign": "W8TMB",
+      "name": "Terry Bone",
+      "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
+      "score": 3021,
+      "activations": 257,
+      "parks": 138,
+      "qsos": 10460
+    },
+    {
+      "callsign": "WB8IZM",
+      "name": "Greg Bodker",
+      "gravatar": "d8bc406f844a64e222b477a58ae02da4",
+      "score": 1872,
+      "activations": 121,
+      "parks": 32,
+      "qsos": 11072
+    },
+    {
+      "callsign": "W8MSC",
+      "name": "Mike Case",
+      "gravatar": "800c9b24121fa602a348f43ca260105f",
+      "score": 1170,
+      "activations": 124,
+      "parks": 37,
+      "qsos": 3648
+    },
+    {
+      "callsign": "N8LEK",
+      "name": "Louis Kolenc",
+      "gravatar": "89bc8c38bc966a047b7e9157416df9e3",
+      "score": 1102,
+      "activations": 108,
+      "parks": 74,
+      "qsos": 1924
+    },
+    {
+      "callsign": "K8MST",
+      "name": "Mark S. Torigian",
+      "gravatar": "9b5cd665e3a4043cf2245ebf25410247",
+      "score": 816,
+      "activations": 78,
+      "parks": 33,
+      "qsos": 2612
+    },
+    {
+      "callsign": "K8JKU",
+      "name": "James Mills",
+      "gravatar": "e428864f39d970fcabea84e637d4f0f4",
+      "score": 662,
+      "activations": 68,
+      "parks": 31,
+      "qsos": 1666
+    },
+    {
+      "callsign": "KC8RC",
+      "name": "Raymond Crane",
+      "gravatar": "00e17b84e4d378f80ca159e4f6c7b00b",
+      "score": 610,
+      "activations": 57,
+      "parks": 45,
+      "qsos": 998
+    },
+    {
+      "callsign": "W8KNX",
+      "name": "Rory Locke",
+      "gravatar": "bca9066d200a8f9cc25d6cb63cf09761",
+      "score": 508,
+      "activations": 53,
+      "parks": 22,
+      "qsos": 1329
+    },
+    {
+      "callsign": "K8ERS",
+      "name": "Eric Stoddart",
+      "gravatar": "4ea2e827d10802c4822fba29475758ae",
+      "score": 445,
+      "activations": 41,
+      "parks": 27,
+      "qsos": 1048
+    },
+    {
+      "callsign": "KB4LS",
+      "name": "Benjamin Lee Smith",
+      "gravatar": "f75519e8ebf7b89f5e53332520ab4a29",
+      "score": 441,
+      "activations": 44,
+      "parks": 17,
+      "qsos": 1356
+    },
+    {
+      "callsign": "K8GNG",
+      "name": "Gerald Grimes",
+      "gravatar": "09e7360b223fe4472106c4ab87446582",
+      "score": 409,
+      "activations": 46,
+      "parks": 16,
+      "qsos": 991
+    },
+    {
+      "callsign": "W8JLN",
+      "name": "Joe Nunham",
+      "gravatar": "190139bbef45741f5b437975572d894e",
+      "score": 400,
+      "activations": 40,
+      "parks": 24,
+      "qsos": 799
+    },
+    {
+      "callsign": "N8JRD",
+      "name": "Jim Davis",
+      "gravatar": "dbefeff15b646d38d2e5c9301caa0412",
+      "score": 345,
+      "activations": 30,
+      "parks": 7,
+      "qsos": 1602
+    },
+    {
+      "callsign": "W8MCV",
+      "name": "Michael C. Van Huysse",
+      "gravatar": "6427bb947d92848628bcda19069d090c",
+      "score": 181,
+      "activations": 17,
+      "parks": 15,
+      "qsos": 212
+    },
+    {
+      "callsign": "K8ZRY",
+      "name": "Zach Raubinger",
+      "gravatar": "cd74f6f62c594e99f2b6474ddcca5a29",
+      "score": 138,
+      "activations": 7,
+      "parks": 2,
+      "qsos": 925
+    },
+    {
+      "callsign": "NU8M",
+      "name": "John Haworth",
+      "gravatar": "80ddbf73cd9b54e3be4077377b7c5d81",
+      "score": 99,
+      "activations": 12,
+      "parks": 3,
+      "qsos": 239
+    },
+    {
+      "callsign": "N1RWJ",
+      "name": "Robert Jackson",
+      "gravatar": "ba9860a14193e5bff4c93cdde3608492",
+      "score": 81,
+      "activations": 7,
+      "parks": 6,
+      "qsos": 157
+    },
+    {
+      "callsign": "KB8JIU",
+      "name": "Marty Temple",
+      "gravatar": "1259eebf3f37b7aa62198d7e7f1a25d4",
+      "score": 52,
+      "activations": 5,
+      "parks": 3,
+      "qsos": 123
+    },
+    {
+      "callsign": "KF8BWN",
+      "name": "Shane",
+      "gravatar": "176be9aa6b4e0625a7d26f258712d583",
+      "score": 33,
+      "activations": 3,
+      "parks": 3,
+      "qsos": 31
+    },
+    {
+      "callsign": "W8EDE",
+      "name": "Edward Ernest",
+      "gravatar": "1179def46e76d85186be46cbd37b621a",
+      "score": 22,
+      "activations": 2,
+      "parks": 2,
+      "qsos": 25
+    }
+  ]
+}

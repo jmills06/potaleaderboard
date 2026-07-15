@@ -274,6 +274,19 @@
       },
       "captured": "2025-12-31T00:00:03.653Z",
       "source": "gcs-migration"
+    },
+    "KE8WPS": {
+      "activator": {
+        "activations": 0,
+        "parks": 2,
+        "qsos": 15
+      },
+      "hunter": {
+        "parks": 10,
+        "qsos": 12
+      },
+      "captured": "2026-07-15T11:23:59.547238-04:00",
+      "source": "first-observation"
     }
   }
 }

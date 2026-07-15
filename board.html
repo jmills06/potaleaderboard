@@ -234,13 +234,14 @@
     color: var(--forest-text-2); opacity: 0.75; text-transform: uppercase; }
 
   /* categories */
-  #cat-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
+  #cat-grid { flex: 1; display: grid; grid-template-columns: repeat(5, 1fr); gap: 14px; }
   .cat-card { background: var(--mint); border-radius: 12px; border-top: 4px solid var(--orange);
-    padding: 14px 8px; text-align: center; }
-  .cat-card .ico { font-size: 30px; }
+    padding: 14px 8px; text-align: center;
+    display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 3px; }
+  .cat-card .ico { font-size: 34px; }
   .cat-card .cat-lbl { font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase;
     color: var(--forest-text-2); margin-top: 4px; font-weight: 700; }
-  .cat-card .avatar { width: 56px; height: 56px; border-width: 3px; border-color: var(--park-green); margin: 10px auto 0; }
+  .cat-card .avatar { width: 62px; height: 62px; border-width: 3px; border-color: var(--park-green); margin: 6px auto 0; }
   .cat-card .call { font-family: 'Roboto Condensed', sans-serif; font-weight: 700;
     font-size: 22px; color: var(--orange); margin-top: 6px; }
   .cat-card .val { font-family: 'Roboto Condensed', sans-serif; font-weight: 700;
@@ -248,13 +249,23 @@
   .cat-card .unit { font-size: 11px; color: var(--forest-text-2); opacity: 0.75; }
 
   /* champions */
-  #champ-rows { display: flex; flex-direction: column; gap: 16px; }
-  .champ-row { display: grid; grid-template-columns: 150px repeat(3, 1fr); gap: 14px; align-items: center; }
+  #champ-rows { flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 16px; }
+  .champ-row { flex: 1; max-height: 120px;
+    display: grid; grid-template-columns: 150px repeat(3, 1fr); gap: 14px; align-items: stretch; }
   .champ-year { font-family: 'Roboto Condensed', sans-serif; font-weight: 700;
-    font-size: 56px; color: var(--park-green); text-align: center; }
+    font-size: 56px; color: var(--park-green); text-align: center; align-self: center; }
   .champ-card { background: var(--mint); border-radius: 12px; padding: 12px;
     display: flex; align-items: center; gap: 12px; }
   .champ-card .avatar { width: 54px; height: 54px; border-width: 3px; flex: none; }
+  /* solo showcase: only one finalized season so far */
+  #champ-rows.solo .champ-row { max-height: none; grid-template-columns: 190px repeat(3, 1fr); }
+  #champ-rows.solo .champ-year { font-size: 92px; }
+  #champ-rows.solo .champ-card { flex-direction: column; justify-content: center;
+    text-align: center; gap: 8px; padding: 18px 12px; }
+  #champ-rows.solo .champ-card .avatar { width: 88px; height: 88px; border-width: 4px; }
+  #champ-rows.solo .champ-card .call { font-size: 30px; }
+  #champ-rows.solo .champ-card .sc { font-size: 16px; }
+  .champ-card .sc2 { font-size: 13px; color: var(--forest-text-2); opacity: 0.75; }
   .champ-card.g .avatar { border-color: #F9A825; }
   .champ-card.s .avatar { border-color: #90A4AE; }
   .champ-card.b .avatar { border-color: #A9714B; }
@@ -265,12 +276,18 @@
   /* group totals */
   #group-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
   .grp-st { background: var(--mint); border-left: 5px solid var(--park-green);
-    border-radius: 10px; padding: 20px 10px; text-align: center; }
+    border-radius: 10px; padding: 28px 10px; text-align: center; }
   .grp-st .v { font-family: 'Roboto Condensed', sans-serif; font-weight: 700;
     font-size: 46px; color: var(--forest-text); line-height: 1; }
   .grp-st .l { font-size: 12px; letter-spacing: 2px; text-transform: uppercase;
     color: var(--forest-text-2); opacity: 0.75; margin-top: 6px; }
-  #pace-strip { margin-top: 20px; background: rgba(255,152,0,0.12);
+  #season-progress { margin-top: 20px; }
+  .sp-track { height: 16px; border-radius: 999px; background: rgba(67,160,71,0.15); overflow: hidden; }
+  .sp-fill { height: 100%; border-radius: 999px;
+    background: linear-gradient(90deg, #2e7d32, #43A047 70%, #FF9800); }
+  .sp-lbl { margin-top: 7px; text-align: center; font-size: 15px;
+    letter-spacing: 1px; color: var(--forest-text-2); text-transform: uppercase; }
+  #pace-strip { margin-top: 16px; background: rgba(255,152,0,0.12);
     border: 2px solid var(--orange); border-radius: 10px; padding: 14px;
     text-align: center; font-size: 21px; color: var(--forest-text); }
   #pace-strip b { color: #b45f00; font-family: 'Roboto Condensed', sans-serif; font-size: 26px; }
@@ -335,6 +352,7 @@
       <div class="panel-title">Group Totals · <span id="grp-yr"></span></div>
       <div class="rot-body">
         <div id="group-grid"></div>
+        <div id="season-progress"></div>
         <div id="pace-strip"></div>
       </div>
     </div>
@@ -525,24 +543,39 @@
   }
 
   function buildChampions(seasons) {
+    var shown = seasons.slice(-3).reverse();
+    var solo = shown.length === 1;
     var html = '';
-    seasons.slice(-3).reverse().forEach(function (s) {
+    shown.forEach(function (s) {
       var medals = ['🥇', '🥈', '🥉'], cls = ['g', 's', 'b'];
       html += '<div class="champ-row"><div class="champ-year">' + s.season + '</div>';
       s.podium.forEach(function (p, i) {
+        var extra = '';
+        if (solo && p.parks !== undefined && p.qsos !== undefined) {
+          extra = '<div class="sc2">' + fmt(p.parks) + ' parks · ' + fmt(p.qsos) + ' QSOs</div>';
+        }
         html += '<div class="champ-card ' + cls[i] + '">' +
-          '<img class="avatar" src="' + av(p.gravatar, 120) + '" alt="">' +
+          '<img class="avatar" src="' + av(p.gravatar, 180) + '" alt="">' +
           '<div><div class="call">' + medals[i] + ' ' + p.callsign + '</div>' +
-          '<div class="sc">' + fmt(p.score) + ' pts · ' + fmt(p.activations) + ' acts</div></div>' +
+          '<div class="sc">' + fmt(p.score) + ' pts · ' + fmt(p.activations) + ' acts</div>' + extra + '</div>' +
         '</div>';
       });
       html += '</div>';
     });
-    $('champ-rows').innerHTML = html;
+    var el = $('champ-rows');
+    el.innerHTML = html;
+    el.className = solo ? 'solo' : '';
   }
 
-  function buildGroup(g, season) {
+  function buildGroup(g, season, daysRemaining) {
     $('grp-yr').textContent = season;
+    var jan1 = new Date(season, 0, 1), dec31 = new Date(season, 11, 31);
+    var total = Math.round((dec31 - jan1) / 86400000) + 1;
+    var elapsed = Math.max(0, Math.min(total, total - (daysRemaining || 0)));
+    var pct = Math.round(elapsed / total * 100);
+    $('season-progress').innerHTML =
+      '<div class="sp-track"><div class="sp-fill" style="width:' + pct + '%"></div></div>' +
+      '<div class="sp-lbl">Season ' + pct + '% complete · day ' + elapsed + ' of ' + total + '</div>';
     $('group-grid').innerHTML =
       '<div class="grp-st"><div class="v">' + fmt(g.activations) + '</div><div class="l">Activations</div></div>' +
       '<div class="grp-st"><div class="v">' + fmt(g.parks) + '</div><div class="l">Unique Parks</div></div>' +
@@ -616,7 +649,7 @@
     buildChase(data.operators);
     buildCategories(data.categories || {});
     buildChampions(data.past_seasons || []);
-    buildGroup(data.group || {}, data.season);
+    buildGroup(data.group || {}, data.season, data.days_remaining);
     if (currentView) renderView(currentView);   // first fetch lands after initial rotate
   }
 

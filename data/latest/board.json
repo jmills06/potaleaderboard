@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-15T11:44:21.513989-04:00",
+ "generated": "2026-07-16T06:00:37.455648-04:00",
  "season": 2026,
- "days_remaining": 169,
+ "days_remaining": 168,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -37,7 +37,7 @@
   "2026-06-25",
   "2026-07-02",
   "2026-07-09",
-  "2026-07-15"
+  "2026-07-16"
  ],
  "operators": [
   {
@@ -52,7 +52,7 @@
    "hunter_qsos": 1776,
    "hunter_parks": 314,
    "qsos_per_activation": 44.1,
-   "score_30d": 74,
+   "score_30d": 73,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -96,16 +96,16 @@
    "name": "Robert Jackson",
    "qth": "Providence, RI, USA",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "score": 1498,
-   "activations": 112,
-   "parks": 76,
-   "qsos": 2738,
+   "score": 1592,
+   "activations": 120,
+   "parks": 78,
+   "qsos": 2895,
    "hunter_qsos": 649,
    "hunter_parks": 400,
-   "qsos_per_activation": 24.4,
-   "score_30d": 519,
-   "activity": "twoweek",
-   "streak_weeks": 11,
+   "qsos_per_activation": 24.1,
+   "score_30d": 599,
+   "activity": "fire",
+   "streak_weeks": 12,
    "spark": [
     0,
     0,
@@ -135,10 +135,10 @@
     1389,
     1473,
     1498,
-    1498
+    1592
    ],
    "rank": 2,
-   "gap_to_next": 215,
+   "gap_to_next": 121,
    "prev_rank_30d": 3,
    "movement": 1
   },
@@ -189,7 +189,7 @@
     1087
    ],
    "rank": 3,
-   "gap_to_next": 411,
+   "gap_to_next": 505,
    "prev_rank_30d": 2,
    "movement": -1
   },
@@ -205,9 +205,9 @@
    "hunter_qsos": 749,
    "hunter_parks": 296,
    "qsos_per_activation": 39.7,
-   "score_30d": 201,
+   "score_30d": 143,
    "activity": "fire",
-   "streak_weeks": 5,
+   "streak_weeks": 1,
    "spark": [
     0,
     54,
@@ -410,8 +410,8 @@
    "hunter_parks": 89,
    "qsos_per_activation": 34.2,
    "score_30d": 51,
-   "activity": "twoweek",
-   "streak_weeks": 1,
+   "activity": "month",
+   "streak_weeks": 0,
    "spark": [
     0,
     32,
@@ -767,7 +767,7 @@
    "hunter_parks": 189,
    "qsos_per_activation": 12.9,
    "score_30d": 2,
-   "activity": "sixty",
+   "activity": "inactive",
    "streak_weeks": 0,
    "spark": [
     0,
@@ -955,8 +955,8 @@
    ],
    "rank": 18,
    "gap_to_next": 6,
-   "prev_rank_30d": 21,
-   "movement": 3
+   "prev_rank_30d": 20,
+   "movement": 2
   },
   {
    "callsign": "NU8M",
@@ -1108,8 +1108,8 @@
    ],
    "rank": 21,
    "gap_to_next": 4,
-   "prev_rank_30d": 20,
-   "movement": -1
+   "prev_rank_30d": 21,
+   "movement": 0
   }
  ],
  "categories": {
@@ -1117,7 +1117,7 @@
    "callsign": "N1RWJ",
    "name": "Robert Jackson",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "value": 76
+   "value": 78
   },
   "rate_machine": {
    "callsign": "N8JRD",
@@ -1135,22 +1135,22 @@
    "callsign": "N1RWJ",
    "name": "Robert Jackson",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "value": 519
+   "value": 599
   },
   "longest_streak": {
    "callsign": "N1RWJ",
    "name": "Robert Jackson",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "value": 11
+   "value": 12
   }
  },
  "group": {
-  "activations": 601,
-  "parks": 255,
-  "qsos": 21941,
+  "activations": 609,
+  "parks": 257,
+  "qsos": 22098,
   "hunter_qsos": 11506,
-  "pace_activations": 1119,
-  "pace_qsos": 40860
+  "pace_activations": 1128,
+  "pace_qsos": 40943
  },
  "past_seasons": [
   {

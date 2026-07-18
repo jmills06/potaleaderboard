@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-17T06:00:27.894751-04:00",
+ "generated": "2026-07-18T06:00:19.972849-04:00",
  "season": 2026,
- "days_remaining": 167,
+ "days_remaining": 166,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -38,7 +38,7 @@
   "2026-07-02",
   "2026-07-09",
   "2026-07-16",
-  "2026-07-17"
+  "2026-07-18"
  ],
  "operators": [
   {
@@ -157,7 +157,7 @@
    "hunter_qsos": 612,
    "hunter_parks": 215,
    "qsos_per_activation": 36.5,
-   "score_30d": 80,
+   "score_30d": 26,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -834,7 +834,7 @@
    "hunter_parks": 34,
    "qsos_per_activation": 20.8,
    "score_30d": 0,
-   "activity": "sixty",
+   "activity": "inactive",
    "streak_weeks": 0,
    "spark": [
     0,
@@ -1171,8 +1171,8 @@
   "parks": 258,
   "qsos": 22127,
   "hunter_qsos": 11922,
-  "pace_activations": 1126,
-  "pace_qsos": 40790
+  "pace_activations": 1121,
+  "pace_qsos": 40585
  },
  "past_seasons": [
   {

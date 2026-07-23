@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-22T06:00:21.473077-04:00",
+ "generated": "2026-07-23T06:00:21.005945-04:00",
  "season": 2026,
- "days_remaining": 162,
+ "days_remaining": 161,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -38,7 +38,7 @@
   "2026-07-02",
   "2026-07-09",
   "2026-07-16",
-  "2026-07-22"
+  "2026-07-23"
  ],
  "operators": [
   {
@@ -105,9 +105,9 @@
    "hunter_qsos": 686,
    "hunter_parks": 417,
    "qsos_per_activation": 24.1,
-   "score_30d": 548,
+   "score_30d": 308,
    "activity": "fire",
-   "streak_weeks": 1,
+   "streak_weeks": 13,
    "spark": [
     0,
     0,
@@ -142,8 +142,8 @@
    ],
    "rank": 2,
    "gap_to_next": 145,
-   "prev_rank_30d": 3,
-   "movement": 1
+   "prev_rank_30d": 2,
+   "movement": 0
   },
   {
    "callsign": "K8MST",
@@ -194,8 +194,8 @@
    ],
    "rank": 3,
    "gap_to_next": 528,
-   "prev_rank_30d": 2,
-   "movement": -1
+   "prev_rank_30d": 3,
+   "movement": 0
   },
   {
    "callsign": "W8TMB",
@@ -211,7 +211,7 @@
    "qsos_per_activation": 39.0,
    "score_30d": 115,
    "activity": "fire",
-   "streak_weeks": 6,
+   "streak_weeks": 2,
    "spark": [
     0,
     54,
@@ -469,7 +469,7 @@
    "hunter_qsos": 1290,
    "hunter_parks": 465,
    "qsos_per_activation": 68.2,
-   "score_30d": 51,
+   "score_30d": 50,
    "activity": "twoweek",
    "streak_weeks": 2,
    "spark": [
@@ -618,16 +618,16 @@
    "name": "Benjamin Lee Smith",
    "qth": "Lexington, South Carolina",
    "gravatar": "f75519e8ebf7b89f5e53332520ab4a29",
-   "score": 149,
-   "activations": 9,
+   "score": 160,
+   "activations": 10,
    "parks": 5,
-   "qsos": 293,
+   "qsos": 303,
    "hunter_qsos": 1484,
    "hunter_parks": 592,
-   "qsos_per_activation": 32.6,
-   "score_30d": 0,
-   "activity": "inactive",
-   "streak_weeks": 0,
+   "qsos_per_activation": 30.3,
+   "score_30d": 11,
+   "activity": "week",
+   "streak_weeks": 1,
    "spark": [
     0,
     33,
@@ -658,10 +658,10 @@
     149,
     149,
     149,
-    149
+    160
    ],
    "rank": 12,
-   "gap_to_next": 25,
+   "gap_to_next": 14,
    "prev_rank_30d": 12,
    "movement": 0
   },
@@ -713,7 +713,7 @@
     144
    ],
    "rank": 13,
-   "gap_to_next": 5,
+   "gap_to_next": 16,
    "prev_rank_30d": 13,
    "movement": 0
   },
@@ -1157,22 +1157,22 @@
    "callsign": "N1RWJ",
    "name": "Robert Jackson",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "value": 548
+   "value": 308
   },
   "longest_streak": {
-   "callsign": "W8TMB",
-   "name": "Terry Bone",
-   "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 6
+   "callsign": "N1RWJ",
+   "name": "Robert Jackson",
+   "gravatar": "ba9860a14193e5bff4c93cdde3608492",
+   "value": 13
   }
  },
  "group": {
-  "activations": 638,
+  "activations": 639,
   "parks": 267,
-  "qsos": 22741,
+  "qsos": 22751,
   "hunter_qsos": 12236,
-  "pace_activations": 1147,
-  "pace_qsos": 40889
+  "pace_activations": 1143,
+  "pace_qsos": 40706
  },
  "past_seasons": [
   {

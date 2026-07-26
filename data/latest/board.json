@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-25T06:00:16.357172-04:00",
+ "generated": "2026-07-26T06:00:17.443559-04:00",
  "season": 2026,
- "days_remaining": 159,
+ "days_remaining": 158,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -39,7 +39,7 @@
   "2026-07-09",
   "2026-07-16",
   "2026-07-23",
-  "2026-07-25"
+  "2026-07-26"
  ],
  "operators": [
   {
@@ -107,8 +107,8 @@
    "hunter_qsos": 692,
    "hunter_parks": 420,
    "qsos_per_activation": 24.1,
-   "score_30d": 226,
-   "activity": "fire",
+   "score_30d": 225,
+   "activity": "week",
    "streak_weeks": 2,
    "spark": [
     0,
@@ -214,8 +214,8 @@
    "hunter_parks": 330,
    "qsos_per_activation": 39.0,
    "score_30d": 92,
-   "activity": "fire",
-   "streak_weeks": 1,
+   "activity": "week",
+   "streak_weeks": 6,
    "spark": [
     0,
     54,
@@ -267,8 +267,8 @@
    "hunter_parks": 396,
    "qsos_per_activation": 29.7,
    "score_30d": 129,
-   "activity": "fire",
-   "streak_weeks": 1,
+   "activity": "week",
+   "streak_weeks": 2,
    "spark": [
     0,
     30,
@@ -308,6 +308,59 @@
    "movement": 0
   },
   {
+   "callsign": "K8JKU",
+   "name": "James Mills",
+   "qth": "Clarkston, MI",
+   "gravatar": "e428864f39d970fcabea84e637d4f0f4",
+   "score": 514,
+   "activations": 37,
+   "parks": 25,
+   "qsos": 1177,
+   "hunter_qsos": 500,
+   "hunter_parks": 120,
+   "qsos_per_activation": 31.8,
+   "score_30d": 247,
+   "activity": "fire",
+   "streak_weeks": 2,
+   "spark": [
+    0,
+    32,
+    32,
+    46,
+    74,
+    74,
+    74,
+    147,
+    147,
+    148,
+    159,
+    159,
+    159,
+    187,
+    187,
+    201,
+    229,
+    229,
+    229,
+    229,
+    229,
+    239,
+    239,
+    239,
+    239,
+    267,
+    290,
+    290,
+    290,
+    387,
+    514
+   ],
+   "rank": 6,
+   "gap_to_next": 160,
+   "prev_rank_30d": 8,
+   "movement": 2
+  },
+  {
    "callsign": "N8LEK",
    "name": "Louis Kolenc",
    "qth": "Michigan",
@@ -320,8 +373,8 @@
    "hunter_parks": 113,
    "qsos_per_activation": 36.2,
    "score_30d": 53,
-   "activity": "week",
-   "streak_weeks": 2,
+   "activity": "twoweek",
+   "streak_weeks": 1,
    "spark": [
     0,
     61,
@@ -355,63 +408,10 @@
     452,
     452
    ],
-   "rank": 6,
-   "gap_to_next": 222,
-   "prev_rank_30d": 6,
-   "movement": 0
-  },
-  {
-   "callsign": "K8JKU",
-   "name": "James Mills",
-   "qth": "Clarkston, MI",
-   "gravatar": "e428864f39d970fcabea84e637d4f0f4",
-   "score": 442,
-   "activations": 32,
-   "parks": 21,
-   "qsos": 986,
-   "hunter_qsos": 500,
-   "hunter_parks": 120,
-   "qsos_per_activation": 30.8,
-   "score_30d": 175,
-   "activity": "fire",
-   "streak_weeks": 1,
-   "spark": [
-    0,
-    32,
-    32,
-    46,
-    74,
-    74,
-    74,
-    147,
-    147,
-    148,
-    159,
-    159,
-    159,
-    187,
-    187,
-    201,
-    229,
-    229,
-    229,
-    229,
-    229,
-    239,
-    239,
-    239,
-    239,
-    267,
-    290,
-    290,
-    290,
-    387,
-    442
-   ],
    "rank": 7,
-   "gap_to_next": 10,
-   "prev_rank_30d": 8,
-   "movement": 1
+   "gap_to_next": 62,
+   "prev_rank_30d": 6,
+   "movement": -1
   },
   {
    "callsign": "W8MSC",
@@ -425,7 +425,7 @@
    "hunter_qsos": 2080,
    "hunter_parks": 422,
    "qsos_per_activation": 25.8,
-   "score_30d": 50,
+   "score_30d": 49,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -462,7 +462,7 @@
     421
    ],
    "rank": 8,
-   "gap_to_next": 21,
+   "gap_to_next": 31,
    "prev_rank_30d": 7,
    "movement": -1
   },
@@ -585,7 +585,7 @@
    "hunter_parks": 70,
    "qsos_per_activation": 35.5,
    "score_30d": 11,
-   "activity": "week",
+   "activity": "twoweek",
    "streak_weeks": 1,
    "spark": [
     0,
@@ -797,7 +797,7 @@
    "hunter_parks": 221,
    "qsos_per_activation": 12.8,
    "score_30d": 15,
-   "activity": "week",
+   "activity": "twoweek",
    "streak_weeks": 1,
    "spark": [
     0,
@@ -1176,25 +1176,25 @@
    "value": 2080
   },
   "hot_hand": {
-   "callsign": "N1RWJ",
-   "name": "Robert Jackson",
-   "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "value": 226
+   "callsign": "K8JKU",
+   "name": "James Mills",
+   "gravatar": "e428864f39d970fcabea84e637d4f0f4",
+   "value": 247
   },
   "longest_streak": {
-   "callsign": "KN4AL",
-   "name": "Jason Maguran",
-   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 2
+   "callsign": "W8TMB",
+   "name": "Terry Bone",
+   "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
+   "value": 6
   }
  },
  "group": {
-  "activations": 643,
-  "parks": 271,
-  "qsos": 22825,
+  "activations": 648,
+  "parks": 275,
+  "qsos": 23016,
   "hunter_qsos": 12314,
-  "pace_activations": 1139,
-  "pace_qsos": 40442
+  "pace_activations": 1143,
+  "pace_qsos": 40584
  },
  "past_seasons": [
   {

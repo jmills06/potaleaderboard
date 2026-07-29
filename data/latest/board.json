@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-28T06:00:20.939443-04:00",
+ "generated": "2026-07-29T06:00:23.503471-04:00",
  "season": 2026,
- "days_remaining": 156,
+ "days_remaining": 155,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -39,7 +39,7 @@
   "2026-07-09",
   "2026-07-16",
   "2026-07-23",
-  "2026-07-28"
+  "2026-07-29"
  ],
  "operators": [
   {
@@ -51,8 +51,8 @@
    "activations": 145,
    "parks": 35,
    "qsos": 6330,
-   "hunter_qsos": 1941,
-   "hunter_parks": 347,
+   "hunter_qsos": 1945,
+   "hunter_parks": 348,
    "qsos_per_activation": 43.7,
    "score_30d": 258,
    "activity": "fire",
@@ -104,8 +104,8 @@
    "activations": 123,
    "parks": 79,
    "qsos": 3001,
-   "hunter_qsos": 704,
-   "hunter_parks": 424,
+   "hunter_qsos": 705,
+   "hunter_parks": 425,
    "qsos_per_activation": 24.4,
    "score_30d": 173,
    "activity": "week",
@@ -210,12 +210,12 @@
    "activations": 69,
    "parks": 26,
    "qsos": 2496,
-   "hunter_qsos": 855,
+   "hunter_qsos": 856,
    "hunter_parks": 336,
    "qsos_per_activation": 36.2,
-   "score_30d": 187,
+   "score_30d": 173,
    "activity": "fire",
-   "streak_weeks": 10,
+   "streak_weeks": 7,
    "spark": [
     0,
     54,
@@ -263,7 +263,7 @@
    "activations": 51,
    "parks": 23,
    "qsos": 1517,
-   "hunter_qsos": 945,
+   "hunter_qsos": 946,
    "hunter_parks": 401,
    "qsos_per_activation": 29.7,
    "score_30d": 129,
@@ -316,8 +316,8 @@
    "activations": 37,
    "parks": 25,
    "qsos": 1177,
-   "hunter_qsos": 537,
-   "hunter_parks": 138,
+   "hunter_qsos": 539,
+   "hunter_parks": 140,
    "qsos_per_activation": 31.8,
    "score_30d": 248,
    "activity": "fire",
@@ -372,9 +372,9 @@
    "hunter_qsos": 567,
    "hunter_parks": 113,
    "qsos_per_activation": 36.2,
-   "score_30d": 53,
+   "score_30d": 39,
    "activity": "twoweek",
-   "streak_weeks": 1,
+   "streak_weeks": 2,
    "spark": [
     0,
     61,
@@ -422,8 +422,8 @@
    "activations": 33,
    "parks": 6,
    "qsos": 847,
-   "hunter_qsos": 2091,
-   "hunter_parks": 423,
+   "hunter_qsos": 2093,
+   "hunter_parks": 425,
    "qsos_per_activation": 25.7,
    "score_30d": 60,
    "activity": "week",
@@ -471,14 +471,14 @@
    "name": "Greg Bodker",
    "qth": "Houghton Lake,  Michigan EN-74",
    "gravatar": "d8bc406f844a64e222b477a58ae02da4",
-   "score": 291,
+   "score": 292,
    "activations": 19,
    "parks": 3,
    "qsos": 1307,
-   "hunter_qsos": 1356,
-   "hunter_parks": 484,
+   "hunter_qsos": 1365,
+   "hunter_parks": 487,
    "qsos_per_activation": 68.8,
-   "score_30d": 64,
+   "score_30d": 65,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -512,10 +512,10 @@
     252,
     273,
     276,
-    291
+    292
    ],
    "rank": 9,
-   "gap_to_next": 141,
+   "gap_to_next": 140,
    "prev_rank_30d": 10,
    "movement": 1
   },
@@ -568,7 +568,7 @@
     252
    ],
    "rank": 10,
-   "gap_to_next": 39,
+   "gap_to_next": 40,
    "prev_rank_30d": 9,
    "movement": -1
   },
@@ -691,7 +691,7 @@
    "hunter_parks": 87,
    "qsos_per_activation": 38.9,
    "score_30d": 25,
-   "activity": "fire",
+   "activity": "twoweek",
    "streak_weeks": 1,
    "spark": [
     0,
@@ -740,8 +740,8 @@
    "activations": 9,
    "parks": 5,
    "qsos": 170,
-   "hunter_qsos": 209,
-   "hunter_parks": 147,
+   "hunter_qsos": 222,
+   "hunter_parks": 159,
    "qsos_per_activation": 18.9,
    "score_30d": 26,
    "activity": "twoweek",
@@ -1173,7 +1173,7 @@
    "callsign": "W8MSC",
    "name": "Mike Case",
    "gravatar": "800c9b24121fa602a348f43ca260105f",
-   "value": 2091
+   "value": 2093
   },
   "hot_hand": {
    "callsign": "KN4AL",
@@ -1185,16 +1185,16 @@
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 10
+   "value": 7
   }
  },
  "group": {
   "activations": 669,
   "parks": 288,
   "qsos": 23733,
-  "hunter_qsos": 12532,
-  "pace_activations": 1168,
-  "pace_qsos": 41448
+  "hunter_qsos": 12565,
+  "pace_activations": 1163,
+  "pace_qsos": 41250
  },
  "past_seasons": [
   {

@@ -1,7 +1,7 @@
 {
- "generated": "2026-07-31T06:00:22.014500-04:00",
+ "generated": "2026-08-01T06:00:15.726094-04:00",
  "season": 2026,
- "days_remaining": 153,
+ "days_remaining": 152,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -40,7 +40,7 @@
   "2026-07-16",
   "2026-07-23",
   "2026-07-30",
-  "2026-07-31"
+  "2026-08-01"
  ],
  "operators": [
   {
@@ -48,14 +48,14 @@
    "name": "Jason Maguran",
    "qth": "White Lake, MI",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "score": 1910,
+   "score": 1911,
    "activations": 145,
    "parks": 35,
    "qsos": 6330,
-   "hunter_qsos": 1949,
-   "hunter_parks": 348,
+   "hunter_qsos": 1951,
+   "hunter_parks": 349,
    "qsos_per_activation": 43.7,
-   "score_30d": 258,
+   "score_30d": 259,
    "activity": "fire",
    "streak_weeks": 3,
    "spark": [
@@ -90,7 +90,7 @@
     1713,
     1760,
     1910,
-    1910
+    1911
    ],
    "rank": 1,
    "gap_to_next": 0,
@@ -106,10 +106,10 @@
    "activations": 123,
    "parks": 79,
    "qsos": 3001,
-   "hunter_qsos": 705,
-   "hunter_parks": 425,
+   "hunter_qsos": 709,
+   "hunter_parks": 429,
    "qsos_per_activation": 24.4,
-   "score_30d": 159,
+   "score_30d": 158,
    "activity": "week",
    "streak_weeks": 3,
    "spark": [
@@ -147,7 +147,7 @@
     1631
    ],
    "rank": 2,
-   "gap_to_next": 279,
+   "gap_to_next": 280,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -156,14 +156,14 @@
    "name": "Mark S. Torigian",
    "qth": "Fowlerville, Michigan",
    "gravatar": "9b5cd665e3a4043cf2245ebf25410247",
-   "score": 1151,
-   "activations": 86,
-   "parks": 42,
-   "qsos": 3045,
-   "hunter_qsos": 654,
-   "hunter_parks": 237,
-   "qsos_per_activation": 35.4,
-   "score_30d": 64,
+   "score": 1195,
+   "activations": 89,
+   "parks": 45,
+   "qsos": 3129,
+   "hunter_qsos": 685,
+   "hunter_parks": 249,
+   "qsos_per_activation": 35.2,
+   "score_30d": 108,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -198,10 +198,10 @@
     1087,
     1087,
     1098,
-    1151
+    1195
    ],
    "rank": 3,
-   "gap_to_next": 480,
+   "gap_to_next": 436,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -214,10 +214,10 @@
    "activations": 70,
    "parks": 26,
    "qsos": 2547,
-   "hunter_qsos": 862,
+   "hunter_qsos": 863,
    "hunter_parks": 338,
    "qsos_per_activation": 36.4,
-   "score_30d": 186,
+   "score_30d": 162,
    "activity": "fire",
    "streak_weeks": 2,
    "spark": [
@@ -255,7 +255,7 @@
     923
    ],
    "rank": 4,
-   "gap_to_next": 228,
+   "gap_to_next": 272,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -268,7 +268,7 @@
    "activations": 51,
    "parks": 23,
    "qsos": 1517,
-   "hunter_qsos": 950,
+   "hunter_qsos": 951,
    "hunter_parks": 402,
    "qsos_per_activation": 29.7,
    "score_30d": 128,
@@ -322,10 +322,10 @@
    "activations": 38,
    "parks": 25,
    "qsos": 1213,
-   "hunter_qsos": 546,
-   "hunter_parks": 145,
+   "hunter_qsos": 550,
+   "hunter_parks": 146,
    "qsos_per_activation": 31.9,
-   "score_30d": 260,
+   "score_30d": 237,
    "activity": "fire",
    "streak_weeks": 2,
    "spark": [
@@ -484,10 +484,10 @@
    "activations": 19,
    "parks": 3,
    "qsos": 1307,
-   "hunter_qsos": 1382,
-   "hunter_parks": 492,
+   "hunter_qsos": 1390,
+   "hunter_parks": 494,
    "qsos_per_activation": 68.8,
-   "score_30d": 64,
+   "score_30d": 63,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -754,8 +754,8 @@
    "activations": 9,
    "parks": 5,
    "qsos": 170,
-   "hunter_qsos": 238,
-   "hunter_parks": 172,
+   "hunter_qsos": 241,
+   "hunter_parks": 175,
    "qsos_per_activation": 18.9,
    "score_30d": 26,
    "activity": "month",
@@ -1198,10 +1198,10 @@
    "value": 2093
   },
   "hot_hand": {
-   "callsign": "K8JKU",
-   "name": "James Mills",
-   "gravatar": "e428864f39d970fcabea84e637d4f0f4",
-   "value": 260
+   "callsign": "KN4AL",
+   "name": "Jason Maguran",
+   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
+   "value": 259
   },
   "longest_streak": {
    "callsign": "KN4AL",
@@ -1211,12 +1211,12 @@
   }
  },
  "group": {
-  "activations": 676,
-  "parks": 291,
-  "qsos": 23908,
-  "hunter_qsos": 12659,
+  "activations": 679,
+  "parks": 294,
+  "qsos": 23992,
+  "hunter_qsos": 12713,
   "pace_activations": 1164,
-  "pace_qsos": 41162
+  "pace_qsos": 41113
  },
  "past_seasons": [
   {

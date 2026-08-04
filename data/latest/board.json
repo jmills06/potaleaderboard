@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-03T06:00:23.960892-04:00",
+ "generated": "2026-08-04T06:00:22.619255-04:00",
  "season": 2026,
- "days_remaining": 150,
+ "days_remaining": 149,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -40,7 +40,7 @@
   "2026-07-16",
   "2026-07-23",
   "2026-07-30",
-  "2026-08-03"
+  "2026-08-04"
  ],
  "operators": [
   {
@@ -52,12 +52,12 @@
    "activations": 146,
    "parks": 35,
    "qsos": 6371,
-   "hunter_qsos": 1966,
+   "hunter_qsos": 1968,
    "hunter_parks": 353,
    "qsos_per_activation": 43.6,
    "score_30d": 271,
-   "activity": "fire",
-   "streak_weeks": 2,
+   "activity": "week",
+   "streak_weeks": 4,
    "spark": [
     0,
     310,
@@ -110,8 +110,8 @@
    "hunter_parks": 429,
    "qsos_per_activation": 24.4,
    "score_30d": 133,
-   "activity": "week",
-   "streak_weeks": 3,
+   "activity": "twoweek",
+   "streak_weeks": 2,
    "spark": [
     0,
     0,
@@ -156,14 +156,14 @@
    "name": "Mark S. Torigian",
    "qth": "Fowlerville, Michigan",
    "gravatar": "9b5cd665e3a4043cf2245ebf25410247",
-   "score": 1195,
-   "activations": 89,
+   "score": 1207,
+   "activations": 90,
    "parks": 45,
-   "qsos": 3129,
-   "hunter_qsos": 697,
-   "hunter_parks": 257,
-   "qsos_per_activation": 35.2,
-   "score_30d": 108,
+   "qsos": 3161,
+   "hunter_qsos": 707,
+   "hunter_parks": 260,
+   "qsos_per_activation": 35.1,
+   "score_30d": 120,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -198,10 +198,10 @@
     1087,
     1087,
     1098,
-    1195
+    1207
    ],
    "rank": 3,
-   "gap_to_next": 436,
+   "gap_to_next": 424,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -210,16 +210,16 @@
    "name": "Terry Bone",
    "qth": "Canton Michigan",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "score": 923,
-   "activations": 70,
+   "score": 934,
+   "activations": 71,
    "parks": 26,
-   "qsos": 2547,
-   "hunter_qsos": 886,
+   "qsos": 2567,
+   "hunter_qsos": 887,
    "hunter_parks": 345,
-   "qsos_per_activation": 36.4,
-   "score_30d": 162,
-   "activity": "week",
-   "streak_weeks": 7,
+   "qsos_per_activation": 36.2,
+   "score_30d": 173,
+   "activity": "fire",
+   "streak_weeks": 11,
    "spark": [
     0,
     54,
@@ -252,10 +252,10 @@
     788,
     815,
     910,
-    923
+    934
    ],
    "rank": 4,
-   "gap_to_next": 272,
+   "gap_to_next": 273,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -268,10 +268,10 @@
    "activations": 51,
    "parks": 23,
    "qsos": 1517,
-   "hunter_qsos": 967,
+   "hunter_qsos": 968,
    "hunter_parks": 407,
    "qsos_per_activation": 29.7,
-   "score_30d": 128,
+   "score_30d": 47,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -309,7 +309,7 @@
     674
    ],
    "rank": 5,
-   "gap_to_next": 249,
+   "gap_to_next": 260,
    "prev_rank_30d": 5,
    "movement": 0
   },
@@ -318,14 +318,14 @@
    "name": "Louis Kolenc",
    "qth": "Michigan",
    "gravatar": "89bc8c38bc966a047b7e9157416df9e3",
-   "score": 616,
-   "activations": 45,
-   "parks": 28,
-   "qsos": 1402,
+   "score": 657,
+   "activations": 48,
+   "parks": 31,
+   "qsos": 1443,
    "hunter_qsos": 595,
    "hunter_parks": 125,
-   "qsos_per_activation": 31.2,
-   "score_30d": 190,
+   "qsos_per_activation": 30.1,
+   "score_30d": 231,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -360,10 +360,10 @@
     440,
     452,
     452,
-    616
+    657
    ],
    "rank": 6,
-   "gap_to_next": 58,
+   "gap_to_next": 17,
    "prev_rank_30d": 6,
    "movement": 0
   },
@@ -376,7 +376,7 @@
    "activations": 39,
    "parks": 25,
    "qsos": 1253,
-   "hunter_qsos": 556,
+   "hunter_qsos": 558,
    "hunter_parks": 150,
    "qsos_per_activation": 32.1,
    "score_30d": 249,
@@ -417,7 +417,7 @@
     539
    ],
    "rank": 7,
-   "gap_to_next": 77,
+   "gap_to_next": 118,
    "prev_rank_30d": 8,
    "movement": 1
   },
@@ -435,7 +435,7 @@
    "qsos_per_activation": 25.5,
    "score_30d": 83,
    "activity": "fire",
-   "streak_weeks": 1,
+   "streak_weeks": 3,
    "spark": [
     0,
     19,
@@ -484,8 +484,8 @@
    "activations": 19,
    "parks": 3,
    "qsos": 1307,
-   "hunter_qsos": 1442,
-   "hunter_parks": 512,
+   "hunter_qsos": 1456,
+   "hunter_parks": 516,
    "qsos_per_activation": 68.8,
    "score_30d": 63,
    "activity": "twoweek",
@@ -538,8 +538,8 @@
    "activations": 17,
    "parks": 7,
    "qsos": 1132,
-   "hunter_qsos": 246,
-   "hunter_parks": 94,
+   "hunter_qsos": 248,
+   "hunter_parks": 95,
    "qsos_per_activation": 66.6,
    "score_30d": 15,
    "activity": "month",
@@ -754,8 +754,8 @@
    "activations": 9,
    "parks": 5,
    "qsos": 170,
-   "hunter_qsos": 271,
-   "hunter_parks": 198,
+   "hunter_qsos": 282,
+   "hunter_parks": 208,
    "qsos_per_activation": 18.9,
    "score_30d": 27,
    "activity": "month",
@@ -1078,7 +1078,7 @@
    "activations": 0,
    "parks": 1,
    "qsos": 5,
-   "hunter_qsos": 51,
+   "hunter_qsos": 52,
    "hunter_parks": 45,
    "qsos_per_activation": 0,
    "score_30d": 0,
@@ -1207,16 +1207,16 @@
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 7
+   "value": 11
   }
  },
  "group": {
-  "activations": 695,
-  "parks": 305,
-  "qsos": 24327,
-  "hunter_qsos": 12909,
-  "pace_activations": 1180,
-  "pace_qsos": 41299
+  "activations": 700,
+  "parks": 308,
+  "qsos": 24420,
+  "hunter_qsos": 12953,
+  "pace_activations": 1183,
+  "pace_qsos": 41265
  },
  "past_seasons": [
   {

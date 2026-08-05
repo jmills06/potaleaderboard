@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-04T06:00:22.619255-04:00",
+ "generated": "2026-08-05T06:00:15.054431-04:00",
  "season": 2026,
- "days_remaining": 149,
+ "days_remaining": 148,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -40,7 +40,7 @@
   "2026-07-16",
   "2026-07-23",
   "2026-07-30",
-  "2026-08-04"
+  "2026-08-05"
  ],
  "operators": [
   {
@@ -52,7 +52,7 @@
    "activations": 146,
    "parks": 35,
    "qsos": 6371,
-   "hunter_qsos": 1968,
+   "hunter_qsos": 1969,
    "hunter_parks": 353,
    "qsos_per_activation": 43.6,
    "score_30d": 271,
@@ -156,14 +156,14 @@
    "name": "Mark S. Torigian",
    "qth": "Fowlerville, Michigan",
    "gravatar": "9b5cd665e3a4043cf2245ebf25410247",
-   "score": 1207,
-   "activations": 90,
-   "parks": 45,
-   "qsos": 3161,
-   "hunter_qsos": 707,
-   "hunter_parks": 260,
-   "qsos_per_activation": 35.1,
-   "score_30d": 120,
+   "score": 1235,
+   "activations": 92,
+   "parks": 47,
+   "qsos": 3200,
+   "hunter_qsos": 720,
+   "hunter_parks": 265,
+   "qsos_per_activation": 34.8,
+   "score_30d": 148,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -198,10 +198,10 @@
     1087,
     1087,
     1098,
-    1207
+    1235
    ],
    "rank": 3,
-   "gap_to_next": 424,
+   "gap_to_next": 396,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -219,7 +219,7 @@
    "qsos_per_activation": 36.2,
    "score_30d": 173,
    "activity": "fire",
-   "streak_weeks": 11,
+   "streak_weeks": 8,
    "spark": [
     0,
     54,
@@ -255,7 +255,7 @@
     934
    ],
    "rank": 4,
-   "gap_to_next": 273,
+   "gap_to_next": 301,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -268,7 +268,7 @@
    "activations": 51,
    "parks": 23,
    "qsos": 1517,
-   "hunter_qsos": 968,
+   "hunter_qsos": 970,
    "hunter_parks": 407,
    "qsos_per_activation": 29.7,
    "score_30d": 47,
@@ -430,10 +430,10 @@
    "activations": 35,
    "parks": 6,
    "qsos": 893,
-   "hunter_qsos": 2101,
+   "hunter_qsos": 2102,
    "hunter_parks": 426,
    "qsos_per_activation": 25.5,
-   "score_30d": 83,
+   "score_30d": 57,
    "activity": "fire",
    "streak_weeks": 3,
    "spark": [
@@ -480,14 +480,14 @@
    "name": "Greg Bodker",
    "qth": "Houghton Lake,  Michigan EN-74",
    "gravatar": "d8bc406f844a64e222b477a58ae02da4",
-   "score": 293,
+   "score": 294,
    "activations": 19,
    "parks": 3,
    "qsos": 1307,
-   "hunter_qsos": 1456,
-   "hunter_parks": 516,
+   "hunter_qsos": 1461,
+   "hunter_parks": 519,
    "qsos_per_activation": 68.8,
-   "score_30d": 63,
+   "score_30d": 64,
    "activity": "twoweek",
    "streak_weeks": 1,
    "spark": [
@@ -522,10 +522,10 @@
     273,
     276,
     292,
-    293
+    294
    ],
    "rank": 9,
-   "gap_to_next": 162,
+   "gap_to_next": 161,
    "prev_rank_30d": 10,
    "movement": 1
   },
@@ -538,8 +538,8 @@
    "activations": 17,
    "parks": 7,
    "qsos": 1132,
-   "hunter_qsos": 248,
-   "hunter_parks": 95,
+   "hunter_qsos": 250,
+   "hunter_parks": 96,
    "qsos_per_activation": 66.6,
    "score_30d": 15,
    "activity": "month",
@@ -579,7 +579,7 @@
     253
    ],
    "rank": 10,
-   "gap_to_next": 40,
+   "gap_to_next": 41,
    "prev_rank_30d": 9,
    "movement": -1
   },
@@ -704,8 +704,8 @@
    "hunter_parks": 87,
    "qsos_per_activation": 38.9,
    "score_30d": 25,
-   "activity": "twoweek",
-   "streak_weeks": 1,
+   "activity": "month",
+   "streak_weeks": 0,
    "spark": [
     0,
     23,
@@ -754,8 +754,8 @@
    "activations": 9,
    "parks": 5,
    "qsos": 170,
-   "hunter_qsos": 282,
-   "hunter_parks": 208,
+   "hunter_qsos": 295,
+   "hunter_parks": 217,
    "qsos_per_activation": 18.9,
    "score_30d": 27,
    "activity": "month",
@@ -1195,7 +1195,7 @@
    "callsign": "W8MSC",
    "name": "Mike Case",
    "gravatar": "800c9b24121fa602a348f43ca260105f",
-   "value": 2101
+   "value": 2102
   },
   "hot_hand": {
    "callsign": "KN4AL",
@@ -1207,16 +1207,16 @@
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 11
+   "value": 8
   }
  },
  "group": {
-  "activations": 700,
-  "parks": 308,
-  "qsos": 24420,
-  "hunter_qsos": 12953,
-  "pace_activations": 1183,
-  "pace_qsos": 41265
+  "activations": 702,
+  "parks": 310,
+  "qsos": 24459,
+  "hunter_qsos": 12990,
+  "pace_activations": 1181,
+  "pace_qsos": 41141
  },
  "past_seasons": [
   {

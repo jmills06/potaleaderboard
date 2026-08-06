@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-05T06:00:15.054431-04:00",
+ "generated": "2026-08-06T06:00:25.046197-04:00",
  "season": 2026,
- "days_remaining": 148,
+ "days_remaining": 147,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -40,7 +40,7 @@
   "2026-07-16",
   "2026-07-23",
   "2026-07-30",
-  "2026-08-05"
+  "2026-08-06"
  ],
  "operators": [
   {
@@ -102,16 +102,16 @@
    "name": "Robert Jackson",
    "qth": "Providence, RI, USA",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "score": 1631,
-   "activations": 123,
+   "score": 1643,
+   "activations": 124,
    "parks": 79,
-   "qsos": 3001,
-   "hunter_qsos": 711,
-   "hunter_parks": 429,
-   "qsos_per_activation": 24.4,
-   "score_30d": 133,
-   "activity": "twoweek",
-   "streak_weeks": 2,
+   "qsos": 3040,
+   "hunter_qsos": 718,
+   "hunter_parks": 431,
+   "qsos_per_activation": 24.5,
+   "score_30d": 145,
+   "activity": "week",
+   "streak_weeks": 15,
    "spark": [
     0,
     0,
@@ -144,10 +144,10 @@
     1592,
     1615,
     1631,
-    1631
+    1643
    ],
    "rank": 2,
-   "gap_to_next": 292,
+   "gap_to_next": 280,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -156,16 +156,16 @@
    "name": "Mark S. Torigian",
    "qth": "Fowlerville, Michigan",
    "gravatar": "9b5cd665e3a4043cf2245ebf25410247",
-   "score": 1235,
-   "activations": 92,
+   "score": 1271,
+   "activations": 95,
    "parks": 47,
-   "qsos": 3200,
-   "hunter_qsos": 720,
-   "hunter_parks": 265,
-   "qsos_per_activation": 34.8,
-   "score_30d": 148,
+   "qsos": 3299,
+   "hunter_qsos": 737,
+   "hunter_parks": 271,
+   "qsos_per_activation": 34.7,
+   "score_30d": 184,
    "activity": "fire",
-   "streak_weeks": 1,
+   "streak_weeks": 2,
    "spark": [
     0,
     117,
@@ -198,10 +198,10 @@
     1087,
     1087,
     1098,
-    1235
+    1271
    ],
    "rank": 3,
-   "gap_to_next": 396,
+   "gap_to_next": 372,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -210,16 +210,16 @@
    "name": "Terry Bone",
    "qth": "Canton Michigan",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "score": 934,
-   "activations": 71,
+   "score": 945,
+   "activations": 72,
    "parks": 26,
-   "qsos": 2567,
+   "qsos": 2584,
    "hunter_qsos": 887,
    "hunter_parks": 345,
-   "qsos_per_activation": 36.2,
-   "score_30d": 173,
+   "qsos_per_activation": 35.9,
+   "score_30d": 184,
    "activity": "fire",
-   "streak_weeks": 8,
+   "streak_weeks": 4,
    "spark": [
     0,
     54,
@@ -252,10 +252,10 @@
     788,
     815,
     910,
-    934
+    945
    ],
    "rank": 4,
-   "gap_to_next": 301,
+   "gap_to_next": 326,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -309,7 +309,7 @@
     674
    ],
    "rank": 5,
-   "gap_to_next": 260,
+   "gap_to_next": 271,
    "prev_rank_30d": 5,
    "movement": 0
   },
@@ -380,7 +380,7 @@
    "hunter_parks": 150,
    "qsos_per_activation": 32.1,
    "score_30d": 249,
-   "activity": "fire",
+   "activity": "week",
    "streak_weeks": 3,
    "spark": [
     0,
@@ -484,8 +484,8 @@
    "activations": 19,
    "parks": 3,
    "qsos": 1307,
-   "hunter_qsos": 1461,
-   "hunter_parks": 519,
+   "hunter_qsos": 1467,
+   "hunter_parks": 522,
    "qsos_per_activation": 68.8,
    "score_30d": 64,
    "activity": "twoweek",
@@ -650,8 +650,8 @@
    "hunter_parks": 594,
    "qsos_per_activation": 30.3,
    "score_30d": 11,
-   "activity": "twoweek",
-   "streak_weeks": 1,
+   "activity": "month",
+   "streak_weeks": 0,
    "spark": [
     0,
     33,
@@ -754,8 +754,8 @@
    "activations": 9,
    "parks": 5,
    "qsos": 170,
-   "hunter_qsos": 295,
-   "hunter_parks": 217,
+   "hunter_qsos": 298,
+   "hunter_parks": 220,
    "qsos_per_activation": 18.9,
    "score_30d": 27,
    "activity": "month",
@@ -808,10 +808,10 @@
    "activations": 8,
    "parks": 3,
    "qsos": 102,
-   "hunter_qsos": 423,
-   "hunter_parks": 226,
+   "hunter_qsos": 429,
+   "hunter_parks": 228,
    "qsos_per_activation": 12.8,
-   "score_30d": 16,
+   "score_30d": 15,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -1204,19 +1204,19 @@
    "value": 271
   },
   "longest_streak": {
-   "callsign": "W8TMB",
-   "name": "Terry Bone",
-   "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 8
+   "callsign": "N1RWJ",
+   "name": "Robert Jackson",
+   "gravatar": "ba9860a14193e5bff4c93cdde3608492",
+   "value": 15
   }
  },
  "group": {
-  "activations": 702,
+  "activations": 707,
   "parks": 310,
-  "qsos": 24459,
-  "hunter_qsos": 12990,
-  "pace_activations": 1181,
-  "pace_qsos": 41141
+  "qsos": 24614,
+  "hunter_qsos": 13029,
+  "pace_activations": 1184,
+  "pace_qsos": 41212
  },
  "past_seasons": [
   {

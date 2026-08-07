@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-06T06:00:25.046197-04:00",
+ "generated": "2026-08-07T06:00:22.081802-04:00",
  "season": 2026,
- "days_remaining": 147,
+ "days_remaining": 146,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -40,7 +40,8 @@
   "2026-07-16",
   "2026-07-23",
   "2026-07-30",
-  "2026-08-06"
+  "2026-08-06",
+  "2026-08-07"
  ],
  "operators": [
   {
@@ -90,6 +91,7 @@
     1713,
     1760,
     1910,
+    1923,
     1923
    ],
    "rank": 1,
@@ -111,7 +113,7 @@
    "qsos_per_activation": 24.5,
    "score_30d": 145,
    "activity": "week",
-   "streak_weeks": 15,
+   "streak_weeks": 4,
    "spark": [
     0,
     0,
@@ -144,6 +146,7 @@
     1592,
     1615,
     1631,
+    1643,
     1643
    ],
    "rank": 2,
@@ -156,14 +159,14 @@
    "name": "Mark S. Torigian",
    "qth": "Fowlerville, Michigan",
    "gravatar": "9b5cd665e3a4043cf2245ebf25410247",
-   "score": 1271,
-   "activations": 95,
-   "parks": 47,
-   "qsos": 3299,
-   "hunter_qsos": 737,
-   "hunter_parks": 271,
+   "score": 1286,
+   "activations": 96,
+   "parks": 48,
+   "qsos": 3332,
+   "hunter_qsos": 750,
+   "hunter_parks": 278,
    "qsos_per_activation": 34.7,
-   "score_30d": 184,
+   "score_30d": 199,
    "activity": "fire",
    "streak_weeks": 2,
    "spark": [
@@ -198,10 +201,11 @@
     1087,
     1087,
     1098,
-    1271
+    1271,
+    1286
    ],
    "rank": 3,
-   "gap_to_next": 372,
+   "gap_to_next": 357,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -214,12 +218,12 @@
    "activations": 72,
    "parks": 26,
    "qsos": 2584,
-   "hunter_qsos": 887,
-   "hunter_parks": 345,
+   "hunter_qsos": 891,
+   "hunter_parks": 348,
    "qsos_per_activation": 35.9,
    "score_30d": 184,
    "activity": "fire",
-   "streak_weeks": 4,
+   "streak_weeks": 3,
    "spark": [
     0,
     54,
@@ -252,10 +256,11 @@
     788,
     815,
     910,
+    945,
     945
    ],
    "rank": 4,
-   "gap_to_next": 326,
+   "gap_to_next": 341,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -268,8 +273,8 @@
    "activations": 51,
    "parks": 23,
    "qsos": 1517,
-   "hunter_qsos": 970,
-   "hunter_parks": 407,
+   "hunter_qsos": 971,
+   "hunter_parks": 408,
    "qsos_per_activation": 29.7,
    "score_30d": 47,
    "activity": "month",
@@ -305,6 +310,7 @@
     627,
     627,
     673,
+    674,
     674,
     674
    ],
@@ -360,6 +366,7 @@
     440,
     452,
     452,
+    657,
     657
    ],
    "rank": 6,
@@ -414,6 +421,7 @@
     290,
     387,
     526,
+    539,
     539
    ],
    "rank": 7,
@@ -468,6 +476,7 @@
     398,
     421,
     432,
+    455,
     455
    ],
    "rank": 8,
@@ -487,7 +496,7 @@
    "hunter_qsos": 1467,
    "hunter_parks": 522,
    "qsos_per_activation": 68.8,
-   "score_30d": 64,
+   "score_30d": 42,
    "activity": "twoweek",
    "streak_weeks": 1,
    "spark": [
@@ -522,12 +531,13 @@
     273,
     276,
     292,
+    294,
     294
    ],
    "rank": 9,
    "gap_to_next": 161,
-   "prev_rank_30d": 10,
-   "movement": 1
+   "prev_rank_30d": 9,
+   "movement": 0
   },
   {
    "callsign": "N8JRD",
@@ -541,7 +551,7 @@
    "hunter_qsos": 250,
    "hunter_parks": 96,
    "qsos_per_activation": 66.6,
-   "score_30d": 15,
+   "score_30d": 14,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -576,12 +586,13 @@
     239,
     252,
     252,
+    253,
     253
    ],
    "rank": 10,
    "gap_to_next": 41,
-   "prev_rank_30d": 9,
-   "movement": -1
+   "prev_rank_30d": 10,
+   "movement": 0
   },
   {
    "callsign": "W8JLN",
@@ -628,6 +639,7 @@
     163,
     163,
     163,
+    174,
     174,
     174,
     174
@@ -684,6 +696,7 @@
     149,
     160,
     160,
+    160,
     160
    ],
    "rank": 12,
@@ -738,6 +751,7 @@
     119,
     144,
     144,
+    144,
     144
    ],
    "rank": 13,
@@ -750,14 +764,14 @@
    "name": "Edward Ernest",
    "qth": "",
    "gravatar": "1179def46e76d85186be46cbd37b621a",
-   "score": 119,
+   "score": 120,
    "activations": 9,
    "parks": 5,
    "qsos": 170,
-   "hunter_qsos": 298,
-   "hunter_parks": 220,
+   "hunter_qsos": 308,
+   "hunter_parks": 229,
    "qsos_per_activation": 18.9,
-   "score_30d": 27,
+   "score_30d": 28,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -792,10 +806,11 @@
     92,
     117,
     118,
-    119
+    119,
+    120
    ],
    "rank": 14,
-   "gap_to_next": 25,
+   "gap_to_next": 24,
    "prev_rank_30d": 14,
    "movement": 0
   },
@@ -846,10 +861,11 @@
     88,
     102,
     103,
+    103,
     103
    ],
    "rank": 15,
-   "gap_to_next": 16,
+   "gap_to_next": 17,
    "prev_rank_30d": 15,
    "movement": 0
   },
@@ -900,6 +916,7 @@
     62,
     62,
     62,
+    62,
     62
    ],
    "rank": 16,
@@ -927,6 +944,7 @@
     0,
     0,
     0,
+    31,
     31,
     31,
     31,
@@ -1008,6 +1026,7 @@
     25,
     25,
     25,
+    25,
     25
    ],
    "rank": 18,
@@ -1028,7 +1047,7 @@
    "hunter_parks": 26,
    "qsos_per_activation": 16.0,
    "score_30d": 0,
-   "activity": "sixty",
+   "activity": "inactive",
    "streak_weeks": 0,
    "spark": [
     0,
@@ -1055,6 +1074,7 @@
     0,
     0,
     14,
+    15,
     15,
     15,
     15,
@@ -1096,6 +1116,7 @@
     3,
     3,
     3,
+    4,
     4,
     4,
     4,
@@ -1170,6 +1191,7 @@
     0,
     0,
     0,
+    0,
     0
    ],
    "rank": 21,
@@ -1204,19 +1226,19 @@
    "value": 271
   },
   "longest_streak": {
-   "callsign": "N1RWJ",
-   "name": "Robert Jackson",
-   "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "value": 15
+   "callsign": "KN4AL",
+   "name": "Jason Maguran",
+   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
+   "value": 4
   }
  },
  "group": {
-  "activations": 707,
-  "parks": 310,
-  "qsos": 24614,
-  "hunter_qsos": 13029,
-  "pace_activations": 1184,
-  "pace_qsos": 41212
+  "activations": 708,
+  "parks": 311,
+  "qsos": 24647,
+  "hunter_qsos": 13057,
+  "pace_activations": 1180,
+  "pace_qsos": 41078
  },
  "past_seasons": [
   {

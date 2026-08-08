@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-07T06:00:22.081802-04:00",
+ "generated": "2026-08-08T06:00:20.792503-04:00",
  "season": 2026,
- "days_remaining": 146,
+ "days_remaining": 145,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -41,7 +41,7 @@
   "2026-07-23",
   "2026-07-30",
   "2026-08-06",
-  "2026-08-07"
+  "2026-08-08"
  ],
  "operators": [
   {
@@ -53,8 +53,8 @@
    "activations": 146,
    "parks": 35,
    "qsos": 6371,
-   "hunter_qsos": 1969,
-   "hunter_parks": 353,
+   "hunter_qsos": 1979,
+   "hunter_parks": 354,
    "qsos_per_activation": 43.6,
    "score_30d": 271,
    "activity": "week",
@@ -108,7 +108,7 @@
    "activations": 124,
    "parks": 79,
    "qsos": 3040,
-   "hunter_qsos": 718,
+   "hunter_qsos": 719,
    "hunter_parks": 431,
    "qsos_per_activation": 24.5,
    "score_30d": 145,
@@ -159,14 +159,14 @@
    "name": "Mark S. Torigian",
    "qth": "Fowlerville, Michigan",
    "gravatar": "9b5cd665e3a4043cf2245ebf25410247",
-   "score": 1286,
-   "activations": 96,
+   "score": 1297,
+   "activations": 97,
    "parks": 48,
-   "qsos": 3332,
-   "hunter_qsos": 750,
-   "hunter_parks": 278,
-   "qsos_per_activation": 34.7,
-   "score_30d": 199,
+   "qsos": 3354,
+   "hunter_qsos": 757,
+   "hunter_parks": 282,
+   "qsos_per_activation": 34.6,
+   "score_30d": 210,
    "activity": "fire",
    "streak_weeks": 2,
    "spark": [
@@ -202,10 +202,10 @@
     1087,
     1098,
     1271,
-    1286
+    1297
    ],
    "rank": 3,
-   "gap_to_next": 357,
+   "gap_to_next": 346,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -218,8 +218,8 @@
    "activations": 72,
    "parks": 26,
    "qsos": 2584,
-   "hunter_qsos": 891,
-   "hunter_parks": 348,
+   "hunter_qsos": 900,
+   "hunter_parks": 351,
    "qsos_per_activation": 35.9,
    "score_30d": 184,
    "activity": "fire",
@@ -260,7 +260,7 @@
     945
    ],
    "rank": 4,
-   "gap_to_next": 341,
+   "gap_to_next": 352,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -269,16 +269,16 @@
    "name": "Rory Locke",
    "qth": "South Lyon, MI",
    "gravatar": "bca9066d200a8f9cc25d6cb63cf09761",
-   "score": 674,
-   "activations": 51,
-   "parks": 23,
-   "qsos": 1517,
-   "hunter_qsos": 971,
-   "hunter_parks": 408,
-   "qsos_per_activation": 29.7,
-   "score_30d": 47,
-   "activity": "month",
-   "streak_weeks": 0,
+   "score": 688,
+   "activations": 52,
+   "parks": 24,
+   "qsos": 1538,
+   "hunter_qsos": 978,
+   "hunter_parks": 411,
+   "qsos_per_activation": 29.6,
+   "score_30d": 61,
+   "activity": "week",
+   "streak_weeks": 1,
    "spark": [
     0,
     30,
@@ -312,10 +312,10 @@
     673,
     674,
     674,
-    674
+    688
    ],
    "rank": 5,
-   "gap_to_next": 271,
+   "gap_to_next": 257,
    "prev_rank_30d": 5,
    "movement": 0
   },
@@ -370,7 +370,7 @@
     657
    ],
    "rank": 6,
-   "gap_to_next": 17,
+   "gap_to_next": 31,
    "prev_rank_30d": 6,
    "movement": 0
   },
@@ -379,15 +379,15 @@
    "name": "James Mills",
    "qth": "Clarkston, MI",
    "gravatar": "e428864f39d970fcabea84e637d4f0f4",
-   "score": 539,
-   "activations": 39,
-   "parks": 25,
-   "qsos": 1253,
-   "hunter_qsos": 558,
-   "hunter_parks": 150,
-   "qsos_per_activation": 32.1,
-   "score_30d": 249,
-   "activity": "week",
+   "score": 621,
+   "activations": 45,
+   "parks": 31,
+   "qsos": 1328,
+   "hunter_qsos": 562,
+   "hunter_parks": 151,
+   "qsos_per_activation": 29.5,
+   "score_30d": 331,
+   "activity": "fire",
    "streak_weeks": 3,
    "spark": [
     0,
@@ -422,10 +422,10 @@
     387,
     526,
     539,
-    539
+    621
    ],
    "rank": 7,
-   "gap_to_next": 118,
+   "gap_to_next": 36,
    "prev_rank_30d": 8,
    "movement": 1
   },
@@ -480,7 +480,7 @@
     455
    ],
    "rank": 8,
-   "gap_to_next": 84,
+   "gap_to_next": 166,
    "prev_rank_30d": 7,
    "movement": -1
   },
@@ -768,8 +768,8 @@
    "activations": 9,
    "parks": 5,
    "qsos": 170,
-   "hunter_qsos": 308,
-   "hunter_parks": 229,
+   "hunter_qsos": 311,
+   "hunter_parks": 232,
    "qsos_per_activation": 18.9,
    "score_30d": 28,
    "activity": "month",
@@ -823,8 +823,8 @@
    "activations": 8,
    "parks": 3,
    "qsos": 102,
-   "hunter_qsos": 429,
-   "hunter_parks": 228,
+   "hunter_qsos": 433,
+   "hunter_parks": 230,
    "qsos_per_activation": 12.8,
    "score_30d": 15,
    "activity": "month",
@@ -1220,10 +1220,10 @@
    "value": 2102
   },
   "hot_hand": {
-   "callsign": "KN4AL",
-   "name": "Jason Maguran",
-   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 271
+   "callsign": "K8JKU",
+   "name": "James Mills",
+   "gravatar": "e428864f39d970fcabea84e637d4f0f4",
+   "value": 331
   },
   "longest_streak": {
    "callsign": "KN4AL",
@@ -1233,12 +1233,12 @@
   }
  },
  "group": {
-  "activations": 708,
-  "parks": 311,
-  "qsos": 24647,
-  "hunter_qsos": 13057,
-  "pace_activations": 1180,
-  "pace_qsos": 41078
+  "activations": 716,
+  "parks": 318,
+  "qsos": 24765,
+  "hunter_qsos": 13102,
+  "pace_activations": 1188,
+  "pace_qsos": 41087
  },
  "past_seasons": [
   {

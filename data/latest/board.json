@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-11T06:00:16.093506-04:00",
+ "generated": "2026-08-12T06:00:14.896106-04:00",
  "season": 2026,
- "days_remaining": 142,
+ "days_remaining": 141,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -41,7 +41,7 @@
   "2026-07-23",
   "2026-07-30",
   "2026-08-06",
-  "2026-08-11"
+  "2026-08-12"
  ],
  "operators": [
   {
@@ -49,16 +49,16 @@
    "name": "Jason Maguran",
    "qth": "White Lake, MI",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "score": 1924,
-   "activations": 146,
-   "parks": 35,
-   "qsos": 6371,
+   "score": 2068,
+   "activations": 156,
+   "parks": 44,
+   "qsos": 6710,
    "hunter_qsos": 2030,
    "hunter_parks": 361,
-   "qsos_per_activation": 43.6,
-   "score_30d": 272,
-   "activity": "twoweek",
-   "streak_weeks": 4,
+   "qsos_per_activation": 43.0,
+   "score_30d": 355,
+   "activity": "fire",
+   "streak_weeks": 5,
    "spark": [
     0,
     310,
@@ -92,7 +92,7 @@
     1760,
     1910,
     1923,
-    1924
+    2068
    ],
    "rank": 1,
    "gap_to_next": 0,
@@ -150,7 +150,7 @@
     1682
    ],
    "rank": 2,
-   "gap_to_next": 242,
+   "gap_to_next": 386,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -223,7 +223,7 @@
    "qsos_per_activation": 34.9,
    "score_30d": 195,
    "activity": "fire",
-   "streak_weeks": 12,
+   "streak_weeks": 9,
    "spark": [
     0,
     54,
@@ -496,7 +496,7 @@
    "hunter_qsos": 1469,
    "hunter_parks": 522,
    "qsos_per_activation": 68.8,
-   "score_30d": 42,
+   "score_30d": 21,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -1220,25 +1220,25 @@
    "value": 2103
   },
   "hot_hand": {
-   "callsign": "K8JKU",
-   "name": "James Mills",
-   "gravatar": "e428864f39d970fcabea84e637d4f0f4",
-   "value": 331
+   "callsign": "KN4AL",
+   "name": "Jason Maguran",
+   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
+   "value": 355
   },
   "longest_streak": {
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 12
+   "value": 9
   }
  },
  "group": {
-  "activations": 727,
-  "parks": 323,
-  "qsos": 24969,
+  "activations": 737,
+  "parks": 332,
+  "qsos": 25308,
   "hunter_qsos": 13255,
-  "pace_activations": 1190,
-  "pace_qsos": 40869
+  "pace_activations": 1201,
+  "pace_qsos": 41238
  },
  "past_seasons": [
   {

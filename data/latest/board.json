@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-16T06:00:15.359158-04:00",
+ "generated": "2026-08-17T06:00:17.067257-04:00",
  "season": 2026,
- "days_remaining": 137,
+ "days_remaining": 136,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -42,7 +42,7 @@
   "2026-07-30",
   "2026-08-06",
   "2026-08-13",
-  "2026-08-16"
+  "2026-08-17"
  ],
  "operators": [
   {
@@ -54,12 +54,12 @@
    "activations": 156,
    "parks": 44,
    "qsos": 6710,
-   "hunter_qsos": 2072,
-   "hunter_parks": 368,
+   "hunter_qsos": 2093,
+   "hunter_parks": 369,
    "qsos_per_activation": 43.0,
    "score_30d": 355,
    "activity": "fire",
-   "streak_weeks": 5,
+   "streak_weeks": 1,
    "spark": [
     0,
     310,
@@ -110,8 +110,8 @@
    "activations": 129,
    "parks": 83,
    "qsos": 3126,
-   "hunter_qsos": 738,
-   "hunter_parks": 438,
+   "hunter_qsos": 744,
+   "hunter_parks": 441,
    "qsos_per_activation": 24.2,
    "score_30d": 118,
    "activity": "fire",
@@ -162,14 +162,14 @@
    "name": "Mark S. Torigian",
    "qth": "Fowlerville, Michigan",
    "gravatar": "9b5cd665e3a4043cf2245ebf25410247",
-   "score": 1332,
+   "score": 1333,
    "activations": 100,
    "parks": 48,
    "qsos": 3445,
-   "hunter_qsos": 812,
-   "hunter_parks": 303,
+   "hunter_qsos": 814,
+   "hunter_parks": 304,
    "qsos_per_activation": 34.5,
-   "score_30d": 245,
+   "score_30d": 246,
    "activity": "fire",
    "streak_weeks": 3,
    "spark": [
@@ -206,10 +206,10 @@
     1098,
     1271,
     1332,
-    1332
+    1333
    ],
    "rank": 3,
-   "gap_to_next": 378,
+   "gap_to_next": 377,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -218,14 +218,14 @@
    "name": "Terry Bone",
    "qth": "Canton Michigan",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "score": 983,
-   "activations": 75,
+   "score": 1016,
+   "activations": 78,
    "parks": 28,
-   "qsos": 2616,
-   "hunter_qsos": 911,
-   "hunter_parks": 357,
-   "qsos_per_activation": 34.9,
-   "score_30d": 194,
+   "qsos": 2676,
+   "hunter_qsos": 915,
+   "hunter_parks": 358,
+   "qsos_per_activation": 34.3,
+   "score_30d": 227,
    "activity": "fire",
    "streak_weeks": 9,
    "spark": [
@@ -262,10 +262,10 @@
     910,
     945,
     983,
-    983
+    1016
    ],
    "rank": 4,
-   "gap_to_next": 349,
+   "gap_to_next": 317,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -274,14 +274,14 @@
    "name": "Louis Kolenc",
    "qth": "Michigan",
    "gravatar": "89bc8c38bc966a047b7e9157416df9e3",
-   "score": 791,
-   "activations": 58,
-   "parks": 39,
-   "qsos": 1621,
-   "hunter_qsos": 625,
-   "hunter_parks": 138,
-   "qsos_per_activation": 27.9,
-   "score_30d": 350,
+   "score": 819,
+   "activations": 60,
+   "parks": 41,
+   "qsos": 1658,
+   "hunter_qsos": 632,
+   "hunter_parks": 141,
+   "qsos_per_activation": 27.6,
+   "score_30d": 378,
    "activity": "fire",
    "streak_weeks": 3,
    "spark": [
@@ -318,10 +318,10 @@
     452,
     657,
     657,
-    791
+    819
    ],
    "rank": 5,
-   "gap_to_next": 192,
+   "gap_to_next": 197,
    "prev_rank_30d": 6,
    "movement": 1
   },
@@ -334,8 +334,8 @@
    "activations": 52,
    "parks": 24,
    "qsos": 1538,
-   "hunter_qsos": 992,
-   "hunter_parks": 418,
+   "hunter_qsos": 996,
+   "hunter_parks": 420,
    "qsos_per_activation": 29.6,
    "score_30d": 61,
    "activity": "twoweek",
@@ -377,7 +377,7 @@
     689
    ],
    "rank": 6,
-   "gap_to_next": 102,
+   "gap_to_next": 130,
    "prev_rank_30d": 5,
    "movement": -1
   },
@@ -451,7 +451,7 @@
    "qsos_per_activation": 25.1,
    "score_30d": 69,
    "activity": "week",
-   "streak_weeks": 4,
+   "streak_weeks": 1,
    "spark": [
     0,
     19,
@@ -498,14 +498,14 @@
    "name": "Greg Bodker",
    "qth": "Houghton Lake,  Michigan EN-74",
    "gravatar": "d8bc406f844a64e222b477a58ae02da4",
-   "score": 294,
+   "score": 295,
    "activations": 19,
    "parks": 3,
    "qsos": 1307,
-   "hunter_qsos": 1505,
-   "hunter_parks": 535,
+   "hunter_qsos": 1517,
+   "hunter_parks": 540,
    "qsos_per_activation": 68.8,
-   "score_30d": 19,
+   "score_30d": 20,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -542,10 +542,10 @@
     292,
     294,
     294,
-    294
+    295
    ],
    "rank": 9,
-   "gap_to_next": 174,
+   "gap_to_next": 173,
    "prev_rank_30d": 9,
    "movement": 0
   },
@@ -601,7 +601,7 @@
     253
    ],
    "rank": 10,
-   "gap_to_next": 41,
+   "gap_to_next": 42,
    "prev_rank_30d": 10,
    "movement": 0
   },
@@ -782,8 +782,8 @@
    "activations": 10,
    "parks": 5,
    "qsos": 185,
-   "hunter_qsos": 355,
-   "hunter_parks": 264,
+   "hunter_qsos": 358,
+   "hunter_parks": 266,
    "qsos_per_activation": 18.5,
    "score_30d": 14,
    "activity": "week",
@@ -842,8 +842,8 @@
    "hunter_parks": 253,
    "qsos_per_activation": 12.5,
    "score_30d": 40,
-   "activity": "week",
-   "streak_weeks": 2,
+   "activity": "twoweek",
+   "streak_weeks": 1,
    "spark": [
     0,
     11,
@@ -1242,10 +1242,10 @@
    "value": 2104
   },
   "hot_hand": {
-   "callsign": "KN4AL",
-   "name": "Jason Maguran",
-   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 355
+   "callsign": "N8LEK",
+   "name": "Louis Kolenc",
+   "gravatar": "89bc8c38bc966a047b7e9157416df9e3",
+   "value": 378
   },
   "longest_streak": {
    "callsign": "W8TMB",
@@ -1255,12 +1255,12 @@
   }
  },
  "group": {
-  "activations": 754,
-  "parks": 344,
-  "qsos": 25579,
-  "hunter_qsos": 13457,
-  "pace_activations": 1207,
-  "pace_qsos": 40949
+  "activations": 759,
+  "parks": 346,
+  "qsos": 25676,
+  "hunter_qsos": 13516,
+  "pace_activations": 1210,
+  "pace_qsos": 40925
  },
  "past_seasons": [
   {

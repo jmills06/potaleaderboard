@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-18T06:00:16.402297-04:00",
+ "generated": "2026-08-19T06:00:15.415429-04:00",
  "season": 2026,
- "days_remaining": 135,
+ "days_remaining": 134,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -42,7 +42,7 @@
   "2026-07-30",
   "2026-08-06",
   "2026-08-13",
-  "2026-08-18"
+  "2026-08-19"
  ],
  "operators": [
   {
@@ -57,9 +57,9 @@
    "hunter_qsos": 2093,
    "hunter_parks": 369,
    "qsos_per_activation": 43.0,
-   "score_30d": 355,
-   "activity": "fire",
-   "streak_weeks": 1,
+   "score_30d": 354,
+   "activity": "twoweek",
+   "streak_weeks": 5,
    "spark": [
     0,
     310,
@@ -227,7 +227,7 @@
    "qsos_per_activation": 34.0,
    "score_30d": 224,
    "activity": "fire",
-   "streak_weeks": 13,
+   "streak_weeks": 10,
    "spark": [
     0,
     54,
@@ -337,7 +337,7 @@
    "hunter_qsos": 996,
    "hunter_parks": 420,
    "qsos_per_activation": 29.6,
-   "score_30d": 27,
+   "score_30d": 16,
    "activity": "twoweek",
    "streak_weeks": 1,
    "spark": [
@@ -393,7 +393,7 @@
    "hunter_qsos": 569,
    "hunter_parks": 157,
    "qsos_per_activation": 29.5,
-   "score_30d": 270,
+   "score_30d": 246,
    "activity": "twoweek",
    "streak_weeks": 4,
    "spark": [
@@ -449,7 +449,7 @@
    "hunter_qsos": 2104,
    "hunter_parks": 426,
    "qsos_per_activation": 25.1,
-   "score_30d": 69,
+   "score_30d": 47,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -561,8 +561,8 @@
    "hunter_qsos": 253,
    "hunter_parks": 98,
    "qsos_per_activation": 66.6,
-   "score_30d": 14,
-   "activity": "month",
+   "score_30d": 1,
+   "activity": "sixty",
    "streak_weeks": 0,
    "spark": [
     0,
@@ -610,14 +610,14 @@
    "name": "Joe Nunham",
    "qth": "Chelsea, MI",
    "gravatar": "190139bbef45741f5b437975572d894e",
-   "score": 210,
-   "activations": 16,
+   "score": 220,
+   "activations": 17,
    "parks": 7,
-   "qsos": 510,
+   "qsos": 525,
    "hunter_qsos": 159,
    "hunter_parks": 71,
-   "qsos_per_activation": 31.9,
-   "score_30d": 36,
+   "qsos_per_activation": 30.9,
+   "score_30d": 46,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -654,10 +654,10 @@
     174,
     174,
     174,
-    210
+    220
    ],
    "rank": 11,
-   "gap_to_next": 43,
+   "gap_to_next": 33,
    "prev_rank_30d": 11,
    "movement": 0
   },
@@ -713,7 +713,7 @@
     160
    ],
    "rank": 12,
-   "gap_to_next": 50,
+   "gap_to_next": 60,
    "prev_rank_30d": 12,
    "movement": 0
   },
@@ -1251,16 +1251,16 @@
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 13
+   "value": 10
   }
  },
  "group": {
-  "activations": 762,
+  "activations": 763,
   "parks": 347,
-  "qsos": 25725,
+  "qsos": 25740,
   "hunter_qsos": 13516,
-  "pace_activations": 1209,
-  "pace_qsos": 40824
+  "pace_activations": 1206,
+  "pace_qsos": 40671
  },
  "past_seasons": [
   {

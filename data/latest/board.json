@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-25T06:00:17.791815-04:00",
+ "generated": "2026-08-26T06:00:16.793680-04:00",
  "season": 2026,
- "days_remaining": 128,
+ "days_remaining": 127,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -43,7 +43,7 @@
   "2026-08-06",
   "2026-08-13",
   "2026-08-20",
-  "2026-08-25"
+  "2026-08-26"
  ],
  "operators": [
   {
@@ -58,9 +58,9 @@
    "hunter_qsos": 2099,
    "hunter_parks": 369,
    "qsos_per_activation": 42.6,
-   "score_30d": 530,
+   "score_30d": 529,
    "activity": "fire",
-   "streak_weeks": 2,
+   "streak_weeks": 1,
    "spark": [
     0,
     310,
@@ -222,16 +222,16 @@
    "name": "Terry Bone",
    "qth": "Canton Michigan",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "score": 1076,
-   "activations": 83,
+   "score": 1087,
+   "activations": 84,
    "parks": 30,
-   "qsos": 2754,
+   "qsos": 2776,
    "hunter_qsos": 930,
    "hunter_parks": 364,
-   "qsos_per_activation": 33.2,
-   "score_30d": 261,
+   "qsos_per_activation": 33.0,
+   "score_30d": 177,
    "activity": "fire",
-   "streak_weeks": 14,
+   "streak_weeks": 11,
    "spark": [
     0,
     54,
@@ -267,10 +267,10 @@
     945,
     983,
     1027,
-    1076
+    1087
    ],
    "rank": 4,
-   "gap_to_next": 257,
+   "gap_to_next": 246,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -327,7 +327,7 @@
     819
    ],
    "rank": 5,
-   "gap_to_next": 257,
+   "gap_to_next": 268,
    "prev_rank_30d": 7,
    "movement": 2
   },
@@ -571,7 +571,7 @@
    "hunter_qsos": 1577,
    "hunter_parks": 552,
    "qsos_per_activation": 66.8,
-   "score_30d": 31,
+   "score_30d": 16,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -856,7 +856,7 @@
    "hunter_qsos": 480,
    "hunter_parks": 262,
    "qsos_per_activation": 12.4,
-   "score_30d": 39,
+   "score_30d": 38,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -1267,22 +1267,22 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 530
+   "value": 529
   },
   "longest_streak": {
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 14
+   "value": 11
   }
  },
  "group": {
-  "activations": 810,
+  "activations": 811,
   "parks": 370,
-  "qsos": 26989,
+  "qsos": 27011,
   "hunter_qsos": 13705,
-  "pace_activations": 1247,
-  "pace_qsos": 41565
+  "pace_activations": 1244,
+  "pace_qsos": 41424
  },
  "past_seasons": [
   {

@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-27T06:00:16.199080-04:00",
+ "generated": "2026-08-28T06:00:17.021966-04:00",
  "season": 2026,
- "days_remaining": 126,
+ "days_remaining": 125,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -43,7 +43,8 @@
   "2026-08-06",
   "2026-08-13",
   "2026-08-20",
-  "2026-08-27"
+  "2026-08-27",
+  "2026-08-28"
  ],
  "operators": [
   {
@@ -51,16 +52,16 @@
    "name": "Jason Maguran",
    "qth": "White Lake, MI",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "score": 2290,
-   "activations": 172,
+   "score": 2314,
+   "activations": 174,
    "parks": 54,
-   "qsos": 7327,
+   "qsos": 7410,
    "hunter_qsos": 2099,
    "hunter_parks": 369,
    "qsos_per_activation": 42.6,
-   "score_30d": 380,
-   "activity": "twoweek",
-   "streak_weeks": 6,
+   "score_30d": 404,
+   "activity": "fire",
+   "streak_weeks": 7,
    "spark": [
     0,
     310,
@@ -96,7 +97,8 @@
     1923,
     2068,
     2290,
-    2290
+    2290,
+    2314
    ],
    "rank": 1,
    "gap_to_next": 0,
@@ -117,7 +119,7 @@
    "qsos_per_activation": 24.1,
    "score_30d": 93,
    "activity": "twoweek",
-   "streak_weeks": 17,
+   "streak_weeks": 6,
    "spark": [
     0,
     0,
@@ -153,10 +155,11 @@
     1643,
     1683,
     1724,
+    1724,
     1724
    ],
    "rank": 2,
-   "gap_to_next": 566,
+   "gap_to_next": 590,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -210,6 +213,7 @@
     1271,
     1332,
     1333,
+    1333,
     1333
    ],
    "rank": 3,
@@ -231,7 +235,7 @@
    "qsos_per_activation": 33.0,
    "score_30d": 177,
    "activity": "fire",
-   "streak_weeks": 7,
+   "streak_weeks": 6,
    "spark": [
     0,
     54,
@@ -267,6 +271,7 @@
     945,
     983,
     1027,
+    1087,
     1087
    ],
    "rank": 4,
@@ -323,6 +328,7 @@
     452,
     657,
     657,
+    819,
     819,
     819
    ],
@@ -381,6 +387,7 @@
     674,
     689,
     689,
+    722,
     722
    ],
    "rank": 6,
@@ -438,6 +445,7 @@
     539,
     621,
     621,
+    633,
     633
    ],
    "rank": 7,
@@ -459,7 +467,7 @@
    "qsos_per_activation": 24.9,
    "score_30d": 50,
    "activity": "twoweek",
-   "streak_weeks": 1,
+   "streak_weeks": 5,
    "spark": [
     0,
     19,
@@ -494,6 +502,7 @@
     432,
     455,
     455,
+    482,
     482,
     482
    ],
@@ -552,6 +561,7 @@
     174,
     174,
     220,
+    422,
     422
    ],
    "rank": 9,
@@ -571,8 +581,8 @@
    "hunter_qsos": 1577,
    "hunter_parks": 552,
    "qsos_per_activation": 66.8,
-   "score_30d": 16,
-   "activity": "week",
+   "score_30d": 15,
+   "activity": "twoweek",
    "streak_weeks": 1,
    "spark": [
     0,
@@ -609,6 +619,7 @@
     294,
     294,
     295,
+    307,
     307
    ],
    "rank": 10,
@@ -666,6 +677,7 @@
     253,
     253,
     253,
+    276,
     276
    ],
    "rank": 11,
@@ -723,6 +735,7 @@
     119,
     120,
     131,
+    167,
     167
    ],
    "rank": 12,
@@ -775,6 +788,7 @@
     149,
     149,
     149,
+    160,
     160,
     160,
     160,
@@ -837,6 +851,7 @@
     144,
     144,
     144,
+    144,
     144
    ],
    "rank": 14,
@@ -894,6 +909,7 @@
     103,
     127,
     128,
+    141,
     141
    ],
    "rank": 15,
@@ -951,6 +967,7 @@
     62,
     62,
     73,
+    73,
     73
    ],
    "rank": 16,
@@ -978,6 +995,7 @@
     0,
     0,
     0,
+    31,
     31,
     31,
     31,
@@ -1065,6 +1083,7 @@
     25,
     25,
     25,
+    25,
     25
    ],
    "rank": 18,
@@ -1122,6 +1141,7 @@
     15,
     15,
     15,
+    15,
     15
    ],
    "rank": 19,
@@ -1156,6 +1176,7 @@
     3,
     3,
     3,
+    4,
     4,
     4,
     4,
@@ -1236,6 +1257,7 @@
     0,
     0,
     0,
+    0,
     0
    ],
    "rank": 21,
@@ -1267,22 +1289,22 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 380
+   "value": 404
   },
   "longest_streak": {
-   "callsign": "N1RWJ",
-   "name": "Robert Jackson",
-   "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "value": 17
+   "callsign": "KN4AL",
+   "name": "Jason Maguran",
+   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
+   "value": 7
   }
  },
  "group": {
-  "activations": 812,
+  "activations": 814,
   "parks": 370,
-  "qsos": 27046,
+  "qsos": 27129,
   "hunter_qsos": 13705,
-  "pace_activations": 1240,
-  "pace_qsos": 41305
+  "pace_activations": 1238,
+  "pace_qsos": 41259
  },
  "past_seasons": [
   {

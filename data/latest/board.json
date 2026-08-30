@@ -1,7 +1,7 @@
 {
- "generated": "2026-08-29T06:00:18.949381-04:00",
+ "generated": "2026-08-30T06:00:17.501783-04:00",
  "season": 2026,
- "days_remaining": 124,
+ "days_remaining": 123,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -44,7 +44,7 @@
   "2026-08-13",
   "2026-08-20",
   "2026-08-27",
-  "2026-08-29"
+  "2026-08-30"
  ],
  "operators": [
   {
@@ -175,7 +175,7 @@
    "hunter_qsos": 839,
    "hunter_parks": 316,
    "qsos_per_activation": 34.5,
-   "score_30d": 235,
+   "score_30d": 182,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -233,9 +233,9 @@
    "hunter_qsos": 936,
    "hunter_parks": 367,
    "qsos_per_activation": 33.0,
-   "score_30d": 178,
+   "score_30d": 165,
    "activity": "fire",
-   "streak_weeks": 6,
+   "streak_weeks": 11,
    "spark": [
     0,
     54,
@@ -284,16 +284,16 @@
    "name": "Louis Kolenc",
    "qth": "Michigan",
    "gravatar": "89bc8c38bc966a047b7e9157416df9e3",
-   "score": 819,
-   "activations": 60,
-   "parks": 41,
-   "qsos": 1658,
+   "score": 884,
+   "activations": 65,
+   "parks": 45,
+   "qsos": 1731,
    "hunter_qsos": 639,
    "hunter_parks": 143,
-   "qsos_per_activation": 27.6,
-   "score_30d": 367,
-   "activity": "twoweek",
-   "streak_weeks": 3,
+   "qsos_per_activation": 26.6,
+   "score_30d": 432,
+   "activity": "fire",
+   "streak_weeks": 5,
    "spark": [
     0,
     61,
@@ -330,10 +330,10 @@
     657,
     819,
     819,
-    819
+    884
    ],
    "rank": 5,
-   "gap_to_next": 269,
+   "gap_to_next": 204,
    "prev_rank_30d": 7,
    "movement": 2
   },
@@ -350,8 +350,8 @@
    "hunter_parks": 438,
    "qsos_per_activation": 32.0,
    "score_30d": 48,
-   "activity": "week",
-   "streak_weeks": 2,
+   "activity": "twoweek",
+   "streak_weeks": 1,
    "spark": [
     0,
     30,
@@ -391,7 +391,7 @@
     722
    ],
    "rank": 6,
-   "gap_to_next": 97,
+   "gap_to_next": 162,
    "prev_rank_30d": 5,
    "movement": -1
   },
@@ -407,9 +407,9 @@
    "hunter_qsos": 575,
    "hunter_parks": 160,
    "qsos_per_activation": 29.9,
-   "score_30d": 119,
-   "activity": "fire",
-   "streak_weeks": 1,
+   "score_30d": 118,
+   "activity": "week",
+   "streak_weeks": 2,
    "spark": [
     0,
     32,
@@ -458,16 +458,16 @@
    "name": "Mike Case",
    "qth": "South Lyon, MI",
    "gravatar": "800c9b24121fa602a348f43ca260105f",
-   "score": 482,
-   "activations": 37,
-   "parks": 8,
-   "qsos": 921,
+   "score": 496,
+   "activations": 38,
+   "parks": 9,
+   "qsos": 933,
    "hunter_qsos": 2104,
    "hunter_parks": 426,
-   "qsos_per_activation": 24.9,
-   "score_30d": 50,
-   "activity": "twoweek",
-   "streak_weeks": 5,
+   "qsos_per_activation": 24.6,
+   "score_30d": 64,
+   "activity": "week",
+   "streak_weeks": 6,
    "spark": [
     0,
     19,
@@ -504,10 +504,10 @@
     455,
     482,
     482,
-    482
+    496
    ],
    "rank": 8,
-   "gap_to_next": 163,
+   "gap_to_next": 149,
    "prev_rank_30d": 8,
    "movement": 0
   },
@@ -525,7 +525,7 @@
    "qsos_per_activation": 21.0,
    "score_30d": 258,
    "activity": "fire",
-   "streak_weeks": 2,
+   "streak_weeks": 3,
    "spark": [
     0,
     12,
@@ -565,7 +565,7 @@
     432
    ],
    "rank": 9,
-   "gap_to_next": 50,
+   "gap_to_next": 64,
    "prev_rank_30d": 11,
    "movement": 2
   },
@@ -690,16 +690,16 @@
    "name": "Edward Ernest",
    "qth": "Manchester, MI",
    "gravatar": "1179def46e76d85186be46cbd37b621a",
-   "score": 167,
-   "activations": 13,
-   "parks": 6,
-   "qsos": 233,
+   "score": 195,
+   "activations": 15,
+   "parks": 8,
+   "qsos": 261,
    "hunter_qsos": 383,
    "hunter_parks": 284,
-   "qsos_per_activation": 17.9,
-   "score_30d": 49,
+   "qsos_per_activation": 17.4,
+   "score_30d": 77,
    "activity": "fire",
-   "streak_weeks": 2,
+   "streak_weeks": 3,
    "spark": [
     0,
     0,
@@ -736,10 +736,10 @@
     120,
     131,
     167,
-    167
+    195
    ],
    "rank": 12,
-   "gap_to_next": 109,
+   "gap_to_next": 81,
    "prev_rank_30d": 14,
    "movement": 2
   },
@@ -797,7 +797,7 @@
     160
    ],
    "rank": 13,
-   "gap_to_next": 7,
+   "gap_to_next": 35,
    "prev_rank_30d": 12,
    "movement": -1
   },
@@ -806,16 +806,16 @@
    "name": "Eric Stoddart",
    "qth": "Brighton MI",
    "gravatar": "4ea2e827d10802c4822fba29475758ae",
-   "score": 144,
-   "activations": 11,
-   "parks": 3,
-   "qsos": 428,
+   "score": 158,
+   "activations": 12,
+   "parks": 4,
+   "qsos": 438,
    "hunter_qsos": 199,
    "hunter_parks": 88,
-   "qsos_per_activation": 38.9,
-   "score_30d": 0,
-   "activity": "sixty",
-   "streak_weeks": 0,
+   "qsos_per_activation": 36.5,
+   "score_30d": 14,
+   "activity": "week",
+   "streak_weeks": 1,
    "spark": [
     0,
     23,
@@ -852,10 +852,10 @@
     144,
     144,
     144,
-    144
+    158
    ],
    "rank": 14,
-   "gap_to_next": 16,
+   "gap_to_next": 2,
    "prev_rank_30d": 13,
    "movement": -1
   },
@@ -913,7 +913,7 @@
     141
    ],
    "rank": 15,
-   "gap_to_next": 3,
+   "gap_to_next": 17,
    "prev_rank_30d": 15,
    "movement": 0
   },
@@ -930,8 +930,8 @@
    "hunter_parks": 35,
    "qsos_per_activation": 19.8,
    "score_30d": 11,
-   "activity": "twoweek",
-   "streak_weeks": 1,
+   "activity": "month",
+   "streak_weeks": 0,
    "spark": [
     0,
     23,
@@ -1286,25 +1286,25 @@
    "value": 2104
   },
   "hot_hand": {
-   "callsign": "KN4AL",
-   "name": "Jason Maguran",
-   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 405
+   "callsign": "N8LEK",
+   "name": "Louis Kolenc",
+   "gravatar": "89bc8c38bc966a047b7e9157416df9e3",
+   "value": 432
   },
   "longest_streak": {
-   "callsign": "KN4AL",
-   "name": "Jason Maguran",
-   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 7
+   "callsign": "W8TMB",
+   "name": "Terry Bone",
+   "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
+   "value": 11
   }
  },
  "group": {
-  "activations": 816,
-  "parks": 370,
-  "qsos": 27176,
+  "activations": 825,
+  "parks": 378,
+  "qsos": 27299,
   "hunter_qsos": 13797,
-  "pace_activations": 1236,
-  "pace_qsos": 41159
+  "pace_activations": 1244,
+  "pace_qsos": 41174
  },
  "past_seasons": [
   {

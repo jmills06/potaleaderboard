@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-03T06:00:20.541760-04:00",
+ "generated": "2026-09-04T06:00:18.883027-04:00",
  "season": 2026,
- "days_remaining": 119,
+ "days_remaining": 118,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -44,7 +44,8 @@
   "2026-08-13",
   "2026-08-20",
   "2026-08-27",
-  "2026-09-03"
+  "2026-09-03",
+  "2026-09-04"
  ],
  "operators": [
   {
@@ -52,16 +53,16 @@
    "name": "Jason Maguran",
    "qth": "White Lake, MI",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "score": 2344,
-   "activations": 176,
+   "score": 2357,
+   "activations": 177,
    "parks": 55,
-   "qsos": 7526,
+   "qsos": 7599,
    "hunter_qsos": 2116,
    "hunter_parks": 372,
-   "qsos_per_activation": 42.8,
-   "score_30d": 421,
+   "qsos_per_activation": 42.9,
+   "score_30d": 434,
    "activity": "fire",
-   "streak_weeks": 1,
+   "streak_weeks": 8,
    "spark": [
     0,
     310,
@@ -98,7 +99,8 @@
     2068,
     2290,
     2290,
-    2344
+    2344,
+    2357
    ],
    "rank": 1,
    "gap_to_next": 0,
@@ -156,10 +158,11 @@
     1683,
     1724,
     1724,
+    1798,
     1798
    ],
    "rank": 2,
-   "gap_to_next": 546,
+   "gap_to_next": 559,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -175,7 +178,7 @@
    "hunter_qsos": 839,
    "hunter_parks": 316,
    "qsos_per_activation": 34.5,
-   "score_30d": 126,
+   "score_30d": 98,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -214,6 +217,7 @@
     1332,
     1333,
     1333,
+    1333,
     1333
    ],
    "rank": 3,
@@ -235,7 +239,7 @@
    "qsos_per_activation": 31.2,
    "score_30d": 262,
    "activity": "fire",
-   "streak_weeks": 8,
+   "streak_weeks": 7,
    "spark": [
     0,
     54,
@@ -272,6 +276,7 @@
     983,
     1027,
     1087,
+    1196,
     1196
    ],
    "rank": 4,
@@ -330,6 +335,7 @@
     657,
     819,
     819,
+    885,
     885
    ],
    "rank": 5,
@@ -387,6 +393,7 @@
     674,
     689,
     689,
+    722,
     722,
     722
    ],
@@ -446,6 +453,7 @@
     621,
     621,
     633,
+    669,
     669
    ],
    "rank": 7,
@@ -504,6 +512,7 @@
     455,
     482,
     482,
+    509,
     509
    ],
    "rank": 8,
@@ -562,6 +571,7 @@
     174,
     220,
     422,
+    433,
     433
    ],
    "rank": 9,
@@ -581,9 +591,9 @@
    "hunter_qsos": 1609,
    "hunter_parks": 562,
    "qsos_per_activation": 66.8,
-   "score_30d": 15,
-   "activity": "twoweek",
-   "streak_weeks": 1,
+   "score_30d": 14,
+   "activity": "month",
+   "streak_weeks": 0,
    "spark": [
     0,
     2,
@@ -620,6 +630,7 @@
     294,
     295,
     307,
+    308,
     308
    ],
    "rank": 10,
@@ -677,6 +688,7 @@
     253,
     253,
     253,
+    276,
     276,
     276
    ],
@@ -736,6 +748,7 @@
     120,
     131,
     167,
+    195,
     195
    ],
    "rank": 12,
@@ -788,6 +801,7 @@
     149,
     149,
     149,
+    160,
     160,
     160,
     160,
@@ -852,6 +866,7 @@
     144,
     144,
     144,
+    158,
     158
    ],
    "rank": 14,
@@ -910,6 +925,7 @@
     127,
     128,
     141,
+    155,
     155
    ],
    "rank": 15,
@@ -968,6 +984,7 @@
     62,
     73,
     73,
+    73,
     73
    ],
    "rank": 16,
@@ -995,6 +1012,7 @@
     0,
     0,
     0,
+    31,
     31,
     31,
     31,
@@ -1084,6 +1102,7 @@
     25,
     25,
     25,
+    25,
     25
    ],
    "rank": 18,
@@ -1142,6 +1161,7 @@
     15,
     15,
     15,
+    15,
     15
    ],
    "rank": 19,
@@ -1176,6 +1196,7 @@
     3,
     3,
     3,
+    4,
     4,
     4,
     4,
@@ -1258,6 +1279,7 @@
     0,
     0,
     0,
+    0,
     0
    ],
    "rank": 21,
@@ -1289,22 +1311,22 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 421
+   "value": 434
   },
   "longest_streak": {
-   "callsign": "W8TMB",
-   "name": "Terry Bone",
-   "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
+   "callsign": "KN4AL",
+   "name": "Jason Maguran",
+   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
    "value": 8
   }
  },
  "group": {
-  "activations": 845,
+  "activations": 846,
   "parks": 392,
-  "qsos": 27698,
+  "qsos": 27771,
   "hunter_qsos": 13953,
-  "pace_activations": 1254,
-  "pace_qsos": 41097
+  "pace_activations": 1250,
+  "pace_qsos": 41038
  },
  "past_seasons": [
   {

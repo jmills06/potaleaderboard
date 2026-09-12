@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-11T06:00:19.670134-04:00",
+ "generated": "2026-09-12T06:00:18.681697-04:00",
  "season": 2026,
- "days_remaining": 111,
+ "days_remaining": 110,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -46,7 +46,7 @@
   "2026-08-27",
   "2026-09-03",
   "2026-09-10",
-  "2026-09-11"
+  "2026-09-12"
  ],
  "operators": [
   {
@@ -58,8 +58,8 @@
    "activations": 183,
    "parks": 56,
    "qsos": 8067,
-   "hunter_qsos": 2363,
-   "hunter_parks": 379,
+   "hunter_qsos": 2368,
+   "hunter_parks": 381,
    "qsos_per_activation": 44.1,
    "score_30d": 381,
    "activity": "fire",
@@ -114,14 +114,14 @@
    "name": "Robert Jackson",
    "qth": "Providence, RI, USA",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "score": 1839,
-   "activations": 139,
+   "score": 1852,
+   "activations": 140,
    "parks": 89,
-   "qsos": 3328,
-   "hunter_qsos": 776,
-   "hunter_parks": 458,
-   "qsos_per_activation": 23.9,
-   "score_30d": 157,
+   "qsos": 3378,
+   "hunter_qsos": 788,
+   "hunter_parks": 466,
+   "qsos_per_activation": 24.1,
+   "score_30d": 169,
    "activity": "fire",
    "streak_weeks": 2,
    "spark": [
@@ -162,10 +162,10 @@
     1724,
     1798,
     1827,
-    1839
+    1852
    ],
    "rank": 2,
-   "gap_to_next": 610,
+   "gap_to_next": 597,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -225,7 +225,7 @@
     1362
    ],
    "rank": 3,
-   "gap_to_next": 477,
+   "gap_to_next": 490,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -238,8 +238,8 @@
    "activations": 97,
    "parks": 42,
    "qsos": 2971,
-   "hunter_qsos": 1003,
-   "hunter_parks": 392,
+   "hunter_qsos": 1004,
+   "hunter_parks": 393,
    "qsos_per_activation": 30.6,
    "score_30d": 282,
    "activity": "fire",
@@ -298,7 +298,7 @@
    "activations": 66,
    "parks": 45,
    "qsos": 1764,
-   "hunter_qsos": 694,
+   "hunter_qsos": 696,
    "hunter_parks": 168,
    "qsos_per_activation": 26.7,
    "score_30d": 240,
@@ -354,14 +354,14 @@
    "name": "Rory Locke",
    "qth": "South Lyon, MI",
    "gravatar": "bca9066d200a8f9cc25d6cb63cf09761",
-   "score": 722,
+   "score": 723,
    "activations": 54,
    "parks": 25,
    "qsos": 1728,
-   "hunter_qsos": 1049,
-   "hunter_parks": 449,
+   "hunter_qsos": 1056,
+   "hunter_parks": 450,
    "qsos_per_activation": 32.0,
-   "score_30d": 33,
+   "score_30d": 34,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -402,10 +402,10 @@
     722,
     722,
     722,
-    722
+    723
    ],
    "rank": 6,
-   "gap_to_next": 175,
+   "gap_to_next": 174,
    "prev_rank_30d": 5,
    "movement": -1
   },
@@ -418,8 +418,8 @@
    "activations": 49,
    "parks": 31,
    "qsos": 1483,
-   "hunter_qsos": 590,
-   "hunter_parks": 166,
+   "hunter_qsos": 591,
+   "hunter_parks": 167,
    "qsos_per_activation": 30.3,
    "score_30d": 48,
    "activity": "twoweek",
@@ -465,7 +465,7 @@
     669
    ],
    "rank": 7,
-   "gap_to_next": 53,
+   "gap_to_next": 54,
    "prev_rank_30d": 7,
    "movement": 0
   },
@@ -543,7 +543,7 @@
    "qsos_per_activation": 20.7,
    "score_30d": 269,
    "activity": "week",
-   "streak_weeks": 4,
+   "streak_weeks": 1,
    "spark": [
     0,
     12,
@@ -718,8 +718,8 @@
    "activations": 15,
    "parks": 8,
    "qsos": 261,
-   "hunter_qsos": 436,
-   "hunter_parks": 326,
+   "hunter_qsos": 439,
+   "hunter_parks": 329,
    "qsos_per_activation": 17.4,
    "score_30d": 76,
    "activity": "twoweek",
@@ -1327,7 +1327,7 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 2363
+   "value": 2368
   },
   "hot_hand": {
    "callsign": "KN4AL",
@@ -1343,12 +1343,12 @@
   }
  },
  "group": {
-  "activations": 873,
+  "activations": 874,
   "parks": 404,
-  "qsos": 28796,
-  "hunter_qsos": 14403,
-  "pace_activations": 1255,
-  "pace_qsos": 41380
+  "qsos": 28846,
+  "hunter_qsos": 14434,
+  "pace_activations": 1251,
+  "pace_qsos": 41289
  },
  "past_seasons": [
   {

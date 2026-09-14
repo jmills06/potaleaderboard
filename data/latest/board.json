@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-13T06:00:25.435862-04:00",
+ "generated": "2026-09-14T06:00:20.788513-04:00",
  "season": 2026,
- "days_remaining": 109,
+ "days_remaining": 108,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -46,7 +46,7 @@
   "2026-08-27",
   "2026-09-03",
   "2026-09-10",
-  "2026-09-13"
+  "2026-09-14"
  ],
  "operators": [
   {
@@ -58,12 +58,12 @@
    "activations": 183,
    "parks": 56,
    "qsos": 8067,
-   "hunter_qsos": 2370,
-   "hunter_parks": 381,
+   "hunter_qsos": 2379,
+   "hunter_parks": 383,
    "qsos_per_activation": 44.1,
    "score_30d": 381,
    "activity": "fire",
-   "streak_weeks": 9,
+   "streak_weeks": 5,
    "spark": [
     0,
     310,
@@ -114,14 +114,14 @@
    "name": "Robert Jackson",
    "qth": "Providence, RI, USA",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "score": 1852,
-   "activations": 140,
-   "parks": 89,
-   "qsos": 3378,
-   "hunter_qsos": 812,
-   "hunter_parks": 477,
-   "qsos_per_activation": 24.1,
-   "score_30d": 169,
+   "score": 1904,
+   "activations": 144,
+   "parks": 90,
+   "qsos": 3541,
+   "hunter_qsos": 823,
+   "hunter_parks": 482,
+   "qsos_per_activation": 24.6,
+   "score_30d": 194,
    "activity": "fire",
    "streak_weeks": 2,
    "spark": [
@@ -162,10 +162,10 @@
     1724,
     1798,
     1827,
-    1852
+    1904
    ],
    "rank": 2,
-   "gap_to_next": 597,
+   "gap_to_next": 545,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -178,8 +178,8 @@
    "activations": 102,
    "parks": 50,
    "qsos": 3494,
-   "hunter_qsos": 851,
-   "hunter_parks": 322,
+   "hunter_qsos": 858,
+   "hunter_parks": 323,
    "qsos_per_activation": 34.3,
    "score_30d": 30,
    "activity": "fire",
@@ -225,7 +225,7 @@
     1362
    ],
    "rank": 3,
-   "gap_to_next": 490,
+   "gap_to_next": 542,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -238,8 +238,8 @@
    "activations": 98,
    "parks": 42,
    "qsos": 2996,
-   "hunter_qsos": 1007,
-   "hunter_parks": 394,
+   "hunter_qsos": 1009,
+   "hunter_parks": 395,
    "qsos_per_activation": 30.6,
    "score_30d": 293,
    "activity": "fire",
@@ -298,10 +298,10 @@
    "activations": 66,
    "parks": 45,
    "qsos": 1764,
-   "hunter_qsos": 696,
-   "hunter_parks": 168,
+   "hunter_qsos": 699,
+   "hunter_parks": 169,
    "qsos_per_activation": 26.7,
-   "score_30d": 240,
+   "score_30d": 171,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -346,8 +346,8 @@
    ],
    "rank": 5,
    "gap_to_next": 379,
-   "prev_rank_30d": 6,
-   "movement": 1
+   "prev_rank_30d": 5,
+   "movement": 0
   },
   {
    "callsign": "W8KNX",
@@ -358,8 +358,8 @@
    "activations": 54,
    "parks": 25,
    "qsos": 1728,
-   "hunter_qsos": 1059,
-   "hunter_parks": 452,
+   "hunter_qsos": 1063,
+   "hunter_parks": 454,
    "qsos_per_activation": 32.0,
    "score_30d": 34,
    "activity": "month",
@@ -406,8 +406,8 @@
    ],
    "rank": 6,
    "gap_to_next": 174,
-   "prev_rank_30d": 5,
-   "movement": -1
+   "prev_rank_30d": 6,
+   "movement": 0
   },
   {
    "callsign": "K8JKU",
@@ -418,8 +418,8 @@
    "activations": 50,
    "parks": 31,
    "qsos": 1515,
-   "hunter_qsos": 594,
-   "hunter_parks": 170,
+   "hunter_qsos": 598,
+   "hunter_parks": 171,
    "qsos_per_activation": 30.3,
    "score_30d": 60,
    "activity": "week",
@@ -474,16 +474,16 @@
    "name": "Mike Case",
    "qth": "South Lyon, MI",
    "gravatar": "800c9b24121fa602a348f43ca260105f",
-   "score": 636,
+   "score": 637,
    "activations": 49,
    "parks": 13,
    "qsos": 1300,
-   "hunter_qsos": 2117,
-   "hunter_parks": 427,
+   "hunter_qsos": 2127,
+   "hunter_parks": 428,
    "qsos_per_activation": 26.5,
-   "score_30d": 168,
+   "score_30d": 169,
    "activity": "fire",
-   "streak_weeks": 8,
+   "streak_weeks": 5,
    "spark": [
     0,
     19,
@@ -522,10 +522,10 @@
     482,
     509,
     611,
-    636
+    637
    ],
    "rank": 8,
-   "gap_to_next": 45,
+   "gap_to_next": 44,
    "prev_rank_30d": 8,
    "movement": 0
   },
@@ -542,8 +542,8 @@
    "hunter_parks": 93,
    "qsos_per_activation": 20.7,
    "score_30d": 269,
-   "activity": "week",
-   "streak_weeks": 1,
+   "activity": "twoweek",
+   "streak_weeks": 4,
    "spark": [
     0,
     12,
@@ -585,7 +585,7 @@
     443
    ],
    "rank": 9,
-   "gap_to_next": 193,
+   "gap_to_next": 194,
    "prev_rank_30d": 11,
    "movement": 2
   },
@@ -598,8 +598,8 @@
    "activations": 20,
    "parks": 3,
    "qsos": 1335,
-   "hunter_qsos": 1669,
-   "hunter_parks": 584,
+   "hunter_qsos": 1676,
+   "hunter_parks": 589,
    "qsos_per_activation": 66.8,
    "score_30d": 15,
    "activity": "month",
@@ -901,9 +901,9 @@
    "hunter_qsos": 493,
    "hunter_parks": 269,
    "qsos_per_activation": 12.2,
-   "score_30d": 28,
-   "activity": "twoweek",
-   "streak_weeks": 2,
+   "score_30d": 27,
+   "activity": "month",
+   "streak_weeks": 0,
    "spark": [
     0,
     11,
@@ -1198,8 +1198,8 @@
    "activations": 0,
    "parks": 1,
    "qsos": 5,
-   "hunter_qsos": 71,
-   "hunter_parks": 62,
+   "hunter_qsos": 73,
+   "hunter_parks": 63,
    "qsos_per_activation": 0,
    "score_30d": 1,
    "activity": "inactive",
@@ -1315,7 +1315,7 @@
    "callsign": "N1RWJ",
    "name": "Robert Jackson",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "value": 89
+   "value": 90
   },
   "rate_machine": {
    "callsign": "WB8IZM",
@@ -1327,7 +1327,7 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 2370
+   "value": 2379
   },
   "hot_hand": {
    "callsign": "KN4AL",
@@ -1343,12 +1343,12 @@
   }
  },
  "group": {
-  "activations": 878,
-  "parks": 404,
-  "qsos": 29007,
-  "hunter_qsos": 14491,
-  "pace_activations": 1252,
-  "pace_qsos": 41358
+  "activations": 882,
+  "parks": 405,
+  "qsos": 29170,
+  "hunter_qsos": 14550,
+  "pace_activations": 1253,
+  "pace_qsos": 41428
  },
  "past_seasons": [
   {

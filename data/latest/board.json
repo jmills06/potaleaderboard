@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-15T06:00:18.939899-04:00",
+ "generated": "2026-09-16T06:00:18.444116-04:00",
  "season": 2026,
- "days_remaining": 107,
+ "days_remaining": 106,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -46,7 +46,7 @@
   "2026-08-27",
   "2026-09-03",
   "2026-09-10",
-  "2026-09-15"
+  "2026-09-16"
  ],
  "operators": [
   {
@@ -54,15 +54,15 @@
    "name": "Jason Maguran",
    "qth": "White Lake, MI",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "score": 2449,
-   "activations": 183,
-   "parks": 56,
-   "qsos": 8067,
+   "score": 2536,
+   "activations": 189,
+   "parks": 61,
+   "qsos": 8310,
    "hunter_qsos": 2380,
    "hunter_parks": 383,
-   "qsos_per_activation": 44.1,
-   "score_30d": 380,
-   "activity": "twoweek",
+   "qsos_per_activation": 44.0,
+   "score_30d": 467,
+   "activity": "fire",
    "streak_weeks": 4,
    "spark": [
     0,
@@ -102,7 +102,7 @@
     2290,
     2344,
     2449,
-    2449
+    2536
    ],
    "rank": 1,
    "gap_to_next": 0,
@@ -118,8 +118,8 @@
    "activations": 144,
    "parks": 90,
    "qsos": 3541,
-   "hunter_qsos": 828,
-   "hunter_parks": 484,
+   "hunter_qsos": 831,
+   "hunter_parks": 485,
    "qsos_per_activation": 24.6,
    "score_30d": 194,
    "activity": "fire",
@@ -165,7 +165,7 @@
     1904
    ],
    "rank": 2,
-   "gap_to_next": 545,
+   "gap_to_next": 632,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -181,7 +181,7 @@
    "hunter_qsos": 863,
    "hunter_parks": 324,
    "qsos_per_activation": 34.3,
-   "score_30d": 30,
+   "score_30d": 29,
    "activity": "twoweek",
    "streak_weeks": 1,
    "spark": [
@@ -238,12 +238,12 @@
    "activations": 98,
    "parks": 42,
    "qsos": 2996,
-   "hunter_qsos": 1015,
-   "hunter_parks": 396,
+   "hunter_qsos": 1017,
+   "hunter_parks": 397,
    "qsos_per_activation": 30.6,
-   "score_30d": 293,
+   "score_30d": 260,
    "activity": "fire",
-   "streak_weeks": 17,
+   "streak_weeks": 14,
    "spark": [
     0,
     54,
@@ -298,10 +298,10 @@
    "activations": 66,
    "parks": 45,
    "qsos": 1764,
-   "hunter_qsos": 699,
-   "hunter_parks": 169,
+   "hunter_qsos": 700,
+   "hunter_parks": 170,
    "qsos_per_activation": 26.7,
-   "score_30d": 106,
+   "score_30d": 78,
    "activity": "twoweek",
    "streak_weeks": 2,
    "spark": [
@@ -418,7 +418,7 @@
    "activations": 50,
    "parks": 31,
    "qsos": 1515,
-   "hunter_qsos": 598,
+   "hunter_qsos": 599,
    "hunter_parks": 171,
    "qsos_per_activation": 30.3,
    "score_30d": 60,
@@ -594,16 +594,16 @@
    "name": "Greg Bodker",
    "qth": "Houghton Lake,  Michigan EN-74",
    "gravatar": "d8bc406f844a64e222b477a58ae02da4",
-   "score": 309,
-   "activations": 20,
-   "parks": 3,
-   "qsos": 1335,
-   "hunter_qsos": 1686,
-   "hunter_parks": 594,
-   "qsos_per_activation": 66.8,
-   "score_30d": 15,
-   "activity": "month",
-   "streak_weeks": 0,
+   "score": 323,
+   "activations": 21,
+   "parks": 4,
+   "qsos": 1348,
+   "hunter_qsos": 1691,
+   "hunter_parks": 598,
+   "qsos_per_activation": 64.2,
+   "score_30d": 28,
+   "activity": "week",
+   "streak_weeks": 1,
    "spark": [
     0,
     2,
@@ -642,10 +642,10 @@
     307,
     308,
     309,
-    309
+    323
    ],
    "rank": 10,
-   "gap_to_next": 134,
+   "gap_to_next": 120,
    "prev_rank_30d": 9,
    "movement": -1
   },
@@ -705,7 +705,7 @@
     287
    ],
    "rank": 11,
-   "gap_to_next": 22,
+   "gap_to_next": 36,
    "prev_rank_30d": 10,
    "movement": -1
   },
@@ -898,8 +898,8 @@
    "activations": 12,
    "parks": 6,
    "qsos": 147,
-   "hunter_qsos": 494,
-   "hunter_parks": 269,
+   "hunter_qsos": 497,
+   "hunter_parks": 271,
    "qsos_per_activation": 12.2,
    "score_30d": 27,
    "activity": "month",
@@ -1321,7 +1321,7 @@
    "callsign": "WB8IZM",
    "name": "Greg Bodker",
    "gravatar": "d8bc406f844a64e222b477a58ae02da4",
-   "value": 66.8
+   "value": 64.2
   },
   "top_hunter": {
    "callsign": "KN4AL",
@@ -1333,22 +1333,22 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 380
+   "value": 467
   },
   "longest_streak": {
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 17
+   "value": 14
   }
  },
  "group": {
-  "activations": 882,
-  "parks": 405,
-  "qsos": 29170,
-  "hunter_qsos": 14583,
-  "pace_activations": 1248,
-  "pace_qsos": 41268
+  "activations": 889,
+  "parks": 411,
+  "qsos": 29426,
+  "hunter_qsos": 14598,
+  "pace_activations": 1253,
+  "pace_qsos": 41469
  },
  "past_seasons": [
   {

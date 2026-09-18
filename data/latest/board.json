@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-17T06:00:18.525106-04:00",
+ "generated": "2026-09-18T06:00:20.161943-04:00",
  "season": 2026,
- "days_remaining": 105,
+ "days_remaining": 104,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -46,7 +46,8 @@
   "2026-08-27",
   "2026-09-03",
   "2026-09-10",
-  "2026-09-17"
+  "2026-09-17",
+  "2026-09-18"
  ],
  "operators": [
   {
@@ -58,12 +59,12 @@
    "activations": 189,
    "parks": 61,
    "qsos": 8310,
-   "hunter_qsos": 2381,
-   "hunter_parks": 384,
+   "hunter_qsos": 2383,
+   "hunter_parks": 385,
    "qsos_per_activation": 44.0,
    "score_30d": 467,
    "activity": "fire",
-   "streak_weeks": 3,
+   "streak_weeks": 10,
    "spark": [
     0,
     310,
@@ -102,6 +103,7 @@
     2290,
     2344,
     2449,
+    2536,
     2536
    ],
    "rank": 1,
@@ -118,8 +120,8 @@
    "activations": 144,
    "parks": 90,
    "qsos": 3541,
-   "hunter_qsos": 836,
-   "hunter_parks": 488,
+   "hunter_qsos": 838,
+   "hunter_parks": 489,
    "qsos_per_activation": 24.6,
    "score_30d": 180,
    "activity": "fire",
@@ -162,6 +164,7 @@
     1724,
     1798,
     1827,
+    1904,
     1904
    ],
    "rank": 2,
@@ -174,16 +177,16 @@
    "name": "Mark S. Torigian",
    "qth": "Fowlerville, Michigan",
    "gravatar": "9b5cd665e3a4043cf2245ebf25410247",
-   "score": 1362,
-   "activations": 102,
+   "score": 1425,
+   "activations": 107,
    "parks": 50,
-   "qsos": 3494,
+   "qsos": 3756,
    "hunter_qsos": 874,
    "hunter_parks": 327,
-   "qsos_per_activation": 34.3,
-   "score_30d": 29,
-   "activity": "twoweek",
-   "streak_weeks": 1,
+   "qsos_per_activation": 35.1,
+   "score_30d": 92,
+   "activity": "fire",
+   "streak_weeks": 2,
    "spark": [
     0,
     117,
@@ -222,10 +225,11 @@
     1333,
     1333,
     1362,
-    1362
+    1362,
+    1425
    ],
    "rank": 3,
-   "gap_to_next": 542,
+   "gap_to_next": 479,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -242,8 +246,8 @@
    "hunter_parks": 398,
    "qsos_per_activation": 30.6,
    "score_30d": 249,
-   "activity": "fire",
-   "streak_weeks": 10,
+   "activity": "week",
+   "streak_weeks": 9,
    "spark": [
     0,
     54,
@@ -282,10 +286,11 @@
     1087,
     1196,
     1253,
+    1276,
     1276
    ],
    "rank": 4,
-   "gap_to_next": 86,
+   "gap_to_next": 149,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -342,6 +347,7 @@
     819,
     885,
     897,
+    897,
     897
    ],
    "rank": 5,
@@ -354,16 +360,16 @@
    "name": "Rory Locke",
    "qth": "South Lyon, MI",
    "gravatar": "bca9066d200a8f9cc25d6cb63cf09761",
-   "score": 723,
-   "activations": 54,
-   "parks": 25,
-   "qsos": 1728,
-   "hunter_qsos": 1065,
+   "score": 736,
+   "activations": 55,
+   "parks": 26,
+   "qsos": 1738,
+   "hunter_qsos": 1067,
    "hunter_parks": 454,
-   "qsos_per_activation": 32.0,
-   "score_30d": 34,
-   "activity": "month",
-   "streak_weeks": 0,
+   "qsos_per_activation": 31.6,
+   "score_30d": 47,
+   "activity": "week",
+   "streak_weeks": 1,
    "spark": [
     0,
     30,
@@ -402,10 +408,11 @@
     722,
     722,
     722,
-    723
+    723,
+    736
    ],
    "rank": 6,
-   "gap_to_next": 174,
+   "gap_to_next": 161,
    "prev_rank_30d": 6,
    "movement": 0
   },
@@ -462,10 +469,11 @@
     633,
     669,
     669,
+    681,
     681
    ],
    "rank": 7,
-   "gap_to_next": 42,
+   "gap_to_next": 55,
    "prev_rank_30d": 7,
    "movement": 0
   },
@@ -522,6 +530,7 @@
     482,
     509,
     611,
+    637,
     637
    ],
    "rank": 8,
@@ -541,7 +550,7 @@
    "hunter_qsos": 189,
    "hunter_parks": 93,
    "qsos_per_activation": 20.7,
-   "score_30d": 233,
+   "score_30d": 223,
    "activity": "twoweek",
    "streak_weeks": 4,
    "spark": [
@@ -582,6 +591,7 @@
     422,
     433,
     443,
+    443,
     443
    ],
    "rank": 9,
@@ -598,7 +608,7 @@
    "activations": 21,
    "parks": 4,
    "qsos": 1348,
-   "hunter_qsos": 1692,
+   "hunter_qsos": 1694,
    "hunter_parks": 598,
    "qsos_per_activation": 64.2,
    "score_30d": 28,
@@ -642,6 +652,7 @@
     307,
     308,
     309,
+    323,
     323
    ],
    "rank": 10,
@@ -701,6 +712,7 @@
     253,
     276,
     276,
+    287,
     287,
     287
    ],
@@ -762,6 +774,7 @@
     167,
     195,
     196,
+    196,
     196
    ],
    "rank": 12,
@@ -814,6 +827,7 @@
     149,
     149,
     149,
+    160,
     160,
     160,
     160,
@@ -882,6 +896,7 @@
     144,
     158,
     158,
+    158,
     158
    ],
    "rank": 14,
@@ -898,7 +913,7 @@
    "activations": 12,
    "parks": 6,
    "qsos": 147,
-   "hunter_qsos": 498,
+   "hunter_qsos": 500,
    "hunter_parks": 271,
    "qsos_per_activation": 12.2,
    "score_30d": 27,
@@ -940,6 +955,7 @@
     127,
     128,
     141,
+    155,
     155,
     155,
     155
@@ -1002,6 +1018,7 @@
     73,
     73,
     73,
+    73,
     73
    ],
    "rank": 16,
@@ -1029,6 +1046,7 @@
     0,
     0,
     0,
+    31,
     31,
     31,
     31,
@@ -1122,6 +1140,7 @@
     25,
     25,
     25,
+    25,
     25
    ],
    "rank": 18,
@@ -1182,6 +1201,7 @@
     15,
     15,
     15,
+    15,
     15
    ],
    "rank": 19,
@@ -1198,7 +1218,7 @@
    "activations": 0,
    "parks": 1,
    "qsos": 5,
-   "hunter_qsos": 73,
+   "hunter_qsos": 74,
    "hunter_parks": 63,
    "qsos_per_activation": 0,
    "score_30d": 1,
@@ -1242,6 +1262,7 @@
     4,
     4,
     5,
+    5,
     5
    ],
    "rank": 20,
@@ -1265,6 +1286,7 @@
    "activity": "inactive",
    "streak_weeks": 0,
    "spark": [
+    0,
     0,
     0,
     0,
@@ -1327,7 +1349,7 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 2381
+   "value": 2383
   },
   "hot_hand": {
    "callsign": "KN4AL",
@@ -1336,19 +1358,19 @@
    "value": 467
   },
   "longest_streak": {
-   "callsign": "W8TMB",
-   "name": "Terry Bone",
-   "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
+   "callsign": "KN4AL",
+   "name": "Jason Maguran",
+   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
    "value": 10
   }
  },
  "group": {
-  "activations": 889,
-  "parks": 411,
-  "qsos": 29426,
-  "hunter_qsos": 14622,
-  "pace_activations": 1248,
-  "pace_qsos": 41310
+  "activations": 895,
+  "parks": 412,
+  "qsos": 29698,
+  "hunter_qsos": 14633,
+  "pace_activations": 1252,
+  "pace_qsos": 41532
  },
  "past_seasons": [
   {

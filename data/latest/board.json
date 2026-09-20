@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-19T06:00:21.492667-04:00",
+ "generated": "2026-09-20T06:00:18.512262-04:00",
  "season": 2026,
- "days_remaining": 103,
+ "days_remaining": 102,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -47,7 +47,7 @@
   "2026-09-03",
   "2026-09-10",
   "2026-09-17",
-  "2026-09-19"
+  "2026-09-20"
  ],
  "operators": [
   {
@@ -238,16 +238,16 @@
    "name": "Terry Bone",
    "qth": "Canton Michigan",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "score": 1276,
-   "activations": 98,
-   "parks": 42,
-   "qsos": 2996,
+   "score": 1304,
+   "activations": 100,
+   "parks": 44,
+   "qsos": 3030,
    "hunter_qsos": 1022,
    "hunter_parks": 398,
-   "qsos_per_activation": 30.6,
-   "score_30d": 249,
-   "activity": "week",
-   "streak_weeks": 9,
+   "qsos_per_activation": 30.3,
+   "score_30d": 277,
+   "activity": "fire",
+   "streak_weeks": 14,
    "spark": [
     0,
     54,
@@ -287,10 +287,10 @@
     1196,
     1253,
     1276,
-    1276
+    1304
    ],
    "rank": 4,
-   "gap_to_next": 149,
+   "gap_to_next": 121,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -299,15 +299,15 @@
    "name": "Louis Kolenc",
    "qth": "Michigan",
    "gravatar": "89bc8c38bc966a047b7e9157416df9e3",
-   "score": 897,
-   "activations": 66,
+   "score": 923,
+   "activations": 68,
    "parks": 45,
-   "qsos": 1764,
+   "qsos": 1888,
    "hunter_qsos": 700,
    "hunter_parks": 170,
-   "qsos_per_activation": 26.7,
-   "score_30d": 78,
-   "activity": "twoweek",
+   "qsos_per_activation": 27.8,
+   "score_30d": 104,
+   "activity": "fire",
    "streak_weeks": 2,
    "spark": [
     0,
@@ -348,10 +348,10 @@
     885,
     897,
     897,
-    897
+    923
    ],
    "rank": 5,
-   "gap_to_next": 379,
+   "gap_to_next": 381,
    "prev_rank_30d": 5,
    "movement": 0
   },
@@ -412,7 +412,7 @@
     805
    ],
    "rank": 6,
-   "gap_to_next": 92,
+   "gap_to_next": 118,
    "prev_rank_30d": 6,
    "movement": 0
   },
@@ -429,8 +429,8 @@
    "hunter_parks": 171,
    "qsos_per_activation": 30.3,
    "score_30d": 60,
-   "activity": "week",
-   "streak_weeks": 1,
+   "activity": "twoweek",
+   "streak_weeks": 4,
    "spark": [
     0,
     32,
@@ -490,8 +490,8 @@
    "hunter_parks": 428,
    "qsos_per_activation": 26.5,
    "score_30d": 155,
-   "activity": "fire",
-   "streak_weeks": 3,
+   "activity": "twoweek",
+   "streak_weeks": 8,
    "spark": [
     0,
     19,
@@ -543,16 +543,16 @@
    "name": "Joe Nunham",
    "qth": "Chelsea, MI",
    "gravatar": "190139bbef45741f5b437975572d894e",
-   "score": 443,
-   "activations": 36,
+   "score": 454,
+   "activations": 37,
    "parks": 14,
-   "qsos": 745,
+   "qsos": 756,
    "hunter_qsos": 189,
    "hunter_parks": 93,
-   "qsos_per_activation": 20.7,
-   "score_30d": 223,
-   "activity": "twoweek",
-   "streak_weeks": 1,
+   "qsos_per_activation": 20.4,
+   "score_30d": 191,
+   "activity": "week",
+   "streak_weeks": 2,
    "spark": [
     0,
     12,
@@ -592,12 +592,12 @@
     433,
     443,
     443,
-    443
+    454
    ],
    "rank": 9,
-   "gap_to_next": 194,
-   "prev_rank_30d": 11,
-   "movement": 2
+   "gap_to_next": 183,
+   "prev_rank_30d": 10,
+   "movement": 1
   },
   {
    "callsign": "WB8IZM",
@@ -611,7 +611,7 @@
    "hunter_qsos": 1694,
    "hunter_parks": 598,
    "qsos_per_activation": 64.2,
-   "score_30d": 28,
+   "score_30d": 16,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -656,7 +656,7 @@
     323
    ],
    "rank": 10,
-   "gap_to_next": 120,
+   "gap_to_next": 131,
    "prev_rank_30d": 9,
    "movement": -1
   },
@@ -718,8 +718,8 @@
    ],
    "rank": 11,
    "gap_to_next": 21,
-   "prev_rank_30d": 10,
-   "movement": -1
+   "prev_rank_30d": 11,
+   "movement": 0
   },
   {
    "callsign": "W8EDE",
@@ -1355,22 +1355,22 @@
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 249
+   "value": 277
   },
   "longest_streak": {
-   "callsign": "KN4AL",
-   "name": "Jason Maguran",
-   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 10
+   "callsign": "W8TMB",
+   "name": "Terry Bone",
+   "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
+   "value": 14
   }
  },
  "group": {
-  "activations": 903,
-  "parks": 418,
-  "qsos": 29851,
+  "activations": 908,
+  "parks": 420,
+  "qsos": 30020,
   "hunter_qsos": 14633,
-  "pace_activations": 1258,
-  "pace_qsos": 41586
+  "pace_activations": 1260,
+  "pace_qsos": 41663
  },
  "past_seasons": [
   {

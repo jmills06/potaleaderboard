@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-20T06:00:18.512262-04:00",
+ "generated": "2026-09-21T06:00:20.086905-04:00",
  "season": 2026,
- "days_remaining": 102,
+ "days_remaining": 101,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -47,7 +47,7 @@
   "2026-09-03",
   "2026-09-10",
   "2026-09-17",
-  "2026-09-20"
+  "2026-09-21"
  ],
  "operators": [
   {
@@ -55,16 +55,16 @@
    "name": "Jason Maguran",
    "qth": "White Lake, MI",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "score": 2536,
+   "score": 2537,
    "activations": 189,
    "parks": 61,
    "qsos": 8310,
-   "hunter_qsos": 2383,
-   "hunter_parks": 385,
+   "hunter_qsos": 2421,
+   "hunter_parks": 388,
    "qsos_per_activation": 44.0,
-   "score_30d": 246,
+   "score_30d": 247,
    "activity": "fire",
-   "streak_weeks": 10,
+   "streak_weeks": 6,
    "spark": [
     0,
     310,
@@ -104,7 +104,7 @@
     2344,
     2449,
     2536,
-    2536
+    2537
    ],
    "rank": 1,
    "gap_to_next": 0,
@@ -120,8 +120,8 @@
    "activations": 146,
    "parks": 90,
    "qsos": 3577,
-   "hunter_qsos": 838,
-   "hunter_parks": 489,
+   "hunter_qsos": 840,
+   "hunter_parks": 491,
    "qsos_per_activation": 24.5,
    "score_30d": 202,
    "activity": "fire",
@@ -168,7 +168,7 @@
     1926
    ],
    "rank": 2,
-   "gap_to_next": 610,
+   "gap_to_next": 611,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -181,8 +181,8 @@
    "activations": 107,
    "parks": 50,
    "qsos": 3756,
-   "hunter_qsos": 874,
-   "hunter_parks": 327,
+   "hunter_qsos": 875,
+   "hunter_parks": 328,
    "qsos_per_activation": 35.1,
    "score_30d": 92,
    "activity": "fire",
@@ -242,8 +242,8 @@
    "activations": 100,
    "parks": 44,
    "qsos": 3030,
-   "hunter_qsos": 1022,
-   "hunter_parks": 398,
+   "hunter_qsos": 1027,
+   "hunter_parks": 401,
    "qsos_per_activation": 30.3,
    "score_30d": 277,
    "activity": "fire",
@@ -299,14 +299,14 @@
    "name": "Louis Kolenc",
    "qth": "Michigan",
    "gravatar": "89bc8c38bc966a047b7e9157416df9e3",
-   "score": 923,
+   "score": 924,
    "activations": 68,
    "parks": 45,
    "qsos": 1888,
-   "hunter_qsos": 700,
-   "hunter_parks": 170,
+   "hunter_qsos": 716,
+   "hunter_parks": 180,
    "qsos_per_activation": 27.8,
-   "score_30d": 104,
+   "score_30d": 105,
    "activity": "fire",
    "streak_weeks": 2,
    "spark": [
@@ -348,10 +348,10 @@
     885,
     897,
     897,
-    923
+    924
    ],
    "rank": 5,
-   "gap_to_next": 381,
+   "gap_to_next": 380,
    "prev_rank_30d": 5,
    "movement": 0
   },
@@ -364,10 +364,10 @@
    "activations": 60,
    "parks": 31,
    "qsos": 1804,
-   "hunter_qsos": 1067,
-   "hunter_parks": 454,
+   "hunter_qsos": 1084,
+   "hunter_parks": 462,
    "qsos_per_activation": 30.1,
-   "score_30d": 116,
+   "score_30d": 101,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -412,7 +412,7 @@
     805
    ],
    "rank": 6,
-   "gap_to_next": 118,
+   "gap_to_next": 119,
    "prev_rank_30d": 6,
    "movement": 0
   },
@@ -482,16 +482,16 @@
    "name": "Mike Case",
    "qth": "South Lyon, MI",
    "gravatar": "800c9b24121fa602a348f43ca260105f",
-   "score": 637,
-   "activations": 49,
+   "score": 648,
+   "activations": 50,
    "parks": 13,
-   "qsos": 1300,
-   "hunter_qsos": 2128,
-   "hunter_parks": 428,
+   "qsos": 1323,
+   "hunter_qsos": 2132,
+   "hunter_parks": 429,
    "qsos_per_activation": 26.5,
-   "score_30d": 155,
-   "activity": "twoweek",
-   "streak_weeks": 8,
+   "score_30d": 166,
+   "activity": "week",
+   "streak_weeks": 6,
    "spark": [
     0,
     19,
@@ -531,10 +531,10 @@
     509,
     611,
     637,
-    637
+    648
    ],
    "rank": 8,
-   "gap_to_next": 44,
+   "gap_to_next": 33,
    "prev_rank_30d": 8,
    "movement": 0
   },
@@ -547,12 +547,12 @@
    "activations": 37,
    "parks": 14,
    "qsos": 756,
-   "hunter_qsos": 189,
-   "hunter_parks": 93,
+   "hunter_qsos": 192,
+   "hunter_parks": 96,
    "qsos_per_activation": 20.4,
-   "score_30d": 191,
+   "score_30d": 112,
    "activity": "week",
-   "streak_weeks": 2,
+   "streak_weeks": 1,
    "spark": [
     0,
     12,
@@ -595,23 +595,23 @@
     454
    ],
    "rank": 9,
-   "gap_to_next": 183,
-   "prev_rank_30d": 10,
-   "movement": 1
+   "gap_to_next": 194,
+   "prev_rank_30d": 9,
+   "movement": 0
   },
   {
    "callsign": "WB8IZM",
    "name": "Greg Bodker",
    "qth": "Houghton Lake,  Michigan EN-74",
    "gravatar": "d8bc406f844a64e222b477a58ae02da4",
-   "score": 323,
+   "score": 324,
    "activations": 21,
    "parks": 4,
    "qsos": 1348,
-   "hunter_qsos": 1694,
-   "hunter_parks": 598,
+   "hunter_qsos": 1715,
+   "hunter_parks": 612,
    "qsos_per_activation": 64.2,
-   "score_30d": 16,
+   "score_30d": 17,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -653,27 +653,27 @@
     308,
     309,
     323,
-    323
+    324
    ],
    "rank": 10,
-   "gap_to_next": 131,
-   "prev_rank_30d": 9,
-   "movement": -1
+   "gap_to_next": 130,
+   "prev_rank_30d": 10,
+   "movement": 0
   },
   {
    "callsign": "N8JRD",
    "name": "Jim Davis",
    "qth": "South Lyon, Michigan",
    "gravatar": "dbefeff15b646d38d2e5c9301caa0412",
-   "score": 302,
-   "activations": 21,
+   "score": 316,
+   "activations": 22,
    "parks": 8,
-   "qsos": 1261,
-   "hunter_qsos": 266,
-   "hunter_parks": 107,
-   "qsos_per_activation": 60.0,
-   "score_30d": 49,
-   "activity": "week",
+   "qsos": 1326,
+   "hunter_qsos": 280,
+   "hunter_parks": 117,
+   "qsos_per_activation": 60.3,
+   "score_30d": 63,
+   "activity": "fire",
    "streak_weeks": 2,
    "spark": [
     0,
@@ -714,10 +714,10 @@
     276,
     287,
     287,
-    302
+    316
    ],
    "rank": 11,
-   "gap_to_next": 21,
+   "gap_to_next": 8,
    "prev_rank_30d": 11,
    "movement": 0
   },
@@ -730,10 +730,10 @@
    "activations": 15,
    "parks": 8,
    "qsos": 261,
-   "hunter_qsos": 441,
-   "hunter_parks": 331,
+   "hunter_qsos": 445,
+   "hunter_parks": 334,
    "qsos_per_activation": 17.4,
-   "score_30d": 65,
+   "score_30d": 51,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -778,9 +778,9 @@
     196
    ],
    "rank": 12,
-   "gap_to_next": 106,
-   "prev_rank_30d": 14,
-   "movement": 2
+   "gap_to_next": 120,
+   "prev_rank_30d": 13,
+   "movement": 1
   },
   {
    "callsign": "KB4LS",
@@ -795,7 +795,7 @@
    "hunter_parks": 594,
    "qsos_per_activation": 30.3,
    "score_30d": 0,
-   "activity": "sixty",
+   "activity": "inactive",
    "streak_weeks": 0,
    "spark": [
     0,
@@ -851,10 +851,10 @@
    "score": 158,
    "activations": 12,
    "parks": 4,
-   "qsos": 438,
-   "hunter_qsos": 201,
+   "qsos": 447,
+   "hunter_qsos": 202,
    "hunter_parks": 89,
-   "qsos_per_activation": 36.5,
+   "qsos_per_activation": 37.2,
    "score_30d": 14,
    "activity": "month",
    "streak_weeks": 0,
@@ -901,22 +901,22 @@
    ],
    "rank": 14,
    "gap_to_next": 2,
-   "prev_rank_30d": 13,
-   "movement": -1
+   "prev_rank_30d": 14,
+   "movement": 0
   },
   {
    "callsign": "W8MCV",
    "name": "Michael C. Van Huysse",
    "qth": "Hartland Township, MI, USA",
    "gravatar": "6427bb947d92848628bcda19069d090c",
-   "score": 155,
+   "score": 156,
    "activations": 12,
    "parks": 6,
    "qsos": 147,
-   "hunter_qsos": 500,
-   "hunter_parks": 271,
+   "hunter_qsos": 508,
+   "hunter_parks": 276,
    "qsos_per_activation": 12.2,
-   "score_30d": 27,
+   "score_30d": 28,
    "activity": "month",
    "streak_weeks": 0,
    "spark": [
@@ -958,10 +958,10 @@
     155,
     155,
     155,
-    155
+    156
    ],
    "rank": 15,
-   "gap_to_next": 3,
+   "gap_to_next": 2,
    "prev_rank_30d": 15,
    "movement": 0
   },
@@ -1022,7 +1022,7 @@
     73
    ],
    "rank": 16,
-   "gap_to_next": 82,
+   "gap_to_next": 83,
    "prev_rank_30d": 16,
    "movement": 0
   },
@@ -1349,7 +1349,7 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 2383
+   "value": 2421
   },
   "hot_hand": {
    "callsign": "W8TMB",
@@ -1365,12 +1365,12 @@
   }
  },
  "group": {
-  "activations": 908,
+  "activations": 910,
   "parks": 420,
-  "qsos": 30020,
-  "hunter_qsos": 14633,
-  "pace_activations": 1260,
-  "pace_qsos": 41663
+  "qsos": 30117,
+  "hunter_qsos": 14767,
+  "pace_activations": 1258,
+  "pace_qsos": 41639
  },
  "past_seasons": [
   {

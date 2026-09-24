@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-23T06:00:19.168616-04:00",
+ "generated": "2026-09-24T06:00:19.411291-04:00",
  "season": 2026,
- "days_remaining": 99,
+ "days_remaining": 98,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -47,7 +47,7 @@
   "2026-09-03",
   "2026-09-10",
   "2026-09-17",
-  "2026-09-23"
+  "2026-09-24"
  ],
  "operators": [
   {
@@ -64,7 +64,7 @@
    "qsos_per_activation": 44.4,
    "score_30d": 360,
    "activity": "fire",
-   "streak_weeks": 5,
+   "streak_weeks": 4,
    "spark": [
     0,
     310,
@@ -125,7 +125,7 @@
    "qsos_per_activation": 24.5,
    "score_30d": 202,
    "activity": "fire",
-   "streak_weeks": 3,
+   "streak_weeks": 4,
    "spark": [
     0,
     0,
@@ -245,9 +245,9 @@
    "hunter_qsos": 1043,
    "hunter_parks": 408,
    "qsos_per_activation": 30.0,
-   "score_30d": 299,
+   "score_30d": 250,
    "activity": "fire",
-   "streak_weeks": 15,
+   "streak_weeks": 11,
    "spark": [
     0,
     54,
@@ -430,7 +430,7 @@
    "qsos_per_activation": 30.3,
    "score_30d": 48,
    "activity": "twoweek",
-   "streak_weeks": 4,
+   "streak_weeks": 1,
    "spark": [
     0,
     32,
@@ -491,7 +491,7 @@
    "qsos_per_activation": 26.5,
    "score_30d": 166,
    "activity": "week",
-   "streak_weeks": 6,
+   "streak_weeks": 4,
    "spark": [
     0,
     19,
@@ -604,16 +604,16 @@
    "name": "Greg Bodker",
    "qth": "Houghton Lake,  Michigan EN-74",
    "gravatar": "d8bc406f844a64e222b477a58ae02da4",
-   "score": 324,
-   "activations": 21,
-   "parks": 4,
-   "qsos": 1348,
+   "score": 338,
+   "activations": 22,
+   "parks": 5,
+   "qsos": 1366,
    "hunter_qsos": 1748,
    "hunter_parks": 628,
-   "qsos_per_activation": 64.2,
-   "score_30d": 17,
-   "activity": "twoweek",
-   "streak_weeks": 1,
+   "qsos_per_activation": 62.1,
+   "score_30d": 31,
+   "activity": "week",
+   "streak_weeks": 2,
    "spark": [
     0,
     2,
@@ -653,10 +653,10 @@
     308,
     309,
     323,
-    324
+    338
    ],
    "rank": 10,
-   "gap_to_next": 130,
+   "gap_to_next": 116,
    "prev_rank_30d": 10,
    "movement": 0
   },
@@ -717,7 +717,7 @@
     316
    ],
    "rank": 11,
-   "gap_to_next": 8,
+   "gap_to_next": 22,
    "prev_rank_30d": 11,
    "movement": 0
   },
@@ -1343,7 +1343,7 @@
    "callsign": "WB8IZM",
    "name": "Greg Bodker",
    "gravatar": "d8bc406f844a64e222b477a58ae02da4",
-   "value": 64.2
+   "value": 62.1
   },
   "top_hunter": {
    "callsign": "KN4AL",
@@ -1361,16 +1361,16 @@
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 15
+   "value": 11
   }
  },
  "group": {
-  "activations": 920,
-  "parks": 424,
-  "qsos": 30577,
+  "activations": 921,
+  "parks": 425,
+  "qsos": 30595,
   "hunter_qsos": 14857,
-  "pace_activations": 1262,
-  "pace_qsos": 41957
+  "pace_activations": 1259,
+  "pace_qsos": 41825
  },
  "past_seasons": [
   {

@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-28T06:00:19.556909-04:00",
+ "generated": "2026-09-29T06:00:21.594781-04:00",
  "season": 2026,
- "days_remaining": 94,
+ "days_remaining": 93,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -48,7 +48,7 @@
   "2026-09-10",
   "2026-09-17",
   "2026-09-24",
-  "2026-09-28"
+  "2026-09-29"
  ],
  "operators": [
   {
@@ -65,7 +65,7 @@
    "qsos_per_activation": 44.4,
    "score_30d": 336,
    "activity": "fire",
-   "streak_weeks": 7,
+   "streak_weeks": 2,
    "spark": [
     0,
     310,
@@ -189,7 +189,7 @@
    "qsos_per_activation": 35.1,
    "score_30d": 93,
    "activity": "twoweek",
-   "streak_weeks": 2,
+   "streak_weeks": 1,
    "spark": [
     0,
     117,
@@ -251,7 +251,7 @@
    "qsos_per_activation": 30.0,
    "score_30d": 238,
    "activity": "fire",
-   "streak_weeks": 15,
+   "streak_weeks": 19,
    "spark": [
     0,
     54,
@@ -311,9 +311,9 @@
    "hunter_qsos": 721,
    "hunter_parks": 182,
    "qsos_per_activation": 27.8,
-   "score_30d": 105,
+   "score_30d": 40,
    "activity": "twoweek",
-   "streak_weeks": 2,
+   "streak_weeks": 1,
    "spark": [
     0,
     61,
@@ -435,7 +435,7 @@
    "hunter_qsos": 2140,
    "hunter_parks": 430,
    "qsos_per_activation": 26.9,
-   "score_30d": 221,
+   "score_30d": 207,
    "activity": "fire",
    "streak_weeks": 7,
    "spark": [
@@ -685,7 +685,7 @@
    "qsos_per_activation": 60.3,
    "score_30d": 40,
    "activity": "twoweek",
-   "streak_weeks": 2,
+   "streak_weeks": 1,
    "spark": [
     0,
     47,
@@ -745,8 +745,8 @@
    "hunter_qsos": 451,
    "hunter_parks": 339,
    "qsos_per_activation": 17.4,
-   "score_30d": 29,
-   "activity": "month",
+   "score_30d": 1,
+   "activity": "sixty",
    "streak_weeks": 0,
    "spark": [
     0,
@@ -869,8 +869,8 @@
    "hunter_qsos": 202,
    "hunter_parks": 89,
    "qsos_per_activation": 37.2,
-   "score_30d": 14,
-   "activity": "month",
+   "score_30d": 0,
+   "activity": "sixty",
    "streak_weeks": 0,
    "spark": [
     0,
@@ -1383,7 +1383,7 @@
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 15
+   "value": 19
   }
  },
  "group": {
@@ -1391,8 +1391,8 @@
   "parks": 428,
   "qsos": 30781,
   "hunter_qsos": 14996,
-  "pace_activations": 1250,
-  "pace_qsos": 41458
+  "pace_activations": 1245,
+  "pace_qsos": 41305
  },
  "past_seasons": [
   {

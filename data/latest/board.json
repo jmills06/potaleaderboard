@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-04T06:00:17.579364-04:00",
+ "generated": "2026-10-05T06:00:18.875889-04:00",
  "season": 2026,
- "days_remaining": 88,
+ "days_remaining": 87,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -49,7 +49,7 @@
   "2026-09-17",
   "2026-09-24",
   "2026-10-01",
-  "2026-10-04"
+  "2026-10-05"
  ],
  "operators": [
   {
@@ -66,7 +66,7 @@
    "qsos_per_activation": 44.4,
    "score_30d": 294,
    "activity": "twoweek",
-   "streak_weeks": 11,
+   "streak_weeks": 7,
    "spark": [
     0,
     310,
@@ -120,15 +120,15 @@
    "name": "Robert Jackson",
    "qth": "Providence, RI, USA",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "score": 1937,
-   "activations": 147,
+   "score": 1948,
+   "activations": 148,
    "parks": 90,
-   "qsos": 3601,
-   "hunter_qsos": 863,
-   "hunter_parks": 506,
-   "qsos_per_activation": 24.5,
-   "score_30d": 139,
-   "activity": "week",
+   "qsos": 3613,
+   "hunter_qsos": 867,
+   "hunter_parks": 509,
+   "qsos_per_activation": 24.4,
+   "score_30d": 150,
+   "activity": "fire",
    "streak_weeks": 1,
    "spark": [
     0,
@@ -171,10 +171,10 @@
     1904,
     1926,
     1937,
-    1937
+    1948
    ],
    "rank": 2,
-   "gap_to_next": 714,
+   "gap_to_next": 703,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -237,7 +237,7 @@
     1426
    ],
    "rank": 3,
-   "gap_to_next": 511,
+   "gap_to_next": 522,
    "prev_rank_30d": 3,
    "movement": 0
   },
@@ -246,14 +246,14 @@
    "name": "Terry Bone",
    "qth": "Canton Michigan",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "score": 1396,
-   "activations": 108,
-   "parks": 46,
-   "qsos": 3141,
-   "hunter_qsos": 1068,
-   "hunter_parks": 416,
-   "qsos_per_activation": 29.1,
-   "score_30d": 200,
+   "score": 1424,
+   "activations": 110,
+   "parks": 48,
+   "qsos": 3164,
+   "hunter_qsos": 1075,
+   "hunter_parks": 418,
+   "qsos_per_activation": 28.8,
+   "score_30d": 228,
    "activity": "fire",
    "streak_weeks": 16,
    "spark": [
@@ -297,10 +297,10 @@
     1276,
     1326,
     1358,
-    1396
+    1424
    ],
    "rank": 4,
-   "gap_to_next": 30,
+   "gap_to_next": 2,
    "prev_rank_30d": 4,
    "movement": 0
   },
@@ -363,7 +363,7 @@
     936
    ],
    "rank": 5,
-   "gap_to_next": 460,
+   "gap_to_next": 488,
    "prev_rank_30d": 5,
    "movement": 0
   },
@@ -372,14 +372,14 @@
    "name": "Rory Locke",
    "qth": "South Lyon, MI",
    "gravatar": "bca9066d200a8f9cc25d6cb63cf09761",
-   "score": 832,
-   "activations": 62,
+   "score": 874,
+   "activations": 65,
    "parks": 32,
-   "qsos": 1873,
-   "hunter_qsos": 1122,
-   "hunter_parks": 478,
-   "qsos_per_activation": 30.2,
-   "score_30d": 110,
+   "qsos": 2108,
+   "hunter_qsos": 1133,
+   "hunter_parks": 486,
+   "qsos_per_activation": 32.4,
+   "score_30d": 152,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -423,10 +423,10 @@
     723,
     805,
     805,
-    832
+    874
    ],
    "rank": 6,
-   "gap_to_next": 104,
+   "gap_to_next": 62,
    "prev_rank_30d": 6,
    "movement": 0
   },
@@ -443,7 +443,7 @@
    "hunter_parks": 172,
    "qsos_per_activation": 29.5,
    "score_30d": 44,
-   "activity": "fire",
+   "activity": "week",
    "streak_weeks": 2,
    "spark": [
     0,
@@ -489,7 +489,7 @@
     713
    ],
    "rank": 7,
-   "gap_to_next": 119,
+   "gap_to_next": 161,
    "prev_rank_30d": 7,
    "movement": 0
   },
@@ -502,12 +502,12 @@
    "activations": 54,
    "parks": 16,
    "qsos": 1453,
-   "hunter_qsos": 2164,
-   "hunter_parks": 432,
+   "hunter_qsos": 2172,
+   "hunter_parks": 433,
    "qsos_per_activation": 26.9,
    "score_30d": 195,
    "activity": "twoweek",
-   "streak_weeks": 1,
+   "streak_weeks": 7,
    "spark": [
     0,
     19,
@@ -628,8 +628,8 @@
    "activations": 23,
    "parks": 5,
    "qsos": 1399,
-   "hunter_qsos": 1852,
-   "hunter_parks": 691,
+   "hunter_qsos": 1863,
+   "hunter_parks": 699,
    "qsos_per_activation": 60.8,
    "score_30d": 44,
    "activity": "twoweek",
@@ -695,8 +695,8 @@
    "hunter_parks": 122,
    "qsos_per_activation": 60.3,
    "score_30d": 40,
-   "activity": "twoweek",
-   "streak_weeks": 3,
+   "activity": "month",
+   "streak_weeks": 0,
    "spark": [
     0,
     47,
@@ -880,8 +880,8 @@
    "activations": 12,
    "parks": 4,
    "qsos": 447,
-   "hunter_qsos": 204,
-   "hunter_parks": 90,
+   "hunter_qsos": 206,
+   "hunter_parks": 92,
    "qsos_per_activation": 37.2,
    "score_30d": 0,
    "activity": "sixty",
@@ -939,14 +939,14 @@
    "name": "Michael C. Van Huysse",
    "qth": "Hartland Township, MI, USA",
    "gravatar": "6427bb947d92848628bcda19069d090c",
-   "score": 156,
+   "score": 157,
    "activations": 12,
    "parks": 6,
    "qsos": 147,
-   "hunter_qsos": 555,
-   "hunter_parks": 300,
+   "hunter_qsos": 560,
+   "hunter_parks": 305,
    "qsos_per_activation": 12.2,
-   "score_30d": 1,
+   "score_30d": 2,
    "activity": "sixty",
    "streak_weeks": 0,
    "spark": [
@@ -990,10 +990,10 @@
     155,
     156,
     156,
-    156
+    157
    ],
    "rank": 15,
-   "gap_to_next": 2,
+   "gap_to_next": 1,
    "prev_rank_30d": 15,
    "movement": 0
   },
@@ -1056,7 +1056,7 @@
     73
    ],
    "rank": 16,
-   "gap_to_next": 83,
+   "gap_to_next": 84,
    "prev_rank_30d": 16,
    "movement": 0
   },
@@ -1191,14 +1191,14 @@
    "name": "Marty Temple",
    "qth": "",
    "gravatar": "1259eebf3f37b7aa62198d7e7f1a25d4",
-   "score": 15,
+   "score": 16,
    "activations": 1,
    "parks": 1,
    "qsos": 17,
-   "hunter_qsos": 82,
-   "hunter_parks": 71,
+   "hunter_qsos": 89,
+   "hunter_parks": 77,
    "qsos_per_activation": 17.0,
-   "score_30d": 11,
+   "score_30d": 12,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -1242,10 +1242,10 @@
     5,
     5,
     5,
-    15
+    16
    ],
    "rank": 19,
-   "gap_to_next": 10,
+   "gap_to_next": 9,
    "prev_rank_30d": 20,
    "movement": 1
   },
@@ -1308,7 +1308,7 @@
     15
    ],
    "rank": 20,
-   "gap_to_next": 0,
+   "gap_to_next": 1,
    "prev_rank_30d": 19,
    "movement": -1
   },
@@ -1409,12 +1409,12 @@
   }
  },
  "group": {
-  "activations": 941,
-  "parks": 431,
-  "qsos": 31069,
-  "hunter_qsos": 15206,
-  "pace_activations": 1240,
-  "pace_qsos": 40939
+  "activations": 947,
+  "parks": 433,
+  "qsos": 31339,
+  "hunter_qsos": 15261,
+  "pace_activations": 1243,
+  "pace_qsos": 41147
  },
  "past_seasons": [
   {

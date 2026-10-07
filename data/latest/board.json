@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-06T06:00:19.672577-04:00",
+ "generated": "2026-10-07T06:00:18.795601-04:00",
  "season": 2026,
- "days_remaining": 86,
+ "days_remaining": 85,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -49,7 +49,7 @@
   "2026-09-17",
   "2026-09-24",
   "2026-10-01",
-  "2026-10-06"
+  "2026-10-07"
  ],
  "operators": [
   {
@@ -57,16 +57,16 @@
    "name": "Jason Maguran",
    "qth": "White Lake, MI",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "score": 2651,
-   "activations": 197,
+   "score": 2664,
+   "activations": 198,
    "parks": 65,
-   "qsos": 8739,
-   "hunter_qsos": 2448,
+   "qsos": 8807,
+   "hunter_qsos": 2449,
    "hunter_parks": 393,
-   "qsos_per_activation": 44.4,
-   "score_30d": 293,
-   "activity": "twoweek",
-   "streak_weeks": 2,
+   "qsos_per_activation": 44.5,
+   "score_30d": 302,
+   "activity": "week",
+   "streak_weeks": 1,
    "spark": [
     0,
     310,
@@ -108,7 +108,7 @@
     2536,
     2650,
     2651,
-    2651
+    2664
    ],
    "rank": 1,
    "gap_to_next": 0,
@@ -127,7 +127,7 @@
    "hunter_qsos": 867,
    "hunter_parks": 509,
    "qsos_per_activation": 24.4,
-   "score_30d": 150,
+   "score_30d": 135,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -174,7 +174,7 @@
     1948
    ],
    "rank": 2,
-   "gap_to_next": 703,
+   "gap_to_next": 716,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -250,12 +250,12 @@
    "activations": 110,
    "parks": 48,
    "qsos": 3164,
-   "hunter_qsos": 1082,
-   "hunter_parks": 420,
+   "hunter_qsos": 1104,
+   "hunter_parks": 428,
    "qsos_per_activation": 28.8,
    "score_30d": 199,
    "activity": "fire",
-   "streak_weeks": 20,
+   "streak_weeks": 1,
    "spark": [
     0,
     54,
@@ -376,7 +376,7 @@
    "activations": 65,
    "parks": 32,
    "qsos": 2108,
-   "hunter_qsos": 1137,
+   "hunter_qsos": 1138,
    "hunter_parks": 488,
    "qsos_per_activation": 32.4,
    "score_30d": 152,
@@ -502,8 +502,8 @@
    "activations": 54,
    "parks": 16,
    "qsos": 1453,
-   "hunter_qsos": 2175,
-   "hunter_parks": 433,
+   "hunter_qsos": 2180,
+   "hunter_parks": 435,
    "qsos_per_activation": 26.9,
    "score_30d": 195,
    "activity": "twoweek",
@@ -568,7 +568,7 @@
    "hunter_qsos": 217,
    "hunter_parks": 114,
    "qsos_per_activation": 20.8,
-   "score_30d": 33,
+   "score_30d": 23,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -628,12 +628,12 @@
    "activations": 23,
    "parks": 5,
    "qsos": 1399,
-   "hunter_qsos": 1881,
-   "hunter_parks": 711,
+   "hunter_qsos": 1888,
+   "hunter_parks": 716,
    "qsos_per_activation": 60.8,
    "score_30d": 45,
    "activity": "twoweek",
-   "streak_weeks": 2,
+   "streak_weeks": 1,
    "spark": [
     0,
     2,
@@ -754,8 +754,8 @@
    "activations": 15,
    "parks": 8,
    "qsos": 261,
-   "hunter_qsos": 452,
-   "hunter_parks": 340,
+   "hunter_qsos": 453,
+   "hunter_parks": 341,
    "qsos_per_activation": 17.4,
    "score_30d": 1,
    "activity": "sixty",
@@ -943,7 +943,7 @@
    "activations": 12,
    "parks": 6,
    "qsos": 147,
-   "hunter_qsos": 561,
+   "hunter_qsos": 564,
    "hunter_parks": 306,
    "qsos_per_activation": 12.2,
    "score_30d": 2,
@@ -1393,28 +1393,28 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 2448
+   "value": 2449
   },
   "hot_hand": {
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 293
+   "value": 302
   },
   "longest_streak": {
-   "callsign": "W8TMB",
-   "name": "Terry Bone",
-   "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 20
+   "callsign": "W8MSC",
+   "name": "Mike Case",
+   "gravatar": "800c9b24121fa602a348f43ca260105f",
+   "value": 7
   }
  },
  "group": {
-  "activations": 947,
+  "activations": 948,
   "parks": 433,
-  "qsos": 31339,
-  "hunter_qsos": 15309,
-  "pace_activations": 1239,
-  "pace_qsos": 40999
+  "qsos": 31407,
+  "hunter_qsos": 15349,
+  "pace_activations": 1236,
+  "pace_qsos": 40941
  },
  "past_seasons": [
   {

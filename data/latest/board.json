@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-11T06:00:17.922792-04:00",
+ "generated": "2026-10-12T06:00:18.316492-04:00",
  "season": 2026,
- "days_remaining": 81,
+ "days_remaining": 80,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -50,7 +50,7 @@
   "2026-09-24",
   "2026-10-01",
   "2026-10-08",
-  "2026-10-11"
+  "2026-10-12"
  ],
  "operators": [
   {
@@ -129,9 +129,9 @@
    "hunter_qsos": 869,
    "hunter_parks": 511,
    "qsos_per_activation": 24.4,
-   "score_30d": 109,
-   "activity": "week",
-   "streak_weeks": 2,
+   "score_30d": 96,
+   "activity": "twoweek",
+   "streak_weeks": 1,
    "spark": [
     0,
     0,
@@ -258,8 +258,8 @@
    "hunter_parks": 429,
    "qsos_per_activation": 28.8,
    "score_30d": 159,
-   "activity": "fire",
-   "streak_weeks": 17,
+   "activity": "twoweek",
+   "streak_weeks": 16,
    "spark": [
     0,
     54,
@@ -385,9 +385,9 @@
    "hunter_qsos": 1140,
    "hunter_parks": 488,
    "qsos_per_activation": 32.4,
-   "score_30d": 152,
-   "activity": "fire",
-   "streak_weeks": 2,
+   "score_30d": 151,
+   "activity": "twoweek",
+   "streak_weeks": 1,
    "spark": [
     0,
     30,
@@ -442,15 +442,15 @@
    "name": "James Mills",
    "qth": "Clarkston, MI",
    "gravatar": "e428864f39d970fcabea84e637d4f0f4",
-   "score": 727,
-   "activations": 54,
-   "parks": 32,
-   "qsos": 1580,
+   "score": 742,
+   "activations": 55,
+   "parks": 33,
+   "qsos": 1609,
    "hunter_qsos": 605,
    "hunter_parks": 173,
    "qsos_per_activation": 29.3,
-   "score_30d": 58,
-   "activity": "week",
+   "score_30d": 73,
+   "activity": "fire",
    "streak_weeks": 3,
    "spark": [
     0,
@@ -494,10 +494,10 @@
     681,
     702,
     713,
-    727
+    742
    ],
    "rank": 7,
-   "gap_to_next": 147,
+   "gap_to_next": 132,
    "prev_rank_30d": 7,
    "movement": 0
   },
@@ -561,7 +561,7 @@
     719
    ],
    "rank": 8,
-   "gap_to_next": 8,
+   "gap_to_next": 23,
    "prev_rank_30d": 8,
    "movement": 0
   },
@@ -1427,16 +1427,16 @@
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 17
+   "value": 16
   }
  },
  "group": {
-  "activations": 960,
-  "parks": 443,
-  "qsos": 31699,
+  "activations": 961,
+  "parks": 444,
+  "qsos": 31728,
   "hunter_qsos": 15473,
-  "pace_activations": 1234,
-  "pace_qsos": 40740
+  "pace_activations": 1231,
+  "pace_qsos": 40634
  },
  "past_seasons": [
   {

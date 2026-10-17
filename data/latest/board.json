@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-16T06:00:21.470618-04:00",
+ "generated": "2026-10-17T06:00:18.425035-04:00",
  "season": 2026,
- "days_remaining": 76,
+ "days_remaining": 75,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -51,7 +51,7 @@
   "2026-10-01",
   "2026-10-08",
   "2026-10-15",
-  "2026-10-16"
+  "2026-10-17"
  ],
  "operators": [
   {
@@ -63,8 +63,8 @@
    "activations": 200,
    "parks": 65,
    "qsos": 8895,
-   "hunter_qsos": 2473,
-   "hunter_parks": 397,
+   "hunter_qsos": 2478,
+   "hunter_parks": 398,
    "qsos_per_activation": 44.5,
    "score_30d": 153,
    "activity": "fire",
@@ -133,7 +133,7 @@
    "qsos_per_activation": 24.4,
    "score_30d": 44,
    "activity": "twoweek",
-   "streak_weeks": 6,
+   "streak_weeks": 2,
    "spark": [
     0,
     0,
@@ -258,8 +258,8 @@
    "activations": 112,
    "parks": 48,
    "qsos": 3191,
-   "hunter_qsos": 1134,
-   "hunter_parks": 442,
+   "hunter_qsos": 1137,
+   "hunter_parks": 443,
    "qsos_per_activation": 28.5,
    "score_30d": 170,
    "activity": "fire",
@@ -323,8 +323,8 @@
    "activations": 69,
    "parks": 45,
    "qsos": 1929,
-   "hunter_qsos": 737,
-   "hunter_parks": 190,
+   "hunter_qsos": 738,
+   "hunter_parks": 191,
    "qsos_per_activation": 28.0,
    "score_30d": 39,
    "activity": "twoweek",
@@ -384,16 +384,16 @@
    "name": "Rory Locke",
    "qth": "South Lyon, MI",
    "gravatar": "bca9066d200a8f9cc25d6cb63cf09761",
-   "score": 874,
+   "score": 875,
    "activations": 65,
    "parks": 32,
    "qsos": 2108,
-   "hunter_qsos": 1150,
-   "hunter_parks": 491,
+   "hunter_qsos": 1159,
+   "hunter_parks": 495,
    "qsos_per_activation": 32.4,
-   "score_30d": 151,
+   "score_30d": 152,
    "activity": "twoweek",
-   "streak_weeks": 4,
+   "streak_weeks": 2,
    "spark": [
     0,
     30,
@@ -437,10 +437,10 @@
     805,
     874,
     874,
-    874
+    875
    ],
    "rank": 6,
-   "gap_to_next": 62,
+   "gap_to_next": 61,
    "prev_rank_30d": 6,
    "movement": 0
   },
@@ -453,11 +453,11 @@
    "activations": 55,
    "parks": 33,
    "qsos": 1609,
-   "hunter_qsos": 610,
-   "hunter_parks": 176,
+   "hunter_qsos": 611,
+   "hunter_parks": 177,
    "qsos_per_activation": 29.3,
    "score_30d": 61,
-   "activity": "fire",
+   "activity": "week",
    "streak_weeks": 3,
    "spark": [
     0,
@@ -505,7 +505,7 @@
     742
    ],
    "rank": 7,
-   "gap_to_next": 132,
+   "gap_to_next": 133,
    "prev_rank_30d": 7,
    "movement": 0
   },
@@ -514,14 +514,14 @@
    "name": "Mike Case",
    "qth": "South Lyon, MI",
    "gravatar": "800c9b24121fa602a348f43ca260105f",
-   "score": 720,
+   "score": 721,
    "activations": 55,
    "parks": 17,
    "qsos": 1483,
-   "hunter_qsos": 2260,
-   "hunter_parks": 455,
+   "hunter_qsos": 2275,
+   "hunter_parks": 458,
    "qsos_per_activation": 27.0,
-   "score_30d": 83,
+   "score_30d": 84,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -567,10 +567,10 @@
     704,
     704,
     720,
-    720
+    721
    ],
    "rank": 8,
-   "gap_to_next": 22,
+   "gap_to_next": 21,
    "prev_rank_30d": 8,
    "movement": 0
   },
@@ -583,8 +583,8 @@
    "activations": 38,
    "parks": 14,
    "qsos": 790,
-   "hunter_qsos": 220,
-   "hunter_parks": 116,
+   "hunter_qsos": 225,
+   "hunter_parks": 117,
    "qsos_per_activation": 20.8,
    "score_30d": 23,
    "activity": "month",
@@ -635,7 +635,7 @@
     466
    ],
    "rank": 9,
-   "gap_to_next": 254,
+   "gap_to_next": 255,
    "prev_rank_30d": 9,
    "movement": 0
   },
@@ -648,8 +648,8 @@
    "activations": 30,
    "parks": 18,
    "qsos": 872,
-   "hunter_qsos": 325,
-   "hunter_parks": 146,
+   "hunter_qsos": 330,
+   "hunter_parks": 149,
    "qsos_per_activation": 29.1,
    "score_30d": 246,
    "activity": "fire",
@@ -713,8 +713,8 @@
    "activations": 23,
    "parks": 5,
    "qsos": 1399,
-   "hunter_qsos": 1912,
-   "hunter_parks": 733,
+   "hunter_qsos": 1920,
+   "hunter_parks": 740,
    "qsos_per_activation": 60.8,
    "score_30d": 30,
    "activity": "month",
@@ -839,16 +839,16 @@
    "name": "Edward Ernest",
    "qth": "Manchester, MI",
    "gravatar": "1179def46e76d85186be46cbd37b621a",
-   "score": 197,
-   "activations": 15,
-   "parks": 8,
-   "qsos": 261,
-   "hunter_qsos": 482,
-   "hunter_parks": 362,
-   "qsos_per_activation": 17.4,
-   "score_30d": 1,
-   "activity": "sixty",
-   "streak_weeks": 0,
+   "score": 258,
+   "activations": 20,
+   "parks": 9,
+   "qsos": 423,
+   "hunter_qsos": 486,
+   "hunter_parks": 364,
+   "qsos_per_activation": 21.1,
+   "score_30d": 62,
+   "activity": "fire",
+   "streak_weeks": 1,
    "spark": [
     0,
     0,
@@ -892,10 +892,10 @@
     196,
     196,
     197,
-    197
+    258
    ],
    "rank": 13,
-   "gap_to_next": 119,
+   "gap_to_next": 58,
    "prev_rank_30d": 12,
    "movement": -1
   },
@@ -960,7 +960,7 @@
     160
    ],
    "rank": 14,
-   "gap_to_next": 37,
+   "gap_to_next": 98,
    "prev_rank_30d": 13,
    "movement": -1
   },
@@ -973,8 +973,8 @@
    "activations": 12,
    "parks": 6,
    "qsos": 147,
-   "hunter_qsos": 578,
-   "hunter_parks": 316,
+   "hunter_qsos": 579,
+   "hunter_parks": 317,
    "qsos_per_activation": 12.2,
    "score_30d": 2,
    "activity": "sixty",
@@ -1233,7 +1233,7 @@
    "activations": 1,
    "parks": 1,
    "qsos": 17,
-   "hunter_qsos": 95,
+   "hunter_qsos": 96,
    "hunter_parks": 80,
    "qsos_per_activation": 17.0,
    "score_30d": 11,
@@ -1437,7 +1437,7 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 2473
+   "value": 2478
   },
   "hot_hand": {
    "callsign": "K8ERS",
@@ -1453,12 +1453,12 @@
   }
  },
  "group": {
-  "activations": 979,
-  "parks": 450,
-  "qsos": 32140,
-  "hunter_qsos": 15765,
-  "pace_activations": 1236,
-  "pace_qsos": 40592
+  "activations": 984,
+  "parks": 451,
+  "qsos": 32302,
+  "hunter_qsos": 15823,
+  "pace_activations": 1238,
+  "pace_qsos": 40656
  },
  "past_seasons": [
   {

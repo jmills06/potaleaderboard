@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-24T06:00:17.876001-04:00",
+ "generated": "2026-10-25T06:00:18.028507-04:00",
  "season": 2026,
- "days_remaining": 68,
+ "days_remaining": 67,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -52,7 +52,7 @@
   "2026-10-08",
   "2026-10-15",
   "2026-10-22",
-  "2026-10-24"
+  "2026-10-25"
  ],
  "operators": [
   {
@@ -60,14 +60,14 @@
    "name": "Jason Maguran",
    "qth": "White Lake, MI",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "score": 2833,
-   "activations": 210,
-   "parks": 65,
-   "qsos": 9720,
-   "hunter_qsos": 2585,
-   "hunter_parks": 414,
+   "score": 2877,
+   "activations": 213,
+   "parks": 67,
+   "qsos": 9870,
+   "hunter_qsos": 2605,
+   "hunter_parks": 418,
    "qsos_per_activation": 46.3,
-   "score_30d": 183,
+   "score_30d": 227,
    "activity": "fire",
    "streak_weeks": 3,
    "spark": [
@@ -114,7 +114,7 @@
     2664,
     2689,
     2833,
-    2833
+    2877
    ],
    "rank": 1,
    "gap_to_next": 0,
@@ -183,7 +183,7 @@
     1948
    ],
    "rank": 2,
-   "gap_to_next": 885,
+   "gap_to_next": 929,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -192,16 +192,16 @@
    "name": "Terry Bone",
    "qth": "Canton Michigan",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "score": 1522,
-   "activations": 118,
+   "score": 1533,
+   "activations": 119,
    "parks": 50,
-   "qsos": 3374,
-   "hunter_qsos": 1170,
-   "hunter_parks": 453,
-   "qsos_per_activation": 28.6,
-   "score_30d": 196,
+   "qsos": 3391,
+   "hunter_qsos": 1176,
+   "hunter_parks": 455,
+   "qsos_per_activation": 28.5,
+   "score_30d": 207,
    "activity": "fire",
-   "streak_weeks": 14,
+   "streak_weeks": 19,
    "spark": [
     0,
     54,
@@ -246,10 +246,10 @@
     1424,
     1446,
     1509,
-    1522
+    1533
    ],
    "rank": 3,
-   "gap_to_next": 426,
+   "gap_to_next": 415,
    "prev_rank_30d": 4,
    "movement": 1
   },
@@ -262,8 +262,8 @@
    "activations": 113,
    "parks": 50,
    "qsos": 3876,
-   "hunter_qsos": 1009,
-   "hunter_parks": 376,
+   "hunter_qsos": 1010,
+   "hunter_parks": 377,
    "qsos_per_activation": 34.3,
    "score_30d": 69,
    "activity": "twoweek",
@@ -315,7 +315,7 @@
     1494
    ],
    "rank": 4,
-   "gap_to_next": 28,
+   "gap_to_next": 39,
    "prev_rank_30d": 3,
    "movement": -1
   },
@@ -332,7 +332,7 @@
    "hunter_parks": 192,
    "qsos_per_activation": 28.1,
    "score_30d": 24,
-   "activity": "week",
+   "activity": "twoweek",
    "streak_weeks": 1,
    "spark": [
     0,
@@ -394,12 +394,12 @@
    "activations": 66,
    "parks": 32,
    "qsos": 2119,
-   "hunter_qsos": 1182,
+   "hunter_qsos": 1183,
    "hunter_parks": 499,
    "qsos_per_activation": 32.1,
    "score_30d": 81,
-   "activity": "week",
-   "streak_weeks": 1,
+   "activity": "twoweek",
+   "streak_weeks": 3,
    "spark": [
     0,
     30,
@@ -456,16 +456,16 @@
    "name": "Mike Case",
    "qth": "South Lyon, MI",
    "gravatar": "800c9b24121fa602a348f43ca260105f",
-   "score": 798,
-   "activations": 62,
-   "parks": 17,
-   "qsos": 1629,
-   "hunter_qsos": 2300,
-   "hunter_parks": 467,
-   "qsos_per_activation": 26.3,
-   "score_30d": 150,
+   "score": 842,
+   "activations": 65,
+   "parks": 18,
+   "qsos": 1831,
+   "hunter_qsos": 2314,
+   "hunter_parks": 471,
+   "qsos_per_activation": 28.2,
+   "score_30d": 194,
    "activity": "fire",
-   "streak_weeks": 2,
+   "streak_weeks": 3,
    "spark": [
     0,
     19,
@@ -510,10 +510,10 @@
     704,
     720,
     776,
-    798
+    842
    ],
    "rank": 7,
-   "gap_to_next": 88,
+   "gap_to_next": 44,
    "prev_rank_30d": 8,
    "movement": 1
   },
@@ -531,7 +531,7 @@
    "qsos_per_activation": 29.3,
    "score_30d": 61,
    "activity": "twoweek",
-   "streak_weeks": 3,
+   "streak_weeks": 4,
    "spark": [
     0,
     32,
@@ -579,7 +579,7 @@
     742
    ],
    "rank": 8,
-   "gap_to_next": 56,
+   "gap_to_next": 100,
    "prev_rank_30d": 7,
    "movement": -1
   },
@@ -588,16 +588,16 @@
    "name": "Joe Nunham",
    "qth": "Chelsea, MI",
    "gravatar": "190139bbef45741f5b437975572d894e",
-   "score": 493,
-   "activations": 40,
+   "score": 503,
+   "activations": 41,
    "parks": 15,
-   "qsos": 851,
-   "hunter_qsos": 253,
-   "hunter_parks": 127,
-   "qsos_per_activation": 21.3,
-   "score_30d": 39,
+   "qsos": 861,
+   "hunter_qsos": 255,
+   "hunter_parks": 128,
+   "qsos_per_activation": 21.0,
+   "score_30d": 49,
    "activity": "fire",
-   "streak_weeks": 1,
+   "streak_weeks": 2,
    "spark": [
     0,
     12,
@@ -642,10 +642,10 @@
     466,
     466,
     481,
-    493
+    503
    ],
    "rank": 9,
-   "gap_to_next": 249,
+   "gap_to_next": 239,
    "prev_rank_30d": 9,
    "movement": 0
   },
@@ -662,8 +662,8 @@
    "hunter_parks": 163,
    "qsos_per_activation": 26.8,
    "score_30d": 313,
-   "activity": "fire",
-   "streak_weeks": 3,
+   "activity": "twoweek",
+   "streak_weeks": 2,
    "spark": [
     0,
     23,
@@ -711,7 +711,7 @@
     471
    ],
    "rank": 10,
-   "gap_to_next": 22,
+   "gap_to_next": 32,
    "prev_rank_30d": 14,
    "movement": 4
   },
@@ -724,10 +724,10 @@
    "activations": 30,
    "parks": 5,
    "qsos": 1881,
-   "hunter_qsos": 2101,
+   "hunter_qsos": 2106,
    "hunter_parks": 796,
    "qsos_per_activation": 62.7,
-   "score_30d": 113,
+   "score_30d": 101,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -794,7 +794,7 @@
    "hunter_parks": 128,
    "qsos_per_activation": 58.6,
    "score_30d": 15,
-   "activity": "week",
+   "activity": "twoweek",
    "streak_weeks": 1,
    "spark": [
     0,
@@ -988,8 +988,8 @@
    "activations": 12,
    "parks": 6,
    "qsos": 147,
-   "hunter_qsos": 584,
-   "hunter_parks": 319,
+   "hunter_qsos": 586,
+   "hunter_parks": 321,
    "qsos_per_activation": 12.2,
    "score_30d": 1,
    "activity": "sixty",
@@ -1459,7 +1459,7 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 2585
+   "value": 2605
   },
   "hot_hand": {
    "callsign": "K8ERS",
@@ -1471,16 +1471,16 @@
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 14
+   "value": 19
   }
  },
  "group": {
-  "activations": 1024,
-  "parks": 459,
-  "qsos": 34137,
-  "hunter_qsos": 16382,
-  "pace_activations": 1258,
-  "pace_qsos": 41953
+  "activations": 1032,
+  "parks": 462,
+  "qsos": 34516,
+  "hunter_qsos": 16433,
+  "pace_activations": 1264,
+  "pace_qsos": 42276
  },
  "past_seasons": [
   {

@@ -1,7 +1,7 @@
 {
- "generated": "2026-10-28T06:00:20.061965-04:00",
+ "generated": "2026-10-29T06:00:20.134988-04:00",
  "season": 2026,
- "days_remaining": 64,
+ "days_remaining": 63,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -52,7 +52,7 @@
   "2026-10-08",
   "2026-10-15",
   "2026-10-22",
-  "2026-10-28"
+  "2026-10-29"
  ],
  "operators": [
   {
@@ -60,16 +60,16 @@
    "name": "Jason Maguran",
    "qth": "White Lake, MI",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "score": 2877,
-   "activations": 213,
+   "score": 2891,
+   "activations": 214,
    "parks": 67,
-   "qsos": 9870,
+   "qsos": 9947,
    "hunter_qsos": 2617,
    "hunter_parks": 420,
-   "qsos_per_activation": 46.3,
-   "score_30d": 226,
+   "qsos_per_activation": 46.5,
+   "score_30d": 240,
    "activity": "fire",
-   "streak_weeks": 2,
+   "streak_weeks": 4,
    "spark": [
     0,
     310,
@@ -114,7 +114,7 @@
     2664,
     2689,
     2833,
-    2877
+    2891
    ],
    "rank": 1,
    "gap_to_next": 0,
@@ -183,7 +183,7 @@
     1948
    ],
    "rank": 2,
-   "gap_to_next": 929,
+   "gap_to_next": 943,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -192,16 +192,16 @@
    "name": "Terry Bone",
    "qth": "Canton Michigan",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "score": 1558,
-   "activations": 121,
-   "parks": 51,
-   "qsos": 3423,
+   "score": 1620,
+   "activations": 126,
+   "parks": 54,
+   "qsos": 3482,
    "hunter_qsos": 1185,
    "hunter_parks": 457,
-   "qsos_per_activation": 28.3,
-   "score_30d": 232,
+   "qsos_per_activation": 27.6,
+   "score_30d": 294,
    "activity": "fire",
-   "streak_weeks": 4,
+   "streak_weeks": 16,
    "spark": [
     0,
     54,
@@ -246,10 +246,10 @@
     1424,
     1446,
     1509,
-    1558
+    1620
    ],
    "rank": 3,
-   "gap_to_next": 390,
+   "gap_to_next": 328,
    "prev_rank_30d": 4,
    "movement": 1
   },
@@ -315,7 +315,7 @@
     1505
    ],
    "rank": 4,
-   "gap_to_next": 53,
+   "gap_to_next": 115,
    "prev_rank_30d": 3,
    "movement": -1
   },
@@ -456,14 +456,14 @@
    "name": "Mike Case",
    "qth": "South Lyon, MI",
    "gravatar": "800c9b24121fa602a348f43ca260105f",
-   "score": 865,
-   "activations": 67,
+   "score": 876,
+   "activations": 68,
    "parks": 18,
-   "qsos": 1887,
+   "qsos": 1916,
    "hunter_qsos": 2327,
    "hunter_parks": 472,
    "qsos_per_activation": 28.2,
-   "score_30d": 162,
+   "score_30d": 173,
    "activity": "fire",
    "streak_weeks": 3,
    "spark": [
@@ -510,10 +510,10 @@
     704,
     720,
     776,
-    865
+    876
    ],
    "rank": 7,
-   "gap_to_next": 21,
+   "gap_to_next": 10,
    "prev_rank_30d": 7,
    "movement": 0
   },
@@ -579,7 +579,7 @@
     742
    ],
    "rank": 8,
-   "gap_to_next": 123,
+   "gap_to_next": 134,
    "prev_rank_30d": 8,
    "movement": 0
   },
@@ -663,7 +663,7 @@
    "qsos_per_activation": 26.8,
    "score_30d": 313,
    "activity": "twoweek",
-   "streak_weeks": 2,
+   "streak_weeks": 3,
    "spark": [
     0,
     23,
@@ -1471,16 +1471,16 @@
    "callsign": "W8TMB",
    "name": "Terry Bone",
    "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 4
+   "value": 16
   }
  },
  "group": {
-  "activations": 1039,
-  "parks": 463,
-  "qsos": 34684,
+  "activations": 1046,
+  "parks": 466,
+  "qsos": 34849,
   "hunter_qsos": 16556,
-  "pace_activations": 1260,
-  "pace_qsos": 42059
+  "pace_activations": 1264,
+  "pace_qsos": 42119
  },
  "past_seasons": [
   {

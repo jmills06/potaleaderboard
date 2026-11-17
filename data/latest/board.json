@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-16T06:00:21.213527-05:00",
+ "generated": "2026-11-17T06:00:20.716263-05:00",
  "season": 2026,
- "days_remaining": 45,
+ "days_remaining": 44,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -55,7 +55,7 @@
   "2026-10-29",
   "2026-11-05",
   "2026-11-12",
-  "2026-11-16"
+  "2026-11-17"
  ],
  "operators": [
   {
@@ -67,8 +67,8 @@
    "activations": 228,
    "parks": 72,
    "qsos": 10667,
-   "hunter_qsos": 2778,
-   "hunter_parks": 455,
+   "hunter_qsos": 2783,
+   "hunter_parks": 456,
    "qsos_per_activation": 46.8,
    "score_30d": 396,
    "activity": "fire",
@@ -132,16 +132,16 @@
    "name": "Robert Jackson",
    "qth": "Providence, RI, USA",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "score": 1949,
-   "activations": 148,
-   "parks": 90,
-   "qsos": 3613,
-   "hunter_qsos": 918,
-   "hunter_parks": 536,
-   "qsos_per_activation": 24.4,
-   "score_30d": 1,
-   "activity": "sixty",
-   "streak_weeks": 0,
+   "score": 2042,
+   "activations": 156,
+   "parks": 92,
+   "qsos": 3759,
+   "hunter_qsos": 921,
+   "hunter_parks": 537,
+   "qsos_per_activation": 24.1,
+   "score_30d": 94,
+   "activity": "fire",
+   "streak_weeks": 1,
    "spark": [
     0,
     0,
@@ -189,10 +189,10 @@
     1948,
     1948,
     1949,
-    1949
+    2042
    ],
    "rank": 2,
-   "gap_to_next": 1136,
+   "gap_to_next": 1043,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -205,10 +205,10 @@
    "activations": 136,
    "parks": 59,
    "qsos": 3812,
-   "hunter_qsos": 1279,
-   "hunter_parks": 486,
+   "hunter_qsos": 1283,
+   "hunter_parks": 488,
    "qsos_per_activation": 28.0,
-   "score_30d": 307,
+   "score_30d": 285,
    "activity": "fire",
    "streak_weeks": 5,
    "spark": [
@@ -261,7 +261,7 @@
     1753
    ],
    "rank": 3,
-   "gap_to_next": 196,
+   "gap_to_next": 289,
    "prev_rank_30d": 4,
    "movement": 1
   },
@@ -270,15 +270,15 @@
    "name": "Mark S. Torigian",
    "qth": "Fowlerville, Michigan",
    "gravatar": "9b5cd665e3a4043cf2245ebf25410247",
-   "score": 1517,
-   "activations": 115,
+   "score": 1540,
+   "activations": 117,
    "parks": 50,
-   "qsos": 3914,
-   "hunter_qsos": 1052,
-   "hunter_parks": 392,
-   "qsos_per_activation": 34.0,
-   "score_30d": 24,
-   "activity": "week",
+   "qsos": 3969,
+   "hunter_qsos": 1064,
+   "hunter_parks": 395,
+   "qsos_per_activation": 33.9,
+   "score_30d": 47,
+   "activity": "fire",
    "streak_weeks": 1,
    "spark": [
     0,
@@ -327,10 +327,10 @@
     1505,
     1505,
     1506,
-    1517
+    1540
    ],
    "rank": 4,
-   "gap_to_next": 236,
+   "gap_to_next": 213,
    "prev_rank_30d": 3,
    "movement": -1
   },
@@ -346,7 +346,7 @@
    "hunter_qsos": 753,
    "hunter_parks": 192,
    "qsos_per_activation": 28.3,
-   "score_30d": -1,
+   "score_30d": -13,
    "activity": "sixty",
    "streak_weeks": 0,
    "spark": [
@@ -399,7 +399,7 @@
     935
    ],
    "rank": 5,
-   "gap_to_next": 582,
+   "gap_to_next": 605,
    "prev_rank_30d": 5,
    "movement": 0
   },
@@ -415,7 +415,7 @@
    "hunter_qsos": 2330,
    "hunter_parks": 472,
    "qsos_per_activation": 27.8,
-   "score_30d": 177,
+   "score_30d": 165,
    "activity": "week",
    "streak_weeks": 1,
    "spark": [
@@ -481,11 +481,11 @@
    "activations": 66,
    "parks": 32,
    "qsos": 2119,
-   "hunter_qsos": 1243,
-   "hunter_parks": 514,
+   "hunter_qsos": 1244,
+   "hunter_parks": 515,
    "qsos_per_activation": 32.1,
-   "score_30d": 12,
-   "activity": "month",
+   "score_30d": 2,
+   "activity": "sixty",
    "streak_weeks": 0,
    "spark": [
     0,
@@ -619,10 +619,10 @@
    "activations": 48,
    "parks": 15,
    "qsos": 1176,
-   "hunter_qsos": 317,
-   "hunter_parks": 166,
+   "hunter_qsos": 319,
+   "hunter_parks": 167,
    "qsos_per_activation": 24.5,
-   "score_30d": 124,
+   "score_30d": 109,
    "activity": "fire",
    "streak_weeks": 1,
    "spark": [
@@ -688,8 +688,8 @@
    "activations": 34,
    "parks": 6,
    "qsos": 2579,
-   "hunter_qsos": 2431,
-   "hunter_parks": 955,
+   "hunter_qsos": 2435,
+   "hunter_parks": 957,
    "qsos_per_activation": 75.9,
    "score_30d": 183,
    "activity": "fire",
@@ -760,8 +760,8 @@
    "hunter_qsos": 390,
    "hunter_parks": 165,
    "qsos_per_activation": 26.8,
-   "score_30d": 67,
-   "activity": "month",
+   "score_30d": 1,
+   "activity": "sixty",
    "streak_weeks": 0,
    "spark": [
     0,
@@ -829,8 +829,8 @@
    "hunter_qsos": 330,
    "hunter_parks": 139,
    "qsos_per_activation": 57.7,
-   "score_30d": 14,
-   "activity": "month",
+   "score_30d": 0,
+   "activity": "sixty",
    "streak_weeks": 0,
    "spark": [
     0,
@@ -1447,8 +1447,8 @@
    "activations": 0,
    "parks": 0,
    "qsos": 0,
-   "hunter_qsos": 23,
-   "hunter_parks": 11,
+   "hunter_qsos": 24,
+   "hunter_parks": 12,
    "qsos_per_activation": 0,
    "score_30d": 0,
    "activity": "inactive",
@@ -1513,7 +1513,7 @@
    "callsign": "N1RWJ",
    "name": "Robert Jackson",
    "gravatar": "ba9860a14193e5bff4c93cdde3608492",
-   "value": 90
+   "value": 92
   },
   "rate_machine": {
    "callsign": "WB8IZM",
@@ -1525,7 +1525,7 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 2778
+   "value": 2783
   },
   "hot_hand": {
    "callsign": "KN4AL",
@@ -1541,12 +1541,12 @@
   }
  },
  "group": {
-  "activations": 1082,
-  "parks": 476,
-  "qsos": 36852,
-  "hunter_qsos": 17337,
-  "pace_activations": 1234,
-  "pace_qsos": 42034
+  "activations": 1092,
+  "parks": 478,
+  "qsos": 37053,
+  "hunter_qsos": 17369,
+  "pace_activations": 1242,
+  "pace_qsos": 42132
  },
  "past_seasons": [
   {

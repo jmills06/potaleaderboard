@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-22T06:00:20.823498-05:00",
+ "generated": "2026-11-23T06:00:21.768706-05:00",
  "season": 2026,
- "days_remaining": 39,
+ "days_remaining": 38,
  "weights": {
   "activations": 10,
   "unique_parks": 3,
@@ -56,7 +56,7 @@
   "2026-11-05",
   "2026-11-12",
   "2026-11-19",
-  "2026-11-22"
+  "2026-11-23"
  ],
  "operators": [
   {
@@ -64,16 +64,16 @@
    "name": "Jason Maguran",
    "qth": "White Lake, MI",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "score": 3085,
-   "activations": 228,
+   "score": 3096,
+   "activations": 229,
    "parks": 72,
-   "qsos": 10667,
-   "hunter_qsos": 2785,
-   "hunter_parks": 456,
-   "qsos_per_activation": 46.8,
-   "score_30d": 252,
+   "qsos": 10680,
+   "hunter_qsos": 2789,
+   "hunter_parks": 457,
+   "qsos_per_activation": 46.6,
+   "score_30d": 263,
    "activity": "week",
-   "streak_weeks": 3,
+   "streak_weeks": 7,
    "spark": [
     0,
     310,
@@ -122,7 +122,7 @@
     2913,
     3057,
     3085,
-    3085
+    3096
    ],
    "rank": 1,
    "gap_to_next": 0,
@@ -138,8 +138,8 @@
    "activations": 157,
    "parks": 92,
    "qsos": 3773,
-   "hunter_qsos": 954,
-   "hunter_parks": 548,
+   "hunter_qsos": 953,
+   "hunter_parks": 547,
    "qsos_per_activation": 24.0,
    "score_30d": 106,
    "activity": "fire",
@@ -195,7 +195,7 @@
     2054
    ],
    "rank": 2,
-   "gap_to_next": 1031,
+   "gap_to_next": 1042,
    "prev_rank_30d": 2,
    "movement": 0
   },
@@ -208,12 +208,12 @@
    "activations": 141,
    "parks": 62,
    "qsos": 4061,
-   "hunter_qsos": 1344,
+   "hunter_qsos": 1346,
    "hunter_parks": 509,
    "qsos_per_activation": 28.8,
    "score_30d": 304,
    "activity": "fire",
-   "streak_weeks": 23,
+   "streak_weeks": 6,
    "spark": [
     0,
     54,
@@ -278,12 +278,12 @@
    "activations": 119,
    "parks": 50,
    "qsos": 4008,
-   "hunter_qsos": 1088,
+   "hunter_qsos": 1089,
    "hunter_parks": 409,
    "qsos_per_activation": 33.7,
    "score_30d": 68,
    "activity": "fire",
-   "streak_weeks": 1,
+   "streak_weeks": 2,
    "spark": [
     0,
     117,
@@ -418,7 +418,7 @@
    "activations": 67,
    "parks": 32,
    "qsos": 2156,
-   "hunter_qsos": 1264,
+   "hunter_qsos": 1267,
    "hunter_parks": 522,
    "qsos_per_activation": 32.2,
    "score_30d": 13,
@@ -491,9 +491,9 @@
    "hunter_qsos": 2330,
    "hunter_parks": 472,
    "qsos_per_activation": 27.8,
-   "score_30d": 122,
-   "activity": "month",
-   "streak_weeks": 0,
+   "score_30d": 100,
+   "activity": "twoweek",
+   "streak_weeks": 1,
    "spark": [
     0,
     19,
@@ -558,8 +558,8 @@
    "activations": 55,
    "parks": 33,
    "qsos": 1587,
-   "hunter_qsos": 613,
-   "hunter_parks": 179,
+   "hunter_qsos": 614,
+   "hunter_parks": 180,
    "qsos_per_activation": 28.9,
    "score_30d": -1,
    "activity": "sixty",
@@ -624,14 +624,14 @@
    "name": "Joe Nunham",
    "qth": "Chelsea, MI",
    "gravatar": "190139bbef45741f5b437975572d894e",
-   "score": 632,
-   "activations": 51,
+   "score": 643,
+   "activations": 52,
    "parks": 15,
-   "qsos": 1403,
-   "hunter_qsos": 352,
-   "hunter_parks": 193,
-   "qsos_per_activation": 27.5,
-   "score_30d": 151,
+   "qsos": 1413,
+   "hunter_qsos": 354,
+   "hunter_parks": 194,
+   "qsos_per_activation": 27.2,
+   "score_30d": 150,
    "activity": "fire",
    "streak_weeks": 2,
    "spark": [
@@ -682,10 +682,10 @@
     552,
     568,
     605,
-    632
+    643
    ],
    "rank": 9,
-   "gap_to_next": 109,
+   "gap_to_next": 98,
    "prev_rank_30d": 9,
    "movement": 0
   },
@@ -698,8 +698,8 @@
    "activations": 38,
    "parks": 9,
    "qsos": 2850,
-   "hunter_qsos": 2579,
-   "hunter_parks": 1015,
+   "hunter_qsos": 2584,
+   "hunter_parks": 1017,
    "qsos_per_activation": 75.0,
    "score_30d": 150,
    "activity": "fire",
@@ -755,7 +755,7 @@
     601
    ],
    "rank": 10,
-   "gap_to_next": 31,
+   "gap_to_next": 42,
    "prev_rank_30d": 11,
    "movement": 1
   },
@@ -912,8 +912,8 @@
    "hunter_parks": 377,
    "qsos_per_activation": 20.7,
    "score_30d": 11,
-   "activity": "twoweek",
-   "streak_weeks": 1,
+   "activity": "month",
+   "streak_weeks": 0,
    "spark": [
     0,
     0,
@@ -1547,7 +1547,7 @@
    "callsign": "KN4AL",
    "name": "Jason Maguran",
    "gravatar": "380e26746c24b011aeeeee45b2fe9788",
-   "value": 2785
+   "value": 2789
   },
   "hot_hand": {
    "callsign": "W8TMB",
@@ -1556,19 +1556,19 @@
    "value": 304
   },
   "longest_streak": {
-   "callsign": "W8TMB",
-   "name": "Terry Bone",
-   "gravatar": "4dcc75c4a0836b8eeb3278e9ab6388a1",
-   "value": 23
+   "callsign": "KN4AL",
+   "name": "Jason Maguran",
+   "gravatar": "380e26746c24b011aeeeee45b2fe9788",
+   "value": 7
   }
  },
  "group": {
-  "activations": 1108,
+  "activations": 1110,
   "parks": 484,
-  "qsos": 37890,
-  "hunter_qsos": 17693,
-  "pace_activations": 1241,
-  "pace_qsos": 42423
+  "qsos": 37913,
+  "hunter_qsos": 17710,
+  "pace_activations": 1239,
+  "pace_qsos": 42319
  },
  "past_seasons": [
   {
